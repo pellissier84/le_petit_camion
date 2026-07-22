@@ -1,0 +1,225 @@
+Voici un README détaillé pour ce script :
+
+```markdown
+# Extracteur Audio ELAN (EAF)
+
+Script Python interactif pour extraire automatiquement des segments audio à partir de fichiers d'annotation ELAN (.eaf) avec regroupement intelligent par valeur d'annotation.
+
+##  Table des matières
+
+- [Fonctionnalités](#fonctionnalités)
+- [Prérequis](#prérequis)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Exemples](#exemples)
+- [Fonctionnement détaillé](#fonctionnement-détaillé)
+- [Cas d'usage typiques](#cas-dusage-typiques)
+- [Dépannage](#dépannage)
+
+##  Fonctionnalités
+
+-  **Extraction automatique** des segments audio basée sur les annotations ELAN
+-  **Sélection interactive** des tiers à traiter
+-  **Séparation par valeur** d'annotation (bruit, musique, voix, silence...)
+-  **Concaténation** des segments en fichiers audio cohérents
+-  **Organisation automatique** des fichiers de sortie
+-  **Paramètres audio optimisés** pour l'analyse (8kHz, 16-bit PCM)
+
+##  Prérequis
+
+- **Python 3.6+**
+- **FFmpeg** (doit être installé et accessible dans le PATH)
+- Bibliothèques Python standard (aucune installation supplémentaire requise)
+
+### Installation de FFmpeg
+
+**Linux (Ubuntu/Debian) :**
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+**macOS (Homebrew) :**
+```bash
+brew install ffmpeg
+```
+
+**Windows :**
+1. Télécharger depuis [ffmpeg.org](https://ffmpeg.org/download.html)
+2. Extraire l'archive
+3. Ajouter le dossier `bin` au PATH système
+
+
+
+##  Utilisation
+
+### Syntaxe de base
+
+```bash
+python extraire_elan.py <fichier.eaf> <audio.wav>
+```
+
+### Exemple concret
+
+```bash
+python extraire_elan.py corpus_linguistique.eaf enregistrement_audio.wav
+```
+
+### Processus interactif
+
+Le script vous guidera à travers plusieurs étapes :
+
+1. **Sélection des tiers** à extraire
+   - Par numéros : `1,3,5`
+   - Par plage : `1-4`
+   - Tous : `all`
+   - Quitter : `q`
+
+2. **Sélection de la séparation par valeur** (optionnelle)
+   - Entrez les numéros des tiers à séparer par valeur d'annotation
+   - Appuyez sur Entrée pour ignorer cette option
+
+##  Exemples
+
+### Exemple 1 : Extraction simple
+```bash
+$ python extraire_elan.py interview.eaf interview.wav
+
+TIERS DISPONIBLES :
+  1. Parole_locuteur1
+  2. Parole_locuteur2
+  3. Bruits_fond
+  4. Ac_ev
+
+Votre choix : 1,2
+```
+**Résultat :**
+- `Parole_locuteur1_complet.wav`
+- `Parole_locuteur2_complet.wav`
+
+### Exemple 2 : Avec séparation par valeur
+```bash
+$ python extraire_elan.py corpus.eaf audio.wav
+
+TIERS DISPONIBLES :
+  1. transcript_loc1
+  2. transcript_loc2
+  3. evenements_acoustiques
+
+Votre choix : all
+
+SÉPARATION PAR SOUS-CATÉGORIES ?
+  1. transcript_loc1
+  2. transcript_loc2
+  3. evenements_acoustiques
+
+Votre choix : 3
+```
+**Résultat :**
+- `transcript_loc1_complet.wav`
+- `transcript_loc2_complet.wav`
+- `evenements_acoustiques_bruit.wav`
+- `evenements_acoustiques_musique.wav`
+- `evenements_acoustiques_und.wav`
+
+### Exemple 3 : Extraction de toutes les annotations
+```bash
+python extraire_elan.py projet_complet.eaf session_1.wav
+# Sélectionner "all" pour extraire tous les tiers sans séparation
+```
+
+##  Fonctionnement détaillé
+
+### Architecture du script
+
+```
+extraire_elan.py
+├── extraire_tous_les_tiers()     # Liste les tiers du fichier EAF
+├── extraire_temps_depuis_eaf()   # Extrait les timestamps
+├── extraire_segment_ffmpeg()     # Découpe l'audio avec FFmpeg
+├── concatener_segments()         # Assemble les segments
+├── demander_tiers_a_extraire()   # Interface interactive tier
+└── demander_separation_par_valeur() # Interface interactive valeur
+```
+
+### Format de sortie audio
+
+- **Codec** : PCM 16-bit
+- **Fréquence** : 8000 Hz
+- **Format** : WAV
+- **Mono**
+
+### Structure des fichiers créés
+
+```
+.
+├── extraire_elan.py
+├── projet.eaf
+├── audio_source.wav
+├── tier1_complet.wav           # Tous les segments du tier 1
+├── tier2_valeur1.wav           # Segments du tier 2 avec valeur "valeur1"
+└── tier2_valeur2.wav           # Segments du tier 2 avec valeur "valeur2"
+```
+
+##  Cas d'usage typiques
+
+### Linguistique de corpus
+```bash
+# Extraire la parole d'un locuteur spécifique
+python extraire_elan.py interview.eaf interview.wav
+# Sélectionner uniquement "Parole_locuteur_principal"
+```
+
+### Analyse acoustique
+```bash
+# Séparer les événements sonores par type
+python extraire_elan.py analyse_acoustique.eaf enregistrement.wav
+# Sélectionner "evenements" avec séparation par valeur
+# Obtient : evenements_bruit.wav, evenements_musique.wav, etc.
+```
+
+### Préparation pour transcription automatique
+```bash
+# Extraire tous les segments de parole pour un ASR
+python extraire_elan.py corpus_transcription.eaf session.wav
+# Sélectionner "all" sans séparation par valeur
+```
+
+## 🐛 Dépannage
+
+### Erreurs courantes
+
+| Erreur | Solution |
+|--------|----------|
+| ` Erreur: fichier.eaf n'existe pas` | Vérifier le chemin et le nom du fichier |
+| `FFmpeg non trouvé` | Installer FFmpeg et vérifier le PATH |
+| `Aucun tier trouvé` | Vérifier que le fichier EAF contient des annotations |
+| `Permission denied` | Sur Linux/macOS : `chmod +x extraire_elan.py` |
+
+### Problèmes de performance
+
+- **Fichiers volumineux** : Le traitement peut être long, les fichiers temporaires sont nettoyés automatiquement
+- **Mémoire** : Les fichiers sont traités séquentiellement pour limiter l'usage mémoire
+
+### Vérification de l'installation
+
+```bash
+# Vérifier Python
+python --version
+
+# Vérifier FFmpeg
+ffmpeg -version
+
+# Vérifier les permissions du script
+ls -l extraire_elan.py
+```
+
+## 📝 Notes techniques
+
+- Les annotations sans valeur sont automatiquement étiquetées comme "sans_valeur"
+- Les noms de fichiers sont nettoyés automatiquement (espaces et caractères spéciaux remplacés)
+- Les segments sont triés chronologiquement avant concaténation
+- Les fichiers temporaires sont supprimés après traitement
+
+
+Ce README couvre tous les aspects essentiels du script et peut être adapté selon vos besoins spécifiques.

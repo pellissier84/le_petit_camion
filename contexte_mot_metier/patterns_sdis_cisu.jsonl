@@ -1,0 +1,1332 @@
+{"label": "CISU_RISK_VICTIME_FACE_A_UN_DANGER_IMMEDIAT", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "face"}, {"LEMMA": "danger"}, {"LEMMA": "immédiat"}]}
+{"label": "CISU_RISK_VICTIME_FACE_A_UNE_MENACE_DIFFEREE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "face"}, {"LEMMA": "menace"}]}
+{"label": "CISU_RISK_VICTIME_FACE_A_UNE_MENACE_DIFFEREE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "face"}, {"LEMMA": "menace"}, {"LEMMA": "différée"}]}
+{"label": "CISU_RISK_VICTIME_INCARCEREE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "incarcérée"}]}
+{"label": "CISU_RISK_VICTIME_PIEGEE_VICTIME_COINCEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "piégée"}]}
+{"label": "CISU_RISK_VICTIME_PIEGEE_VICTIME_COINCEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "coincée"}]}
+{"label": "CISU_RISK_VICTIME_EJECTEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "éjectée"}]}
+{"label": "CISU_RISK_VICTIME_DANS_L_EAU", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "eau"}]}
+{"label": "CISU_RISK_VICTIME_NON_VISIBLE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "non"}, {"LEMMA": "visible"}]}
+{"label": "CISU_RISK_VICTIME_CONFINEE_DANS_UN_LIEU_PROTEGE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "confinée"}, {"LEMMA": "lieu"}, {"LEMMA": "protégé"}]}
+{"label": "CISU_RISK_VICTIME_VIOLENTE_VICTIME_AGITEE_VICTIME_AFFOLEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "violente"}]}
+{"label": "CISU_RISK_VICTIME_VIOLENTE_VICTIME_AGITEE_VICTIME_AFFOLEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "agitée"}]}
+{"label": "CISU_RISK_VICTIME_VIOLENTE_VICTIME_AGITEE_VICTIME_AFFOLEE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "affolée"}]}
+{"label": "CISU_RISK_VICTIME_VULNERABLE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "vulnérable"}]}
+{"label": "CISU_RISK_VICTIME_CONTAGIEUSE", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "contagieuse"}]}
+{"label": "CISU_RISK_PRESENCE_D_INDIVIDU_S_MENACANT_PRESENCE_DE_PUBLIC_MENACANT", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "menaçante"}]}
+{"label": "CISU_RISK_PRESENCE_D_INDIVIDU_S_MUNI_S_D_UNE_ARME_BLANCHE", "pattern": [{"LEMMA": "personnes"}, {"LEMMA": "armes"}, {"LEMMA": "blanches"}]}
+{"label": "CISU_RISK_PRESENCE_D_INDIVIDU_S_MUNI_S_D_UNE_ARME_A_FEU", "pattern": [{"LEMMA": "personnes"}, {"LEMMA": "armes"}, {"LEMMA": "feu"}]}
+{"label": "CISU_RISK_PRESENCE_DE_PLUSIEURS_PERSONNES_2_A_10", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "plusieurs"}, {"LEMMA": "personnes"}, {"LEMMA": "10"}]}
+{"label": "CISU_RISK_PRESENCE_DE_NOMBREUSES_PERSONNES_11_ET", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "nombreuses"}, {"LEMMA": "personnes"}, {"LEMMA": "11"}]}
+{"label": "CISU_RISK_SITUATION_INSTABLE_SITUATION_INDETERMINEE", "pattern": [{"LEMMA": "situation"}, {"LEMMA": "instable"}]}
+{"label": "CISU_RISK_SITUATION_INSTABLE_SITUATION_INDETERMINEE", "pattern": [{"LEMMA": "situation"}, {"LEMMA": "indéterminée"}]}
+{"label": "CISU_RISK_SUSPICION_D_ATTAQUE_TERRORISTE", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "attaque"}, {"LEMMA": "terroriste"}]}
+{"label": "CISU_RISK_AUTEUR_S_EN_FUITE", "pattern": [{"LEMMA": "auteur"}, {"LEMMA": "fuite"}]}
+{"label": "CISU_RISK_SITE_MILITAIRE_BATIMENT_MILITAIRE", "pattern": [{"LEMMA": "difficulté"}, {"LEMMA": "accès"}, {"LEMMA": "site"}]}
+{"label": "CISU_RISK_PRESENCE_DE_MATIERE_DANGEREUSE_PRESENCE_DE_MATERIEL_DANGEREUX", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "relatif"}, {"LEMMA": "matériaux"}, {"LEMMA": "dangereux"}]}
+{"label": "CISU_RISK_NRBCE_PRESENCE_DE_MATIERE_RADIOLOGIQUE", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "radiologique"}]}
+{"label": "CISU_RISK_NRBCE_PRESENCE_DE_MATIERE_BACTERIOLOGIQUE", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "biologique"}]}
+{"label": "CISU_RISK_NRBCE_PRESENCE_DE_MATIERE_CHIMIQUE", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "chimique"}]}
+{"label": "CISU_RISK_NRBCE_PRESENCE_DE_MATIERE_EXPLOSIVE_PRESENCE_DE_MATERIEL_EXPLOSIF", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "matière"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_RISK_NRBCE_PRESENCE_DE_MATIERE_EXPLOSIVE_PRESENCE_DE_MATERIEL_EXPLOSIF", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "matériel"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_RISK_NRBCE_RISQUE_D_EXPLOSION_PRESENCE_DU_RESEAU_DE_GAZ", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "explosion"}, {"LEMMA": "réseau"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_RISK_NRBCE_RISQUE_D_EXPLOSION_PRESENCE_DE_GAZ_EN_BOUTEILLES_PRESENCE_DE_GAZ_EN_BONBONNES", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "explosion"}]}
+{"label": "CISU_RISK_NRBCE_RISQUE_D_EXPLOSION_PRESENCE_DE_GAZ_EN_BOUTEILLES_PRESENCE_DE_GAZ_EN_BONBONNES", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "gaz"}, {"LEMMA": "bouteilles"}]}
+{"label": "CISU_RISK_NRBCE_RISQUE_D_EXPLOSION_PRESENCE_DE_GAZ_EN_BOUTEILLES_PRESENCE_DE_GAZ_EN_BONBONNES", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "gaz"}, {"LEMMA": "bonbonnes"}]}
+{"label": "CISU_RISK_GAZ_PRESENCE_DE_TRAVAUX_ACCIDENT_SUR_CHANTIER", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "travaux"}]}
+{"label": "CISU_RISK_GAZ_PRESENCE_DE_TRAVAUX_ACCIDENT_SUR_CHANTIER", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "accident"}]}
+{"label": "CISU_RISK_GAZ_OUVRAGE_ENDOMMAGE_VISIBLE", "pattern": [{"LEMMA": "ouvrage"}, {"LEMMA": "endommagé"}, {"LEMMA": "visible"}]}
+{"label": "CISU_RISK_GAZ_OUVRAGE_ENDOMMAGE_NON_VISIBLE", "pattern": [{"LEMMA": "ouvrage"}, {"LEMMA": "endommagé"}, {"LEMMA": "non"}, {"LEMMA": "visible"}]}
+{"label": "CISU_RISK_GAZ_DEGATS_APPARENTS_SUR_CONDUITE_DE_GAZ", "pattern": [{"LEMMA": "dégâts"}, {"LEMMA": "apparents"}, {"LEMMA": "conduite"}]}
+{"label": "CISU_RISK_GAZ_BRUITS_SIFFLEMENTS_SOUFFLE_VIBRATIONS_PROJECTIONS", "pattern": [{"LEMMA": "bruits"}]}
+{"label": "CISU_RISK_GAZ_BRUITS_SIFFLEMENTS_SOUFFLE_VIBRATIONS_PROJECTIONS", "pattern": [{"LEMMA": "sifflements"}]}
+{"label": "CISU_RISK_GAZ_BRUITS_SIFFLEMENTS_SOUFFLE_VIBRATIONS_PROJECTIONS", "pattern": [{"LEMMA": "souffle"}]}
+{"label": "CISU_RISK_GAZ_BRUITS_SIFFLEMENTS_SOUFFLE_VIBRATIONS_PROJECTIONS", "pattern": [{"LEMMA": "vibrations"}]}
+{"label": "CISU_RISK_GAZ_BRUITS_SIFFLEMENTS_SOUFFLE_VIBRATIONS_PROJECTIONS", "pattern": [{"LEMMA": "projections"}]}
+{"label": "CISU_RISK_GAZ_ZONE_DENSE_EN_POPULATION", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "dense"}, {"LEMMA": "population"}]}
+{"label": "CISU_RISK_GAZ_GRAND_RASSEMBLEMENT_DE_PUBLIC", "pattern": [{"LEMMA": "grand"}, {"LEMMA": "rassemblement"}, {"LEMMA": "public"}]}
+{"label": "CISU_RISK_GAZ_EN_SOUS_SOL", "pattern": [{"LEMMA": "sous"}, {"LEMMA": "sol"}]}
+{"label": "CISU_RISK_SITUATION_EN_MILIEU_VICIE", "pattern": [{"LEMMA": "situation"}, {"LEMMA": "milieu"}, {"LEMMA": "vicié"}]}
+{"label": "CISU_RISK_LEVEE_DE_DOUTE_OU_SINISTRE_NAISSANT", "pattern": [{"LEMMA": "levée"}, {"LEMMA": "doute"}]}
+{"label": "CISU_RISK_LEVEE_DE_DOUTE_OU_SINISTRE_NAISSANT", "pattern": [{"LEMMA": "sinistre"}, {"LEMMA": "naissant"}]}
+{"label": "CISU_RISK_LOCAUX_A_SOMMEIL", "pattern": [{"LEMMA": "locaux"}, {"LEMMA": "sommeil"}]}
+{"label": "CISU_RISK_RISQUE_LIE_A_L_INCENDIE", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "incendie"}]}
+{"label": "CISU_RISK_GPL_CARBURATION_NON_CONVENTIONNELLE", "pattern": [{"LEMMA": "carburation"}, {"LEMMA": "gpl"}]}
+{"label": "CISU_RISK_GPL_CARBURATION_NON_CONVENTIONNELLE", "pattern": [{"LEMMA": "carburation"}, {"LEMMA": "non"}, {"LEMMA": "conventionnelle"}]}
+{"label": "CISU_RISK_ENGIN_A_PROPULSION_ELECTRIQUE_ENGIN_A_TRACTION_ELECTRIQUE", "pattern": [{"LEMMA": "engin"}, {"LEMMA": "propulsion"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_RISK_ENGIN_A_PROPULSION_ELECTRIQUE_ENGIN_A_TRACTION_ELECTRIQUE", "pattern": [{"LEMMA": "engin"}, {"LEMMA": "traction"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_RISK_RISQUE_D_EFFONDREMENT", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "effondrement"}]}
+{"label": "CISU_RISK_RISQUE_ELECTRIQUE_LIE_A_UNE_LIGNE_HT_RISQUE_ELECTRIQUE_LIE_A_UNE_LIGNE_THT", "pattern": [{"LEMMA": "risque"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_RISK_ACCES_GENE_A_LA_CIRCULATION", "pattern": [{"LEMMA": "gêne"}, {"LEMMA": "circulation"}]}
+{"label": "CISU_RISK_ACCES_VOIE_NON_CARROSSABLE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "non"}, {"LEMMA": "carrossable"}]}
+{"label": "CISU_RISK_ACCES_DIFFICULTE_D_ACCES_SUR_SITE", "pattern": [{"LEMMA": "difficulté"}, {"LEMMA": "accès"}, {"LEMMA": "site"}]}
+{"label": "CISU_RISK_ACCES_DIFFICULTE_D_ACCES_A_LA_VICTIME", "pattern": [{"LEMMA": "difficulté"}, {"LEMMA": "accès"}, {"LEMMA": "victime"}]}
+{"label": "CISU_RISK_ACCES_PORTE_VERROUILLEE", "pattern": [{"LEMMA": "porte"}, {"LEMMA": "verrouillée"}]}
+{"label": "CISU_RISK_ACCES_SITUATION_EN_PROFONDEUR", "pattern": [{"LEMMA": "situation"}, {"LEMMA": "profondeur"}]}
+{"label": "CISU_RISK_ACCES_HAUTEUR_INFERIEURE_OU_EGALE_A_2_ETAGES_HAUTEUR_INFERIEURE_A_8_METRES", "pattern": [{"LEMMA": "situation"}, {"LEMMA": "hauteur"}]}
+{"label": "CISU_RISK_ACCES_HAUTEUR_SUPERIEURE_A_2_ETAGES_HAUTEUR_SUPERIEURE_A_8_METRES", "pattern": [{"LEMMA": "hauteur"}, {"LEMMA": "supérieur"}]}
+{"label": "CISU_RISK_ACCES_HAUTEUR_SUPERIEURE_A_7_ETAGES_HAUTEUR_SUPERIEURE_A_28_METRES", "pattern": [{"LEMMA": "hauteur"}, {"LEMMA": "supérieur"}, {"LEMMA": "28"}]}
+{"label": "CISU_RISK_ANIMAUX_PRESENCE_D_ANIMAL_DANGEREUX_PRESENCE_D_ANIMAL_SAUVAGE", "pattern": [{"LEMMA": "animaux"}, {"LEMMA": "dangereux"}]}
+{"label": "CISU_RISK_ANIMAUX_PRESENCE_D_ANIMAL_DANGEREUX_PRESENCE_D_ANIMAL_SAUVAGE", "pattern": [{"LEMMA": "animaux"}, {"LEMMA": "sauvages"}]}
+{"label": "CISU_RISK_ANIMAUX_PRESENCE_DE_BETAIL", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "bétail"}]}
+{"label": "CISU_RISK_ANIMAUX_PRESENCE_D_ANIMAL_DOMESTIQUE", "pattern": [{"LEMMA": "présence"}, {"LEMMA": "animal"}, {"LEMMA": "domestique"}]}
+{"label": "CISU_RISK_IMPLICATION_D_UNE_AUTORITE", "pattern": [{"LEMMA": "implication"}, {"LEMMA": "autorité"}]}
+{"label": "CISU_RISK_IMPLICATION_D_UN_AGENT_PUBLIC", "pattern": [{"LEMMA": "implication"}, {"LEMMA": "agent"}, {"LEMMA": "public"}]}
+{"label": "CISU_RISK_IMPLICATION_D_UNE_PERSONNALITE", "pattern": [{"LEMMA": "implication"}, {"LEMMA": "personnalité"}]}
+{"label": "CISU_RISK_NOMBREUX_APPELS", "pattern": [{"LEMMA": "nombreux"}, {"LEMMA": "appels"}]}
+{"label": "CISU_RISK_DOMMAGE_EXCLUSIVEMENT_MATERIEL", "pattern": [{"LEMMA": "dommage"}, {"LEMMA": "matériel"}]}
+{"label": "CISU_RISK_DISCRIMINATION_RACIALE_DISCRIMINATION_RELIGIEUSE_DISCRIMINATION_SEXISTE", "pattern": [{"LEMMA": "discrimination"}]}
+{"label": "CISU_RISK_CARENCE_PRESTATAIRE_EXTERIEUR", "pattern": [{"LEMMA": "carence"}, {"LEMMA": "prestataire"}, {"LEMMA": "extérieur"}]}
+{"label": "CISU_MED_URGENCES_VITALES_URGENCES_VITALES", "pattern": [{"LEMMA": "urgences"}, {"LEMMA": "vitales"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ARRET_CARDIO_RESPIRATOIRE", "pattern": [{"LEMMA": "arrêt"}, {"LEMMA": "cardio"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_URGENCES_VITALES_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "détresse"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_URGENCES_VITALES_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "etat"}, {"LEMMA": "asphyxique"}]}
+{"label": "CISU_MED_URGENCES_VITALES_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "cyanose"}]}
+{"label": "CISU_MED_URGENCES_VITALES_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "complète"}]}
+{"label": "CISU_MED_URGENCES_VITALES_HEMORRAGIE", "pattern": [{"LEMMA": "hémorragie"}]}
+{"label": "CISU_MED_URGENCES_VITALES_HEMORRAGIE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "non"}, {"LEMMA": "stoppée"}]}
+{"label": "CISU_MED_URGENCES_VITALES_PERSONNE_INCONSCIENTE_PERSONNE_INANIMEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "inconsciente"}]}
+{"label": "CISU_MED_URGENCES_VITALES_PERSONNE_INCONSCIENTE_PERSONNE_INANIMEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "inanimée"}]}
+{"label": "CISU_MED_URGENCES_VITALES_SIGNES_DE_SUSPISCION_AVC_SIGNES_DE_SUSPISCION_AIT", "pattern": [{"LEMMA": "signes"}, {"LEMMA": "suspiscion"}, {"LEMMA": "avc"}]}
+{"label": "CISU_MED_URGENCES_VITALES_SIGNES_DE_SUSPISCION_AVC_SIGNES_DE_SUSPISCION_AIT", "pattern": [{"LEMMA": "signes"}, {"LEMMA": "suspiscion"}, {"LEMMA": "ait"}]}
+{"label": "CISU_MED_URGENCES_VITALES_SECTION_COMPLETE_DE_MEMBRE_SECTION_COMPLETE_DE_DOIGTS", "pattern": [{"LEMMA": "section"}, {"LEMMA": "complète"}, {"LEMMA": "membre"}]}
+{"label": "CISU_MED_URGENCES_VITALES_SECTION_COMPLETE_DE_MEMBRE_SECTION_COMPLETE_DE_DOIGTS", "pattern": [{"LEMMA": "section"}, {"LEMMA": "complète"}, {"LEMMA": "doigts"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "brûlures"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "visage"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "face"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "tronc"}, {"LEMMA": "face"}, {"LEMMA": "antérieure"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "tronc"}, {"LEMMA": "face"}, {"LEMMA": "postérieure"}]}
+{"label": "CISU_MED_URGENCES_VITALES_BRULURES", "pattern": [{"LEMMA": "membre"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ECRASEMENT_DE_MEMBRES_ECRASEMENT_DE_TRONC_ENSEVELISSEMENT", "pattern": [{"LEMMA": "ecrasement"}, {"LEMMA": "membres"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ECRASEMENT_DE_MEMBRES_ECRASEMENT_DE_TRONC_ENSEVELISSEMENT", "pattern": [{"LEMMA": "écrasement"}, {"LEMMA": "tronc"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ECRASEMENT_DE_MEMBRES_ECRASEMENT_DE_TRONC_ENSEVELISSEMENT", "pattern": [{"LEMMA": "ensevelissement"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "réalisé"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "imminent"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "partie"}, {"LEMMA": "bébé"}, {"LEMMA": "visible"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "envie"}, {"LEMMA": "pousser"}]}
+{"label": "CISU_MED_URGENCES_VITALES_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "intervalles"}, {"LEMMA": "contractions"}, {"LEMMA": "inférieur"}, {"LEMMA": "minutes"}]}
+{"label": "CISU_MED_PERSONNE_INCONSCIENTE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "réalisé"}]}
+{"label": "CISU_MED_PERSONNE_INCONSCIENTE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "imminent"}]}
+{"label": "CISU_MED_PERSONNE_INCONSCIENTE_PAS_DE_MOUVEMENT_VENTILATOIRE", "pattern": [{"LEMMA": "pas"}, {"LEMMA": "mouvement"}, {"LEMMA": "ventilatoire"}]}
+{"label": "CISU_MED_PERSONNE_INCONSCIENTE_ARRET_CARDIO_RESPIRATOIRE", "pattern": [{"LEMMA": "arrêt"}, {"LEMMA": "cardio"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_PERSONNE_INCONSCIENTE_INCONSCIENT_QUI_RESPIRE", "pattern": [{"LEMMA": "inconscient"}, {"LEMMA": "qui"}, {"LEMMA": "respire"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIES_SAIGNEMENTS", "pattern": [{"LEMMA": "hémorragies"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIES_SAIGNEMENTS", "pattern": [{"LEMMA": "saignements"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_NE_POUVANT_ETRE_STOPPEE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "ne"}, {"LEMMA": "pouvant"}, {"LEMMA": "être"}, {"LEMMA": "stoppée"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_NE_POUVANT_ETRE_STOPPEE", "pattern": [{"LEMMA": "epistaxis"}, {"LEMMA": "non"}, {"LEMMA": "stoppée"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "hémorragie"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "sous"}, {"LEMMA": "anti"}, {"LEMMA": "coagulant"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "hémophilie"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "sueurs"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "prostation"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE", "pattern": [{"LEMMA": "agitation"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "extériorisée"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "epistaxis"}, {"LEMMA": "non"}, {"LEMMA": "stoppée"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "saignements"}, {"LEMMA": "gynécologique"}, {"LEMMA": "hors"}, {"LEMMA": "grossesse"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "gynécologiques"}, {"LEMMA": "hors"}, {"LEMMA": "grossesse"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "saignements"}, {"LEMMA": "obstétricaux"}, {"LEMMA": "partir"}, {"LEMMA": "7ème"}, {"LEMMA": "mois"}, {"LEMMA": "grossesse"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "digestive"}, {"LEMMA": "haute"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "digestive"}, {"LEMMA": "basse"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "malaise"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "sueurs"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "prostration"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "agitation"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "crache"}, {"LEMMA": "sang"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "saignement"}, {"LEMMA": "stoppé"}, {"LEMMA": "compression"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_HEMORRAGIE_EXTERIORISEE", "pattern": [{"LEMMA": "epistaxis"}, {"LEMMA": "stoppée"}, {"LEMMA": "compression"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_SAIGNEMENTS_BENINS", "pattern": [{"LEMMA": "saignements"}, {"LEMMA": "bénins"}]}
+{"label": "CISU_MED_HEMORRAGIES_SAIGNEMENTS_SAIGNEMENTS_BENINS", "pattern": [{"LEMMA": "saignement"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_RESPIRATION_RESPIRATION", "pattern": [{"LEMMA": "respiration"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "détresse"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "etat"}, {"LEMMA": "asphyxique"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "cyanose"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "complète"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "epuisement"}, {"LEMMA": "respiratoire"}, {"LEMMA": "nourrisson"}]}
+{"label": "CISU_MED_RESPIRATION_DETRESSE_RESPIRATOIRE", "pattern": [{"LEMMA": "signes"}, {"LEMMA": "lutte"}, {"LEMMA": "respiratoire"}, {"LEMMA": "nourrisson"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "difficultés"}, {"LEMMA": "respiratoires"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "respiration"}, {"LEMMA": "bruyante"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "sueurs"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "crise"}, {"LEMMA": "asthme"}, {"LEMMA": "inhabituelle"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "crise"}, {"LEMMA": "asthme"}, {"LEMMA": "résistante"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "agitation"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "confusion"}]}
+{"label": "CISU_MED_RESPIRATION_DIFFICULTES_RESPIRATOIRES", "pattern": [{"LEMMA": "difficultés"}, {"LEMMA": "respiratoires"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "problème"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "isolé"}, {"LEMMA": "appareillage"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "canule"}, {"LEMMA": "trachéale"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "corps"}, {"LEMMA": "étranger"}, {"LEMMA": "expulsé"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "partielle"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "modification"}, {"LEMMA": "voix"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "hypersalivation"}]}
+{"label": "CISU_MED_RESPIRATION_AUTRE_PROBLEME_RESPIRATOIRE", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "problème"}, {"LEMMA": "respiratoire"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_CIRCULATOIRE_CIRCULATOIRE", "pattern": [{"LEMMA": "circulatoire"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "antécédent"}, {"LEMMA": "infarctus"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "poitrine"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "médiane"}, {"LEMMA": "étau"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "effort"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "après"}, {"LEMMA": "effort"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "facteurs"}, {"LEMMA": "risque"}, {"LEMMA": "cardio"}, {"LEMMA": "vasculaires"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "pâleur"}, {"LEMMA": "intense"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "sueurs"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "nausées"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "palpitations"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "prise"}, {"LEMMA": "toxiques"}, {"LEMMA": "récente"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "déclenchée"}, {"LEMMA": "toux"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "déclenchée"}, {"LEMMA": "respiration"}]}
+{"label": "CISU_MED_CIRCULATOIRE_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_CIRCULATOIRE_PALPITATIONS", "pattern": [{"LEMMA": "palpitations"}]}
+{"label": "CISU_MED_CIRCULATOIRE_PALPITATIONS", "pattern": [{"LEMMA": "signes"}, {"LEMMA": "difficultés"}, {"LEMMA": "respiratoires"}]}
+{"label": "CISU_MED_CIRCULATOIRE_PALPITATIONS", "pattern": [{"LEMMA": "sensation"}, {"LEMMA": "malaise"}]}
+{"label": "CISU_MED_CIRCULATOIRE_PALPITATIONS", "pattern": [{"LEMMA": "prise"}, {"LEMMA": "toxique"}]}
+{"label": "CISU_MED_CIRCULATOIRE_PALPITATIONS", "pattern": [{"LEMMA": "palpitations"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "troubles"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "victime"}, {"LEMMA": "déjà"}, {"LEMMA": "choquée"}, {"LEMMA": "dae"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "fréquence"}, {"LEMMA": "cardiaque"}, {"LEMMA": "inférieure"}, {"LEMMA": "50"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "fréquence"}, {"LEMMA": "cardiaque"}, {"LEMMA": "supérieure"}, {"LEMMA": "à150"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "dialysé"}, {"LEMMA": "fréquence"}, {"LEMMA": "cardiaque"}, {"LEMMA": "inférieure"}, {"LEMMA": "50"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "dialysé"}, {"LEMMA": "fréquence"}, {"LEMMA": "cardiaque"}, {"LEMMA": "supérieure"}, {"LEMMA": "150"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "tension"}, {"LEMMA": "artérielle"}, {"LEMMA": "inférieure"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "tension"}, {"LEMMA": "artérielle"}, {"LEMMA": "supérieure"}, {"LEMMA": "16"}]}
+{"label": "CISU_MED_CIRCULATOIRE_AUTRES_TROUBLES", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "trouble"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_NEUROLOGIE_NEUROLOGIE", "pattern": [{"LEMMA": "neurologie"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "avc"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "ait"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "céphalées"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "vomissements"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "céphalée"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "vomissement"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "trouble"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_NEUROLOGIE_SUSPICION_AVC_SUSPICION_AIT", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "signes"}, {"LEMMA": "associés"}, {"LEMMA": "avc"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS_PERSISTANTES", "pattern": [{"LEMMA": "convulsions"}, {"LEMMA": "persistantes"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS", "pattern": [{"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS", "pattern": [{"LEMMA": "femme"}, {"LEMMA": "enceinte"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS", "pattern": [{"LEMMA": "hyperthermiques"}, {"LEMMA": "enfant"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS", "pattern": [{"LEMMA": "collectives"}]}
+{"label": "CISU_MED_NEUROLOGIE_CONVULSIONS", "pattern": [{"LEMMA": "réveil"}, {"LEMMA": "après"}, {"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "trouble"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "chez"}, {"LEMMA": "diabétique"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "antécédents"}, {"LEMMA": "cardiaques"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "perte"}, {"LEMMA": "connaissance"}, {"LEMMA": "initiale"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "somnolent"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "capable"}, {"LEMMA": "parler"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "capable"}, {"LEMMA": "répondre"}, {"LEMMA": "ordres"}, {"LEMMA": "simples"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "confusion"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "désorientation"}]}
+{"label": "CISU_MED_NEUROLOGIE_TROUBLE_DE_LA_CONSCIENCE", "pattern": [{"LEMMA": "trouble"}, {"LEMMA": "conscience"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "motif"}, {"LEMMA": "neurologique"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "céphalées"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "femme"}, {"LEMMA": "enceinte"}, {"LEMMA": "partir"}, {"LEMMA": "7ème"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "malaise"}, {"LEMMA": "sans"}, {"LEMMA": "perte"}, {"LEMMA": "connaissance"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "malaise"}, {"LEMMA": "sans"}, {"LEMMA": "antécédent"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "sensation"}, {"LEMMA": "vertige"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "sensation"}, {"LEMMA": "fatigue"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "hypothermie"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "coup"}, {"LEMMA": "chaleur"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "insolation"}]}
+{"label": "CISU_MED_NEUROLOGIE_AUTRE_MOTIF_NEUROLOGIQUE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "motif"}, {"LEMMA": "neurologique"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "malaise"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "malaise"}, {"LEMMA": "effort"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "malaise"}, {"LEMMA": "collectif"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "perte"}, {"LEMMA": "connaissance"}, {"LEMMA": "initiale"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "trouble"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "manque"}, {"LEMMA": "force"}]}
+{"label": "CISU_MED_NEUROLOGIE_MALAISE", "pattern": [{"LEMMA": "malaise"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME", "pattern": [{"LEMMA": "traumatisme"}]}
+{"label": "CISU_MED_TRAUMATISME_PERSONNE_RESTANT_A_TERRE_SUITE_A_UNE_CHUTE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "restant"}, {"LEMMA": "terre"}, {"LEMMA": "chute"}]}
+{"label": "CISU_MED_TRAUMATISME_SUSPICION_DE_VICTIME_POLYTRAUMATISE", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "victime"}, {"LEMMA": "polytraumatisé"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "tête"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "cou"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "perte"}, {"LEMMA": "connaissance"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "prostation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "trauma"}, {"LEMMA": "tête"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DE_LA_TETE_TRAUMATISME_DU_COU", "pattern": [{"LEMMA": "trauma"}, {"LEMMA": "cou"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "thorax"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "gêne"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "prostation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_THORAX", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "thorax"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "abdomen"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "bassin"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "choc"}, {"LEMMA": "violent"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "prostation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_ABDOMEN_TRAUMATISME_DU_BASSIN", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "thorax"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "membres"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "amputation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "fracture"}, {"LEMMA": "ouverte"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "fracture"}, {"LEMMA": "fermée"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "luxation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_MEMBRES", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "membres"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "doigts"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "orteils"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "amputation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "fracture"}, {"LEMMA": "ouverte"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "fracture"}, {"LEMMA": "fermée"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "luxation"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "doigt"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_TRAUMATISME_TRAUMATISME_DES_DOIGTS_TRAUMATISME_DES_ORTEILS", "pattern": [{"LEMMA": "traumatisme"}, {"LEMMA": "orteil"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_PLAIES_PLAIES", "pattern": [{"LEMMA": "plaies"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_PENETRANTE", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "pénétrante"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_ETENDUE", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "étendue"}]}
+{"label": "CISU_MED_PLAIES_PLAIES_MULTIPLES", "pattern": [{"LEMMA": "plaies"}, {"LEMMA": "multiples"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_DELABRANTE", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "délabrante"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_CRANE_SCALP", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "grave"}, {"LEMMA": "crâne"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_CRANE_SCALP", "pattern": [{"LEMMA": "scalp"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_VISAGE", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "grave"}, {"LEMMA": "visage"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_COU", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "grave"}, {"LEMMA": "cou"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_THORAX_PLAIE_GRAVE_DE_L_ABDOMEN", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "grave"}, {"LEMMA": "thorax"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_GRAVE_DU_THORAX_PLAIE_GRAVE_DE_L_ABDOMEN", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "grave"}, {"LEMMA": "abdomen"}]}
+{"label": "CISU_MED_PLAIES_PALEUR_SOIF_PROSTATION", "pattern": [{"LEMMA": "pâleur"}]}
+{"label": "CISU_MED_PLAIES_PALEUR_SOIF_PROSTATION", "pattern": [{"LEMMA": "soif"}]}
+{"label": "CISU_MED_PLAIES_PALEUR_SOIF_PROSTATION", "pattern": [{"LEMMA": "prostation"}]}
+{"label": "CISU_MED_PLAIES_MORSURE", "pattern": [{"LEMMA": "morsure"}]}
+{"label": "CISU_MED_PLAIES_MORSURE", "pattern": [{"LEMMA": "morsure"}, {"LEMMA": "grave"}]}
+{"label": "CISU_MED_PLAIES_MORSURE", "pattern": [{"LEMMA": "morsure"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_PLAIES_PLAIE_SANS_SIGNE_DE_GRAVITE", "pattern": [{"LEMMA": "plaie"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_BRULURES_BRULURES", "pattern": [{"LEMMA": "brûlures"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_THERMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "thermique"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_THERMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "étendue"}, {"LEMMA": "circulaire"}, {"LEMMA": "ou"}, {"LEMMA": "tronc"}, {"LEMMA": "face"}, {"LEMMA": "cou"}, {"LEMMA": "organes"}, {"LEMMA": "génitaux"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_THERMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "œil"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_THERMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "thermique"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "chimique"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "étendue"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "tronc"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "face"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "cou"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "organes"}, {"LEMMA": "génitaux"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "œil"}]}
+{"label": "CISU_MED_BRULURES_BRULURE_CHIMIQUE", "pattern": [{"LEMMA": "brûlure"}, {"LEMMA": "chimique"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_BRULURES_GELURE", "pattern": [{"LEMMA": "gelure"}]}
+{"label": "CISU_MED_BRULURES_GELURE", "pattern": [{"LEMMA": "gelure"}, {"LEMMA": "grave"}]}
+{"label": "CISU_MED_BRULURES_GELURE", "pattern": [{"LEMMA": "gelure"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION", "pattern": [{"LEMMA": "intoxication"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "chimique"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "venimeuse"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "détresse"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "toux"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_CHIMIQUE_INTOXICATION_VENIMEUSE", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "co"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "intoxications"}, {"LEMMA": "fumées"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "modification"}, {"LEMMA": "voix"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "plusieurs"}, {"LEMMA": "victimes"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "vomissements"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "céphalées"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_AU_CO_INTOXICATIONS_PAR_LES_FUMEES", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "éthylique"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "prise"}, {"LEMMA": "stupéfiants"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "coma"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "palpitations"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "détresse"}, {"LEMMA": "vitale"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "somnolence"}]}
+{"label": "CISU_MED_INTOXICATION_INTOXICATION_ETHYLIQUE_PRISE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "médicamenteuse"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "convulsions"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "coma"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "détresse"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "palpitations"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signes"}, {"LEMMA": "détresse"}, {"LEMMA": "vitale"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "somnolence"}]}
+{"label": "CISU_MED_INTOXICATION_MEDICAMENTEUSE", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS", "pattern": [{"LEMMA": "douleurs"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "antécédent"}, {"LEMMA": "infarctus"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "poitrine"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "médiane"}, {"LEMMA": "étau"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "pendant"}, {"LEMMA": "effort"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "après"}, {"LEMMA": "effort"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "facteurs"}, {"LEMMA": "risque"}, {"LEMMA": "cardio"}, {"LEMMA": "vasculaires"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "pâleur"}, {"LEMMA": "intense"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "sueurs"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "nausées"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "palpitations"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "prise"}, {"LEMMA": "toxiques"}, {"LEMMA": "récente"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "déclenchée"}, {"LEMMA": "toux"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "déclenchée"}, {"LEMMA": "respiration"}]}
+{"label": "CISU_MED_DOULEURS_DOULEUR_THORACIQUE", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "thoracique"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "intoxication"}, {"LEMMA": "collective"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "conscience"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "vomissements"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "chez"}, {"LEMMA": "femme"}, {"LEMMA": "enceinte"}, {"LEMMA": "partir"}, {"LEMMA": "7ème"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "chroniques"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "inhabituelles"}, {"LEMMA": "brutales"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "inhabituelles"}, {"LEMMA": "violentes"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "céphalées"}, {"LEMMA": "inhabituelles"}, {"LEMMA": "localisation"}]}
+{"label": "CISU_MED_DOULEURS_CEPHALEES", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "gravité"}, {"LEMMA": "identifiée"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "abdominales"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "antécédent"}, {"LEMMA": "colique"}, {"LEMMA": "néphrétique"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "corps"}, {"LEMMA": "étranger"}, {"LEMMA": "intra"}, {"LEMMA": "rectal"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "pelvienne"}, {"LEMMA": "intense"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "pelvienne"}, {"LEMMA": "inhabituelle"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "antécédents"}, {"LEMMA": "douleurs"}, {"LEMMA": "abdominales"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_ABDOMINALES", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_OSTEOARTICULAIRES", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "ostéoarticulaires"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_OSTEOARTICULAIRES", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "rachis"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_OSTEOARTICULAIRES", "pattern": [{"LEMMA": "sciatique"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_OSTEOARTICULAIRES", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "membre"}]}
+{"label": "CISU_MED_DOULEURS_DOULEURS_OSTEOARTICULAIRES", "pattern": [{"LEMMA": "douleur"}, {"LEMMA": "ostéoarticulaire"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "douleurs"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "dentaires"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "oculaires"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "nez"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "gorge"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "oreilles"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "patient"}, {"LEMMA": "drépanocytaire"}, {"LEMMA": "connu"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "anémie"}, {"LEMMA": "falciforme"}, {"LEMMA": "connu"}]}
+{"label": "CISU_MED_DOULEURS_AUTRES_DOULEURS", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "problème"}, {"LEMMA": "obstétrique"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "réalisé"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "imminent"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "accouchement"}, {"LEMMA": "réalisé"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "partie"}, {"LEMMA": "bébé"}, {"LEMMA": "visible"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "sent"}, {"LEMMA": "bébé"}, {"LEMMA": "descendre"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "envie"}, {"LEMMA": "pousser"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "contractions"}, {"LEMMA": "inférieures"}, {"LEMMA": "min"}, {"LEMMA": "perte"}, {"LEMMA": "eaux"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "contractions"}, {"LEMMA": "inférieures"}, {"LEMMA": "min"}, {"LEMMA": "sans"}, {"LEMMA": "perte"}, {"LEMMA": "eaux"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "contractions"}, {"LEMMA": "entre"}, {"LEMMA": "10"}, {"LEMMA": "min"}, {"LEMMA": "perte"}, {"LEMMA": "eaux"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "contractions"}, {"LEMMA": "entre"}, {"LEMMA": "10"}, {"LEMMA": "min"}, {"LEMMA": "sans"}, {"LEMMA": "perte"}, {"LEMMA": "eaux"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "perte"}, {"LEMMA": "eaux"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "contractions"}, {"LEMMA": "grossesse"}, {"LEMMA": "supérieure"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_ACCOUCHEMENT_REALISE_ACCOUCHEMENT_IMMINENT", "pattern": [{"LEMMA": "hémorragies"}, {"LEMMA": "grossesse"}, {"LEMMA": "supérieure"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "problème"}, {"LEMMA": "obstétrical"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "saignement"}, {"LEMMA": "grossesse"}, {"LEMMA": "supérieure"}, {"LEMMA": "ou"}, {"LEMMA": "égale"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "grossesse"}, {"LEMMA": "supérieure"}, {"LEMMA": "ou"}, {"LEMMA": "égale"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "saignement"}, {"LEMMA": "grossesse"}, {"LEMMA": "entre"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "grossesse"}, {"LEMMA": "entre"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "saignement"}, {"LEMMA": "grossesse"}, {"LEMMA": "inférieure"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "grossesse"}, {"LEMMA": "inférieure"}, {"LEMMA": "mois"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "douleurs"}, {"LEMMA": "abdominales"}, {"LEMMA": "femme"}, {"LEMMA": "enceinte"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "anomalie"}, {"LEMMA": "résultat"}, {"LEMMA": "biologique"}]}
+{"label": "CISU_MED_ACCOUCHEMENT_PROBLEME_OBSTETRIQUE_AUTRE_PROBLEME_OBSTETRICAL", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "problème"}, {"LEMMA": "obstétrical"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}, {"LEMMA": "identifié"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_AUTRES_AFFECTIONS", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "affections"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "allergies"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "gonflement"}, {"LEMMA": "visage"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "gonflement"}, {"LEMMA": "visage"}, {"LEMMA": "cou"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "modification"}, {"LEMMA": "voix"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "sensation"}, {"LEMMA": "malaise"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "digestif"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "éruption"}, {"LEMMA": "généralisée"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "antécédents"}, {"LEMMA": "allergie"}, {"LEMMA": "grave"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "perte"}, {"LEMMA": "connaissance"}, {"LEMMA": "initiale"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "inconscience"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "difficultés"}, {"LEMMA": "respiratoires"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ALLERGIES", "pattern": [{"LEMMA": "allergie"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ANOMALIE_DE_LA_GLYCEMIE", "pattern": [{"LEMMA": "anomalie"}, {"LEMMA": "glycémie"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_FIEVRE", "pattern": [{"LEMMA": "fièvre"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "trouble"}, {"LEMMA": "digestif"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "hémorragie"}, {"LEMMA": "digestive"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "diarrhées"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "nausées"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "vomissements"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "constipation"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "poche"}, {"LEMMA": "digestive"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "sans"}, {"LEMMA": "douleur"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_TROUBLE_DIGESTIF", "pattern": [{"LEMMA": "troubles"}, {"LEMMA": "digestifs"}, {"LEMMA": "sans"}, {"LEMMA": "signe"}, {"LEMMA": "gravité"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_INFECTIEUX", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "infectieux"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_ACCIDENT_EXPOSITION_AUX_RISQUES_BIOLOGIQUES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "exposition"}, {"LEMMA": "risques"}, {"LEMMA": "biologiques"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "psychiatrique"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "social"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "altération"}, {"LEMMA": "état"}, {"LEMMA": "général"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "misère"}, {"LEMMA": "physiologique"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "incurie"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "agitation"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "crise"}, {"LEMMA": "nerveuse"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "comportement"}, {"LEMMA": "violent"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "etat"}, {"LEMMA": "manque"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "sevrage"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "social"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "sanitaire"}]}
+{"label": "CISU_MED_AUTRES_AFFECTIONS_PROBLEME_PSYCHIATRIQUE_PROBLEME_SOCIAL", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "transport"}, {"LEMMA": "hospitalisation"}, {"LEMMA": "sous"}, {"LEMMA": "contrainte"}]}
+{"label": "CISU_MED_AUTRES_SYMPTOMES_CONSEIL_MEDICAL_DEMANDE_DE_CONSEIL_MEDICAL_DEMANDE_D_ORDONNANCE", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "conseil"}, {"LEMMA": "médical"}]}
+{"label": "CISU_MED_AUTRES_SYMPTOMES_CONSEIL_MEDICAL_DEMANDE_DE_CONSEIL_MEDICAL_DEMANDE_D_ORDONNANCE", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "ordonnance"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "décès"}, {"LEMMA": "certain"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "corps"}, {"LEMMA": "décomposition"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "décès"}, {"LEMMA": "déclaré"}, {"LEMMA": "professionnel"}, {"LEMMA": "santé"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "rigidité"}, {"LEMMA": "cadavérique"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "corps"}, {"LEMMA": "froid"}]}
+{"label": "CISU_MED_DECES_CERTAIN", "pattern": [{"LEMMA": "tête"}, {"LEMMA": "détachée"}]}
+{"label": "CISU_LOC_DOMICILE_DOMICILE", "pattern": [{"LEMMA": "domicile"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "maison"}, {"LEMMA": "ville"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "intérieur"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "cuisine"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "chambre"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "couloir"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "manger"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "salon"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "extérieur"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "jardin"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "allée"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "cour"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "piscine"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "bassin"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "point"}, {"LEMMA": "eau"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "dépendances"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "cabanons"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "garages"}, {"LEMMA": "isolés"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "abri"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "carport"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "toiture"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "combles"}]}
+{"label": "CISU_LOC_DOMICILE_MAISON_PARTICULIERE_PAVILLON", "pattern": [{"LEMMA": "toit"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "habitation"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "immeuble"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "intérieur"}, {"LEMMA": "immeuble"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "extérieur"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "appartement"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "entrée"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "couloir"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "espaces"}, {"LEMMA": "communs"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "escaliers"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "ascenseur"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "cave"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "sous"}, {"LEMMA": "sol"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "garage"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "parking"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "toiture"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "combles"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "piscine"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "local"}, {"LEMMA": "technique"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "chaufferie"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "gaine"}, {"LEMMA": "ascenseur"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "local"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "dépendance"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "local"}, {"LEMMA": "poubelle"}]}
+{"label": "CISU_LOC_DOMICILE_HABITATION_COLLECTIVE_FOYER_D_HEBERGEMENT", "pattern": [{"LEMMA": "vide"}, {"LEMMA": "ordure"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "habitat"}, {"LEMMA": "spécifique"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "péniche"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "mobil"}, {"LEMMA": "home"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "habitat"}, {"LEMMA": "précaire"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "squat"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "campement"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "grande"}, {"LEMMA": "demeure"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "château"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "manoir"}]}
+{"label": "CISU_LOC_DOMICILE_HABITAT_SPECIFIQUE", "pattern": [{"LEMMA": "chaumière"}]}
+{"label": "CISU_LOC_DOMICILE_AUTRE_TYPE_DE_DOMICILE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "type"}, {"LEMMA": "domicile"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_CIRCULATION_TRANSPORT", "pattern": [{"LEMMA": "circulation"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_CIRCULATION_TRANSPORT", "pattern": [{"LEMMA": "transport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "croisement"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "rond"}, {"LEMMA": "point"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "ligne"}, {"LEMMA": "droite"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "virage"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "courbe"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "tunnel"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "pont"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_PUBLIQUE_HORS_VOIE_RAPIDE", "pattern": [{"LEMMA": "piste"}, {"LEMMA": "cyclable"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "rapide"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "rapide"}, {"LEMMA": "hors"}, {"LEMMA": "autoroute"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "autoroute"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "aire"}, {"LEMMA": "repos"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "aire"}, {"LEMMA": "service"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_RAPIDE", "pattern": [{"LEMMA": "tunnel"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FERREE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "ferrée"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FERREE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "ferrée"}, {"LEMMA": "souterraine"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FERREE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "ferrée"}, {"LEMMA": "couverte"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FERREE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "ferrée"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FERREE", "pattern": [{"LEMMA": "passage"}, {"LEMMA": "niveau"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FLUVIALE", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "fluviale"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FLUVIALE", "pattern": [{"LEMMA": "tunnel"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_VOIE_FLUVIALE", "pattern": [{"LEMMA": "écluse"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "bord"}, {"LEMMA": "moyen"}, {"LEMMA": "transport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "véhicule"}, {"LEMMA": "léger"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "fourgon"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "fourgonnette"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "poids"}, {"LEMMA": "lourds"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "ensemble"}, {"LEMMA": "routier"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "camion"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "autobus"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "autocar"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "véhicule"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "convoi"}, {"LEMMA": "exceptionnel"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "métro"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "tramway"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "aéronef"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "aéronef"}, {"LEMMA": "voyageurs"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "aéronef"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "bateau"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "bateau"}, {"LEMMA": "voyageurs"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "sous"}, {"LEMMA": "marin"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "train"}, {"LEMMA": "voyageurs"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "train"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "téléphérique"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_A_BORD_D_UN_MOYEN_DE_TRANSPORT", "pattern": [{"LEMMA": "télésiège"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aéroport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aérodrome"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aéroport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "non"}, {"LEMMA": "accessible"}, {"LEMMA": "public"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "coté"}, {"LEMMA": "piste"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aéroport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "accueil"}, {"LEMMA": "public"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "enregistrement"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aéroport"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "sous"}, {"LEMMA": "contrôle"}, {"LEMMA": "douane"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "piste"}, {"LEMMA": "décollage"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "piste"}, {"LEMMA": "envol"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "voie"}, {"LEMMA": "accès"}, {"LEMMA": "pistes"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "aérodrome"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "locaux"}, {"LEMMA": "aérodrome"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "régional"}, {"LEMMA": "navigation"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "accès"}, {"LEMMA": "réglementé"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "base"}, {"LEMMA": "aérienne"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AEROPORT_AERODROME", "pattern": [{"LEMMA": "enceinte"}, {"LEMMA": "aérienne"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}, {"LEMMA": "ferroviaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}, {"LEMMA": "routière"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "métro"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "hall"}, {"LEMMA": "gare"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "parvis"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "quai"}, {"LEMMA": "gare"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "voies"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}, {"LEMMA": "souterraine"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "station"}, {"LEMMA": "souterraine"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "gare"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "station"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "station"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "arrêt"}, {"LEMMA": "bus"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_GARE_FERROVIAIRE_GARE_ROUTIERE_METRO", "pattern": [{"LEMMA": "arrêt"}, {"LEMMA": "tramway"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_PORT_QUAI_EMBARCADERE", "pattern": [{"LEMMA": "port"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_PORT_QUAI_EMBARCADERE", "pattern": [{"LEMMA": "quai"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_PORT_QUAI_EMBARCADERE", "pattern": [{"LEMMA": "embarcadère"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_PORT_QUAI_EMBARCADERE", "pattern": [{"LEMMA": "port"}, {"LEMMA": "civil"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_PORT_QUAI_EMBARCADERE", "pattern": [{"LEMMA": "port"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_CIRCULATION_TRANSPORT_AUTRE_TYPE_DE_LIEU_LIE_A_LA_CIRCULATION_OU_AU_TRANSPORT", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "type"}, {"LEMMA": "lieu"}, {"LEMMA": "lié"}, {"LEMMA": "circulation"}, {"LEMMA": "ou"}, {"LEMMA": "transport"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_D_ACTIVITE_PROFESSIONNELLE", "pattern": [{"LEMMA": "local"}, {"LEMMA": "activité"}, {"LEMMA": "professionnelle"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_ADMINISTRATIF", "pattern": [{"LEMMA": "bureau"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_ADMINISTRATIF", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "attente"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "local"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "corps"}, {"LEMMA": "ferme"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "ferme"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "mas"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "hangar"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "écurie"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_AGRICOLE", "pattern": [{"LEMMA": "étable"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_ARTISANAL", "pattern": [{"LEMMA": "magasin"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_ARTISANAL", "pattern": [{"LEMMA": "réserve"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_LOCAL_ARTISANAL", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "vente"}]}
+{"label": "CISU_LOC_LOCAL_D_ACTIVITE_PROFESSIONNELLE_AUTRE_LOCAL_D_ACTIVITE_PROFESSIONNELLE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "local"}, {"LEMMA": "activité"}, {"LEMMA": "professionnelle"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_ACCUEILLANT_DU_PUBLIC", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "accueillant"}, {"LEMMA": "public"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_PUBLIC_NON_COUVERT", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "public"}, {"LEMMA": "non"}, {"LEMMA": "couvert"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "commercial"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "magasin"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "boutique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "magasin"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "stockage"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "commerce"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "grande"}, {"LEMMA": "surface"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "super"}, {"LEMMA": "marché"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "commercial"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "hyper"}, {"LEMMA": "marché"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CENTRE_COMMERCIAL_MAGASIN", "pattern": [{"LEMMA": "galerie"}, {"LEMMA": "marchande"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_PARC_DE_STATIONNEMENT_OUVERT_AU_PUBLIC", "pattern": [{"LEMMA": "parc"}, {"LEMMA": "stationnement"}, {"LEMMA": "ouvert"}, {"LEMMA": "public"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_PARC_DE_STATIONNEMENT_OUVERT_AU_PUBLIC", "pattern": [{"LEMMA": "parking"}, {"LEMMA": "souterrain"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_PARC_DE_STATIONNEMENT_OUVERT_AU_PUBLIC", "pattern": [{"LEMMA": "parking"}, {"LEMMA": "couvert"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_PARC_DE_STATIONNEMENT_OUVERT_AU_PUBLIC", "pattern": [{"LEMMA": "parking"}, {"LEMMA": "aérien"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_CULTE", "pattern": [{"LEMMA": "eglise"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_CULTE", "pattern": [{"LEMMA": "mosquée"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_CULTE", "pattern": [{"LEMMA": "temple"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_CULTE", "pattern": [{"LEMMA": "cathédrale"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_CULTE", "pattern": [{"LEMMA": "basilique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CIMETIERE", "pattern": [{"LEMMA": "cimetière"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "évènementiel"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "culturel"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "cinéma"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "théâtre"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "concert"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "musée"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "monument"}, {"LEMMA": "touristique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "bibliothèque"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "médiathèque"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "parc"}, {"LEMMA": "expositions"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "expositions"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "parc"}, {"LEMMA": "attractions"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "fête"}, {"LEMMA": "foraine"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "manège"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "zoo"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "parc"}, {"LEMMA": "zoologique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ESPACE_EVENEMENTIEL_ESPACE_CULTUREL", "pattern": [{"LEMMA": "réserve"}, {"LEMMA": "naturelle"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "hopital"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "dispensaire"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "clinique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "soins"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "privatif"}, {"LEMMA": "liberté"}, {"LEMMA": "établissement"}, {"LEMMA": "santé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_HOSPITALIER_CLINIQUE", "pattern": [{"LEMMA": "etablissement"}, {"LEMMA": "spécialisé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "local"}, {"LEMMA": "profession"}, {"LEMMA": "santé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "cabinet"}, {"LEMMA": "médical"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "cabinet"}, {"LEMMA": "paramédical"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "maison"}, {"LEMMA": "santé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "dispensaire"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "pharmacie"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LOCAL_DE_PROFESSION_DE_SANTE", "pattern": [{"LEMMA": "laboratoire"}, {"LEMMA": "biologie"}, {"LEMMA": "médicale"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "établissement"}, {"LEMMA": "médico"}, {"LEMMA": "social"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "établissement"}, {"LEMMA": "hébergement"}, {"LEMMA": "personnes"}, {"LEMMA": "âgées"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "établissement"}, {"LEMMA": "hébergement"}, {"LEMMA": "personnes"}, {"LEMMA": "âgées"}, {"LEMMA": "dépendantes"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "ehpad"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "résidence"}, {"LEMMA": "personnes"}, {"LEMMA": "âgées"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "maison"}, {"LEMMA": "retraite"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ETABLISSEMENT_MEDICO_SOCIAL", "pattern": [{"LEMMA": "etablissement"}, {"LEMMA": "personnes"}, {"LEMMA": "handicapées"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_SOINS_PROVISOIRES_TENTE_PMA", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "soins"}, {"LEMMA": "provisoires"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_SOINS_PROVISOIRES_TENTE_PMA", "pattern": [{"LEMMA": "tente"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_SOINS_PROVISOIRES_TENTE_PMA", "pattern": [{"LEMMA": "pma"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "enceinte"}, {"LEMMA": "sportive"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "stade"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "piste"}, {"LEMMA": "athlétisme"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "piscine"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "bassin"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "salle"}, {"LEMMA": "sport"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "gymnase"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "circuit"}, {"LEMMA": "automobile"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "installation"}, {"LEMMA": "sport"}, {"LEMMA": "motorisé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_ENCEINTE_SPORTIVE", "pattern": [{"LEMMA": "circuit"}, {"LEMMA": "engin"}, {"LEMMA": "motorisé"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "hébergement"}, {"LEMMA": "touristique"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "hôtel"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "pension"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "camping"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "hôtel"}, {"LEMMA": "plein"}, {"LEMMA": "air"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "résidence"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "club"}, {"LEMMA": "vacances"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_HEBERGEMENT_TOURISTIQUE", "pattern": [{"LEMMA": "refuge"}, {"LEMMA": "montagne"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "enseignement"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "ecole"}, {"LEMMA": "maternelle"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "école"}, {"LEMMA": "élémentaire"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "collège"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "lycée"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "université"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "établissement"}, {"LEMMA": "enseignement"}, {"LEMMA": "supérieur"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_D_ENSEIGNEMENT", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "formation"}, {"LEMMA": "adulte"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "restauration"}, {"LEMMA": "bar"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "etablissement"}, {"LEMMA": "nuit"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "bar"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "restaurant"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "taverne"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "troquet"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "dancing"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_LIEU_DE_RESTAURATION_BAR", "pattern": [{"LEMMA": "club"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CRECHE_GARDERIE_CENTRES_DE_LOISIRS_POUR_ENFANTS", "pattern": [{"LEMMA": "crèche"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CRECHE_GARDERIE_CENTRES_DE_LOISIRS_POUR_ENFANTS", "pattern": [{"LEMMA": "garderie"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_CRECHE_GARDERIE_CENTRES_DE_LOISIRS_POUR_ENFANTS", "pattern": [{"LEMMA": "centres"}, {"LEMMA": "loisirs"}, {"LEMMA": "enfants"}]}
+{"label": "CISU_LOC_LIEU_ACCUEILLANT_DU_PUBLIC_AUTRE_LIEU_ACCUEILLANT_DU_PUBLIC", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "lieu"}, {"LEMMA": "accueillant"}, {"LEMMA": "public"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_NATUREL", "pattern": [{"LEMMA": "milieu"}, {"LEMMA": "naturel"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "chemin"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "chemin"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "champ"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "prairie"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "naturel"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "lande"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "bosquet"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "garrigue"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_PLAINE_ET_CAMPAGNE", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "boisée"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_FORESTIER", "pattern": [{"LEMMA": "forèt"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "montagneux"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "espace"}, {"LEMMA": "vallonné"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "vallonnée"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "vallon"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "vallée"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "talweg"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "moyenne"}, {"LEMMA": "montagne"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "sentier"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "piste"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "chemin"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "haute"}, {"LEMMA": "montagne"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "falaise"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "escalade"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "domaine"}, {"LEMMA": "skiable"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "ski"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "piste"}, {"LEMMA": "ski"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_ESPACE_MONTAGNEUX_ESPACE_VALLONNE", "pattern": [{"LEMMA": "haute"}, {"LEMMA": "forêt"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "milieu"}, {"LEMMA": "aquatique"}, {"LEMMA": "eau"}, {"LEMMA": "douce"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "cours"}, {"LEMMA": "eau"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "canal"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "rivière"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "fleuve"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "ruisseau"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "plan"}, {"LEMMA": "eau"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "étang"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "marais"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "lac"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "eaux"}, {"LEMMA": "vives"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "torrent"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "baignade"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_AQUATIQUE_EN_EAU_DOUCE", "pattern": [{"LEMMA": "plage"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "milieu"}, {"LEMMA": "maritime"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "littoral"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "plage"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "berge"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "baignade"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "eaux"}, {"LEMMA": "côtières"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "haute"}, {"LEMMA": "mer"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "falaise"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_MARITIME", "pattern": [{"LEMMA": "estran"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_NATUREL_SOUTERRAIN", "pattern": [{"LEMMA": "grotte"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_NATUREL_SOUTERRAIN", "pattern": [{"LEMMA": "gouffre"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_MILIEU_NATUREL_SOUS_MARIN", "pattern": [{"LEMMA": "milieu"}, {"LEMMA": "naturel"}, {"LEMMA": "sous"}, {"LEMMA": "marin"}]}
+{"label": "CISU_LOC_MILIEU_NATUREL_AUTRE_TYPE_DE_MILIEU_NATUREL", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "type"}, {"LEMMA": "milieu"}, {"LEMMA": "naturel"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ZONE_PARTICULIERE_SITE_PARTICULIER", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "particulière"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ZONE_PARTICULIERE_SITE_PARTICULIER", "pattern": [{"LEMMA": "site"}, {"LEMMA": "particulier"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "site"}, {"LEMMA": "comportant"}, {"LEMMA": "animaux"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "elevage"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "bergerie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "étable"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "haras"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "équestre"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "écurie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "animalerie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_COMPORTANT_DES_ANIMAUX", "pattern": [{"LEMMA": "clinique"}, {"LEMMA": "vétérinaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "industriel"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockage"}, {"LEMMA": "pétro"}, {"LEMMA": "chimique"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "production"}, {"LEMMA": "pétro"}, {"LEMMA": "chimique"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockage"}, {"LEMMA": "explosifs"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "production"}, {"LEMMA": "explosifs"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "entrepôts"}, {"LEMMA": "stockage"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "entrepots"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "stockage"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "silo"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockage"}, {"LEMMA": "agro"}, {"LEMMA": "alimentaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "production"}, {"LEMMA": "agro"}, {"LEMMA": "alimentaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "déchets"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "traitement"}, {"LEMMA": "déchets"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "stockage"}, {"LEMMA": "déchets"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "laboratoire"}, {"LEMMA": "p3"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "laboratoire"}, {"LEMMA": "p4"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "stockage"}, {"LEMMA": "véhicules"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "recyclage"}, {"LEMMA": "véhicules"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "stockage"}, {"LEMMA": "engins"}, {"LEMMA": "divers"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "site"}, {"LEMMA": "construction"}, {"LEMMA": "navale"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "chantier"}, {"LEMMA": "naval"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_INDUSTRIEL", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "type"}, {"LEMMA": "site"}, {"LEMMA": "industriel"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_STATION_SERVICE", "pattern": [{"LEMMA": "station"}, {"LEMMA": "service"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_DECHARGE_CASSE_AUTOMOBILE", "pattern": [{"LEMMA": "décharge"}, {"LEMMA": "casse"}, {"LEMMA": "automobile"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "production"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "transport"}, {"LEMMA": "énergie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "ferme"}, {"LEMMA": "photovoltaïque"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "parc"}, {"LEMMA": "éolien"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "retenue"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "barrage"}, {"LEMMA": "hydraulique"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "poste"}, {"LEMMA": "transformation"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "poste"}, {"LEMMA": "transformation"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "ligne"}, {"LEMMA": "transport"}, {"LEMMA": "électrique"}, {"LEMMA": "ligne"}, {"LEMMA": "base"}, {"LEMMA": "tension"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "ligne"}, {"LEMMA": "moyenne"}, {"LEMMA": "tension"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "ligne"}, {"LEMMA": "haute"}, {"LEMMA": "tension"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "centrale"}, {"LEMMA": "thermique"}, {"LEMMA": "charbon"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "centrale"}, {"LEMMA": "thermique"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "centrale"}, {"LEMMA": "thermique"}, {"LEMMA": "biomasse"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "centre"}, {"LEMMA": "méthanisation"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "infrastructure"}, {"LEMMA": "transport"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "oléoduc"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_DE_PRODUCTION_SITE_DE_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "gazoduc"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "nucléaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "centrale"}, {"LEMMA": "nucléaire"}, {"LEMMA": "production"}, {"LEMMA": "électricité"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "production"}, {"LEMMA": "radio"}, {"LEMMA": "éléments"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockant"}, {"LEMMA": "sources"}, {"LEMMA": "nucléaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "utilisant"}, {"LEMMA": "sources"}, {"LEMMA": "nucléaires"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockant"}, {"LEMMA": "sources"}, {"LEMMA": "radiologiques"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_NUCLEAIRE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "stockant"}, {"LEMMA": "déchets"}, {"LEMMA": "nucléaires"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ETABLISSEMENT_PENITENTIAIRE_PRISON_MAISON_D_ARRET_LIEU_DE_RETENTION", "pattern": [{"LEMMA": "établissement"}, {"LEMMA": "pénitentiaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ETABLISSEMENT_PENITENTIAIRE_PRISON_MAISON_D_ARRET_LIEU_DE_RETENTION", "pattern": [{"LEMMA": "prison"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ETABLISSEMENT_PENITENTIAIRE_PRISON_MAISON_D_ARRET_LIEU_DE_RETENTION", "pattern": [{"LEMMA": "maison"}, {"LEMMA": "arrêt"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ETABLISSEMENT_PENITENTIAIRE_PRISON_MAISON_D_ARRET_LIEU_DE_RETENTION", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "rétention"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_CHANTIER", "pattern": [{"LEMMA": "chantier"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_CHANTIER", "pattern": [{"LEMMA": "chantier"}, {"LEMMA": "surface"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_CHANTIER", "pattern": [{"LEMMA": "chantier"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_CHANTIER", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "travaux"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_CHANTIER", "pattern": [{"LEMMA": "chantier"}, {"LEMMA": "souterrain"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "administration"}, {"LEMMA": "publique"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "local"}, {"LEMMA": "police"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "gendarmerie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "caserne"}, {"LEMMA": "pompiers"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "enceinte"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "caserne"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "palais"}, {"LEMMA": "justice"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "maison"}, {"LEMMA": "justice"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "bâtiment"}, {"LEMMA": "officiel"}, {"LEMMA": "état"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "ministère"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "mairie"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "conseil"}, {"LEMMA": "régional"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ADMINISTRATION_PUBLIQUE", "pattern": [{"LEMMA": "conseil"}, {"LEMMA": "départemental"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ZONE_DE_RASSEMBLEMENT", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "rassemblement"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ZONE_DE_RASSEMBLEMENT", "pattern": [{"LEMMA": "zone"}, {"LEMMA": "rassemblement"}, {"LEMMA": "festif"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_ZONE_DE_RASSEMBLEMENT", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "zone"}, {"LEMMA": "rassemblement"}]}
+{"label": "CISU_LOC_ZONE_PARTICULIERE_SITE_PARTICULIER_SITE_SENSIBLE", "pattern": [{"LEMMA": "site"}, {"LEMMA": "sensible"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTES_AUX_PERSONNES_ATTEINTES_AUX_PERSONNES", "pattern": [{"LEMMA": "atteintes"}, {"LEMMA": "personnes"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTENTAT_TUERIE_DE_MASSE_ATTENTAT_TUERIE_DE_MASSE", "pattern": [{"LEMMA": "attentat"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTENTAT_TUERIE_DE_MASSE_ATTENTAT_TUERIE_DE_MASSE", "pattern": [{"LEMMA": "tuerie"}, {"LEMMA": "masse"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PATHOLOGIE_MALADIE_PATHOLOGIE_MALADIE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "malade"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PATHOLOGIE_MALADIE_PROBLEME_MEDICAL", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "malade"}, {"LEMMA": "problème"}, {"LEMMA": "médical"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PATHOLOGIE_MALADIE_PROBLEME_OBSTETRIQUE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "malade"}, {"LEMMA": "problème"}, {"LEMMA": "obstétrique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PATHOLOGIE_MALADIE_PROBLEME_PSYCHIATRIQUE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "malade"}, {"LEMMA": "problème"}, {"LEMMA": "psychiatrie"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_INTOXICATION_INTOXICATION_COLLECTIVE_EPIDEMIE_INTOXICATION_INTOXICATION_COLLECTIVE_EPIDEMIE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "intoxiquée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_INTOXICATION_INTOXICATION_COLLECTIVE_EPIDEMIE_INTOXICATION_ALIMENTAIRE_COLLECTIVE", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "alimentaire"}, {"LEMMA": "collective"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_INTOXICATION_INTOXICATION_COLLECTIVE_EPIDEMIE_INTOXICATION_AU_MONOXYDE_DE_CARBONE", "pattern": [{"LEMMA": "intoxication"}, {"LEMMA": "co"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_CHUTE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "chute"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_CHUTE_CHUTE_DE_GRANDE_HAUTEUR_CHUTE_DE_PLUS_DE_3METRES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "chute"}, {"LEMMA": "mètres"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_CHUTE_CHUTE_DE_FAIBLE_HAUTEUR_CHUTE_DE_MOINS_DE_3_METRES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "chute"}, {"LEMMA": "moins"}, {"LEMMA": "mètres"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_TRAUMATISME_ACCIDENT", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "traumatisme"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_TRAUMATISME_ACCIDENT", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "accident"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_AVEC_MACHINE_PROFESSIONNELLE_ACCIDENT_DU_TRAVAIL", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "son"}, {"LEMMA": "travail"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_AVEC_MACHINE_PROFESSIONNELLE_ACCIDENT_DU_TRAVAIL", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "travail"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_DOMESTIQUE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "domestique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_PAR_ARME_A_FEU", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "arme"}, {"LEMMA": "feu"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_PAR_OBJET_TRANCHANT_ACCIDENT_PAR_OBJET_PERFORANT", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "objet"}, {"LEMMA": "tranchant"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ACCIDENT_PAR_OBJET_TRANCHANT_ACCIDENT_PAR_OBJET_PERFORANT", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "objet"}, {"LEMMA": "perforant"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_BLESSURE_PIQURE_MORSURE_D_ANIMAUX", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "morsure"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_BLESSURE_PIQURE_MORSURE_D_ANIMAUX", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "piqûre"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_PENDAISON_STRANGULATION_ACCIDENTELLE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "pendue"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_PENDAISON_STRANGULATION_ACCIDENTELLE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "étranglée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ETOUFFEMENT_FAUSSE_ROUTE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "détresse"}, {"LEMMA": "respiratoire"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ETOUFFEMENT_FAUSSE_ROUTE", "pattern": [{"LEMMA": "etouffement"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_ETOUFFEMENT_FAUSSE_ROUTE", "pattern": [{"LEMMA": "fausse"}, {"LEMMA": "route"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TRAUMATISME_ACCIDENT_AUTRE_ACCIDENT", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "accident"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "sportive"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "loisir"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_CHASSE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "chasse"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_PLONGEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "plongée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_SPELEOLOGIE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "spéléologie"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_EN_MONTAGNE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "montagne"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_PARACHUTISME_ACCIDENT_DE_DELTAPLANE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "parachutisme"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_DE_PARACHUTISME_ACCIDENT_DE_DELTAPLANE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "deltaplane"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_ACCIDENT_D_ACTIVITE_NAUTIQUE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "nautique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_DE_SPORT_ACCIDENT_DE_LOISIR_AUTRE_ACCIDENT_DE_SPORT_AUTRE_ACCIDENT_DE_LOISIR", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "blessée"}, {"LEMMA": "lors"}, {"LEMMA": "activité"}, {"LEMMA": "sportive"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_EN_MILIEU_AQUATIQUE_ACCIDENT_EN_MILIEU_AQUATIQUE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "milieu"}, {"LEMMA": "aquatique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_EN_MILIEU_AQUATIQUE_PERSONNE_VISIBLE_DANS_L_EAU", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "visible"}, {"LEMMA": "difficulté"}, {"LEMMA": "milieu"}, {"LEMMA": "aquatique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_EN_MILIEU_AQUATIQUE_NOYADE", "pattern": [{"LEMMA": "noyade"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_EN_MILIEU_AQUATIQUE_PERSONNE_SORTIE_DE_L_EAU_SUITE_A_NOYADE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "sortie"}, {"LEMMA": "eau"}, {"LEMMA": "noyade"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ACCIDENT_EN_MILIEU_AQUATIQUE_ENGIN_NAUTIQUE_A_LA_DERIVE_AVEC_PRESENCE_HUMAINE_A_BORD", "pattern": [{"LEMMA": "engin"}, {"LEMMA": "dérive"}, {"LEMMA": "présence"}, {"LEMMA": "humaine"}, {"LEMMA": "bord"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "risque"}, {"LEMMA": "imminent"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_MEDICAMENTEUSE", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "médicaments"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_PENDAISON", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "pendaison"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_IMMOLATION", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "immolation"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_PAR_ARME_A_FEU", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "arme"}, {"LEMMA": "feu"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_PAR_ARME_BLANCHE_PHLEBOTOMIE_TENTATIVE_DE_SUICIDE_PAR_OBJET_TRANCHANT_TENTATIVE_DE_SUICIDE_PAR_OBJET_PERFORANT", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "arme"}, {"LEMMA": "blanche"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_PAR_CHUTE_DE_GRANDE_HAUTEUR", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "chute"}, {"LEMMA": "grande"}, {"LEMMA": "hauteur"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_SUICIDE_SUR_RAILS", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "rails"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_PAR_GAZ_TENTATIVE_DE_SUICIDE_PAR_CO", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_TENTATIVE_DE_SUICIDE_PAR_GAZ_TENTATIVE_DE_SUICIDE_PAR_CO", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}, {"LEMMA": "co"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_TENTATIVE_DE_SUICIDE_AUTRE_TYPE_DE_TENTATIVE_DE_SUICIDE", "pattern": [{"LEMMA": "tentative"}, {"LEMMA": "suicide"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_EN_DIFFICULTE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "difficulté"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_ENSEVELIE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "ensevelie"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_ENVASEE_PERSONNE_ENSABLEE_PERSONNE_ENSILEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "envasée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_ENVASEE_PERSONNE_ENSABLEE_PERSONNE_ENSILEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "ensablée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_ENVASEE_PERSONNE_ENSABLEE_PERSONNE_ENSILEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "ensilée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_BLOQUEE_EN_HAUTEUR", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "bloquée"}, {"LEMMA": "hauteur"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_BLOQUEE_DANS_UN_ASCENSEUR", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "bloquée"}, {"LEMMA": "ascenseur"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_ENFERMEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "enfermée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_PIEGEE_PERSONNE_COINCEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "piégée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_PIEGEE_PERSONNE_COINCEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "coincée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EN_DIFFICULTE_PERSONNE_NE_POUVANT_PAS_SE_RELEVER_SEULE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "ne"}, {"LEMMA": "pouvant"}, {"LEMMA": "pas"}, {"LEMMA": "se"}, {"LEMMA": "relever"}, {"LEMMA": "seule"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_LA_CHALEUR_PERSONNE_EXPOSEE_A_LA_CANICULE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "chaleur"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_LA_CHALEUR_PERSONNE_EXPOSEE_A_LA_CANICULE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "canicule"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_AU_FROID", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "froid"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_AUX_FLAMMES_PERSONNE_EXPOSEE_AUX_FUMEES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "flammes"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_AUX_FLAMMES_PERSONNE_EXPOSEE_AUX_FUMEES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "fumées"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_DES_PRODUITS_CHIMIQUES_PERSONNE_EXPOSEE_A_DES_PRODUITS_TOXIQUES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "produits"}, {"LEMMA": "chimiques"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_DES_PRODUITS_CHIMIQUES_PERSONNE_EXPOSEE_A_DES_PRODUITS_TOXIQUES", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "produits"}, {"LEMMA": "toxiques"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_DES_RAYONNEMENTS_PERSONNE_EXPOSEE_A_DES_RADIOELEMENTS", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "rayonnements"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_EXPOSEE_A_DES_RAYONNEMENTS_PERSONNE_EXPOSEE_A_DES_RADIOELEMENTS", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "exposée"}, {"LEMMA": "radioéléments"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_ELECTRISEE_PERSONNE_ELECTROCUTEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "électrisée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_ELECTRISEE_PERSONNE_ELECTROCUTEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "électrocutée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PERSONNE_EXPOSEE_PERSONNE_FOUDROYEE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "foudroyée"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_PRISE_D_OTAGE_PRISE_D_OTAGE", "pattern": [{"LEMMA": "prise"}, {"LEMMA": "otage"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ENLEVEMENT_SEQUESTRATION_ENLEVEMENT_SEQUESTRATION", "pattern": [{"LEMMA": "enlèvement"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ENLEVEMENT_SEQUESTRATION_ENLEVEMENT_SEQUESTRATION", "pattern": [{"LEMMA": "séquestration"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ENLEVEMENT_SEQUESTRATION_ALERTE_ENLEVEMENT", "pattern": [{"LEMMA": "alerte"}, {"LEMMA": "enlèvement"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ENLEVEMENT_SEQUESTRATION_ENLEVEMENT", "pattern": [{"LEMMA": "enlèvement"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ENLEVEMENT_SEQUESTRATION_SEQUESTRATION", "pattern": [{"LEMMA": "séquestration"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_HOMICIDE_INFANTICIDE_HOMICIDE_INFANTICIDE", "pattern": [{"LEMMA": "homicide"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_HOMICIDE_INFANTICIDE_HOMICIDE_INFANTICIDE", "pattern": [{"LEMMA": "infanticide"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_HOMICIDE_INFANTICIDE_HOMICIDE", "pattern": [{"LEMMA": "homicide"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_HOMICIDE_INFANTICIDE_INFANTICIDE", "pattern": [{"LEMMA": "infanticide"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTE_SEXUELLE_ATTEINTE_SEXUELLE", "pattern": [{"LEMMA": "atteinte"}, {"LEMMA": "sexuelle"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTE_SEXUELLE_SUSPICION_DE_VIOL", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "viol"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTE_SEXUELLE_AGRESSION_SEXUELLE", "pattern": [{"LEMMA": "agression"}, {"LEMMA": "sexuelle"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTE_SEXUELLE_EXHIBITION_SEXUELLE", "pattern": [{"LEMMA": "exhibition"}, {"LEMMA": "sexuelle"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_ATTEINTE_SEXUELLE_HARCELEMENT_SEXUEL", "pattern": [{"LEMMA": "harcèlement"}, {"LEMMA": "sexuel"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_AGRESSION_VIOLENCE", "pattern": [{"LEMMA": "agression"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_RIXE_BAGARRE", "pattern": [{"LEMMA": "rixe"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_RIXE_BAGARRE", "pattern": [{"LEMMA": "bagarre"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_AGRESSION_PHYSIQUE_VIOLENCE_PHYSIQUE", "pattern": [{"LEMMA": "agression"}, {"LEMMA": "physique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_AGRESSION_PHYSIQUE_VIOLENCE_PHYSIQUE", "pattern": [{"LEMMA": "violence"}, {"LEMMA": "physique"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_AGRESSION_VERBALE", "pattern": [{"LEMMA": "agression"}, {"LEMMA": "verbale"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_VIOLENCES_INTRA_FAMILIALES", "pattern": [{"LEMMA": "violences"}, {"LEMMA": "intra"}, {"LEMMA": "familiales"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_VOIE_DE_FAIT", "pattern": [{"LEMMA": "voie"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AGRESSION_VIOLENCE_AUTRE_AGRESSION_AUTRE_MENACE", "pattern": [{"LEMMA": "agression"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AUTRES_ATTEINTES_AUX_PERSONNES_AUTRES_ATTEINTES_AUX_PERSONNES", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "atteintes"}, {"LEMMA": "personnes"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AUTRES_ATTEINTES_AUX_PERSONNES_JEUX_DANGEREUX", "pattern": [{"LEMMA": "jeux"}, {"LEMMA": "dangereux"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AUTRES_ATTEINTES_AUX_PERSONNES_ALTERCATION_INCIVILITE", "pattern": [{"LEMMA": "altercation"}]}
+{"label": "CISU_NAT_ATTEINTES_AUX_PERSONNES_AUTRES_ATTEINTES_AUX_PERSONNES_ALTERCATION_INCIVILITE", "pattern": [{"LEMMA": "incivilité"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_DE_LA_CIRCULATION", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "circulation"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "circulation"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_VEHICULES_LEGERS_FOURGON", "pattern": [{"LEMMA": "véhicule"}, {"LEMMA": "légers"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_VEHICULES_LEGERS_FOURGON", "pattern": [{"LEMMA": "fourgon"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_CAMION_DE_MARCHANDISES", "pattern": [{"LEMMA": "poids"}, {"LEMMA": "lourd"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_AUTOBUS_AUTOCAR", "pattern": [{"LEMMA": "autobus"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_AUTOBUS_AUTOCAR", "pattern": [{"LEMMA": "autocar"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "roues"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "trottinette"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "trottinette"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "vélo"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "bicyclette"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "moto"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_2_ROUES", "pattern": [{"LEMMA": "scooter"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_PIETON", "pattern": [{"LEMMA": "piéton"}, {"LEMMA": "renversé"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_PLUSIEURS_VEHICULES_LEGERS", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "plusieurs"}, {"LEMMA": "véhicules"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_CARAMBOLAGE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "carambolage"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_ENGINS_DE_CHANTIER_AGRICOLE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "engin"}, {"LEMMA": "chantier"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_NON_SUIVI_DE_FEU_ENGINS_DE_CHANTIER_AGRICOLE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "engin"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_ACCIDENT_ROUTIER_SUIVI_DE_FEU", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_VEHICULES_LEGERS_FOURGON", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "véhicule"}, {"LEMMA": "léger"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_VEHICULES_LEGERS_FOURGON", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "fourgon"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_CAMION_DE_MARCHANDISES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "pl"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_AUTOBUS_AUTOCAR", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "bus"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_PLUSIEURS_VEHICULES_LEGERS", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "plusieurs"}, {"LEMMA": "vl"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_ROUTIER_SUIVI_DE_FEU_CARAMBOLAGE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "routier"}, {"LEMMA": "suivi"}, {"LEMMA": "feu"}, {"LEMMA": "carambolage"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_ACCIDENT_FERROVIAIRE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "ferroviaire"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_COLLISION_TRAIN_DE_VOYAGEUR_AVEC_VEHICULE", "pattern": [{"LEMMA": "collision"}, {"LEMMA": "train"}, {"LEMMA": "voyageur"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_COLLISION_TRAIN_DE_MARCHANDISES_AVEC_VEHICULE", "pattern": [{"LEMMA": "collision"}, {"LEMMA": "train"}, {"LEMMA": "marchandises"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_COLLISION_TRAIN_PIETON", "pattern": [{"LEMMA": "collision"}, {"LEMMA": "train"}, {"LEMMA": "piéton"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_COLLISION_AVEC_TRAMWAY", "pattern": [{"LEMMA": "collision"}, {"LEMMA": "tramway"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_DERAILLEMENT_DE_TRAIN_DE_VOYAGEUR", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "train"}, {"LEMMA": "voyageur"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_DERAILLEMENT_DE_TRAIN_DE_MARCHANDISES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "train"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_FERROVIAIRE_DERAILLEMENT_DE_TRAMWAY", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "tramway"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "maritime"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "fluvial"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_BATEAU_DE_PLAISANCE_SPORTS_NAUTIQUES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "bateau"}, {"LEMMA": "plaisance"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_BATEAU_DE_MARCHANDISES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "bateau"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_FERRY_PAQUEBOT", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "ferry"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_FERRY_PAQUEBOT", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "paquebot"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_BATEAU_DE_PECHE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "bateau"}, {"LEMMA": "pêche"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_MARITIME_ACCIDENT_FLUVIAL_BATEAU_DE_GUERRE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "bateau"}, {"LEMMA": "guerre"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_ACCIDENT_AERIEN", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_AERONEF_DE_MARCHANDISES", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "avion"}, {"LEMMA": "fret"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_AERONEF_DE_VOYAGEURS", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "avion"}, {"LEMMA": "passagers"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_AERONEF_DE_TOURISME", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "avion"}, {"LEMMA": "tourisme"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_AERONEF_MILITAIRE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "avion"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "ulm"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "planeur"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "montgolfière"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_ACCIDENT_AERIEN_DRONE", "pattern": [{"LEMMA": "accident"}, {"LEMMA": "aérien"}, {"LEMMA": "drone"}]}
+{"label": "CISU_NAT_ACCIDENT_DE_LA_CIRCULATION_AUTRES_ACCIDENTS_DE_LA_CIRCULATION_AUTRES_ACCIDENTS_DE_LA_CIRCULATION", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "accident"}, {"LEMMA": "circulation"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_INCENDIE", "pattern": [{"LEMMA": "incendie"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_INCENDIE", "pattern": [{"LEMMA": "incendie"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_VEHICULE_LEGER_FOURGON", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "véhicule"}, {"LEMMA": "léger"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_VEHICULE_LEGER_FOURGON", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "fourgon"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_POIDS_LOURD", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "poids"}, {"LEMMA": "lourd"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AUTOBUS_OU_AUTOCAR", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "autobus"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AUTOBUS_OU_AUTOCAR", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "autocar"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_2_ROUES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "roues"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_ENGIN_DE_CHANTIER_OU_AGRICOLE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "engin"}, {"LEMMA": "chantier"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_ENGIN_DE_CHANTIER_OU_AGRICOLE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "engin"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_PLUSIEURS_VEHICULES_LEGERS", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "plusieurs"}, {"LEMMA": "véhicules"}, {"LEMMA": "légers"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_TRAIN_DE_VOYAGEURS", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "train"}, {"LEMMA": "voyageurs"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_TRAIN_DE_MARCHANDISES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "train"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_BATEAU_DE_VOYAGEURS", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bateau"}, {"LEMMA": "voyageur"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_BATEAU_DE_MARCHANDISES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bateau"}, {"LEMMA": "marchandises"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_BATEAU_DE_PECHE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bateau"}, {"LEMMA": "pêche"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_BATEAU_DE_GUERRE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bateau"}, {"LEMMA": "guerre"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AERONEF_DE_VOYAGEURS", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "avion"}, {"LEMMA": "voyageurs"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AERONEF_DE_TOURISME", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "avion"}, {"LEMMA": "tourisme"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AERONEF_DE_MARCHANDISES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "avion"}, {"LEMMA": "fret"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_AERONEF_MILITAIRE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "avion"}, {"LEMMA": "militaire"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "ulm"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "planeur"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_D_UN_MOYEN_DE_TRANSPORT_INCENDIE_DE_VEHICULE_ULM_PLANEUR_MONTGOLFIERE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "montgolfière"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_INCENDIE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bâtiment"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_BATIMENT_D_HABITATION", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bâtiment"}, {"LEMMA": "habitation"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_ERP_AVEC_LOCAUX_A_SOMMEIL", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "erp"}, {"LEMMA": "locaux"}, {"LEMMA": "sommeil"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_ERP_SANS_LOCAUX_A_SOMMEIL", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "erp"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_BATIMENT_DE_BUREAUX", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bâtiment"}, {"LEMMA": "bureaux"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_BATIMENT_INDUSTRIEL", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "bâtiment"}, {"LEMMA": "industriel"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_BATIMENT_DE_PRODUCTION_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "production"}, {"LEMMA": "énergie"}]}
+{"label": "CISU_NAT_INCENDIE_INCENDIE_DE_BATIMENT_INCENDIE_DE_LOCAL_BATIMENT_DE_PRODUCTION_TRANSPORT_D_ENERGIE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "transport"}, {"LEMMA": "énergie"}]}
+{"label": "CISU_NAT_INCENDIE_MILIEU_AGRICOLE_MILIEU_AGRICOLE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "milieu"}, {"LEMMA": "agricole"}]}
+{"label": "CISU_NAT_INCENDIE_MILIEU_INDUSTRIEL_MILIEU_INDUSTRIEL", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "milieu"}, {"LEMMA": "industriel"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_FORET_VEGETATION", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "forêt"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_HAIE_HERBES_SECHES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "herbes"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_CHAUMES_RECOLTES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "récoltes"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_CHAUMES_RECOLTES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "chaumes"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_BROUSSAILLES", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "broussailles"}]}
+{"label": "CISU_NAT_INCENDIE_FORET_VEGETATION_FORET", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "forêt"}]}
+{"label": "CISU_NAT_INCENDIE_FUMEE_SUSPECTE_LEVEE_DE_DOUTE_FUMEE_SUSPECTE_LEVEE_DE_DOUTE", "pattern": [{"LEMMA": "fumée"}, {"LEMMA": "suspecte"}]}
+{"label": "CISU_NAT_INCENDIE_FUMEE_SUSPECTE_LEVEE_DE_DOUTE_FUMEE_SUSPECTE_LEVEE_DE_DOUTE", "pattern": [{"LEMMA": "levée"}, {"LEMMA": "doute"}]}
+{"label": "CISU_NAT_INCENDIE_MATERIAUX_A_L_AIR_LIBRE_MATERIAUX_A_L_AIR_LIBRE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "air"}, {"LEMMA": "libre"}]}
+{"label": "CISU_NAT_INCENDIE_FEUX_DE_MATERIAUX_A_L_AIR_LIBRE_FEU_DE_POUBELLES_MOBILIER_URBAIN", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "poubelle"}]}
+{"label": "CISU_NAT_INCENDIE_FEUX_DE_MATERIAUX_A_L_AIR_LIBRE_FEU_DE_POUBELLES_MOBILIER_URBAIN", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "mobilier"}, {"LEMMA": "urbain"}]}
+{"label": "CISU_NAT_INCENDIE_FEUX_DE_MATERIAUX_A_L_AIR_LIBRE_FEU_DIVERS_ISOLE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "divers"}]}
+{"label": "CISU_NAT_INCENDIE_ELEMENT_STRUCTURE_ELEMENT_STRUCTURE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "structure"}]}
+{"label": "CISU_NAT_INCENDIE_ELEMENT_STRUCTURE_FEU_DE_CHEMINEE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "cheminée"}]}
+{"label": "CISU_NAT_INCENDIE_ELEMENT_STRUCTURE_INCENDIE_D_ORIGINE_ELECTRIQUE", "pattern": [{"LEMMA": "feu"}, {"LEMMA": "origine"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_NAT_INCENDIE_ELEMENT_STRUCTURE_AUTRE_FEU_D_UN_ELEMENT_AUTRE_FEU_D_UNE_STRUCTURE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "feu"}, {"LEMMA": "élément"}]}
+{"label": "CISU_NAT_INCENDIE_ELEMENT_STRUCTURE_AUTRE_FEU_D_UN_ELEMENT_AUTRE_FEU_D_UNE_STRUCTURE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "feu"}, {"LEMMA": "structure"}]}
+{"label": "CISU_NAT_INCENDIE_AUTRE_TYPE_D_INCENDIE_AUTRE_TYPE_D_INCENDIE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "feu"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_EXPLOSION", "pattern": [{"LEMMA": "explosion"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_D_UN_MOYEN_DE_TRANSPORT_EXPLOSION_D_UN_VEHICULE_EXPLOSION_D_UN_MOYEN_DE_TRANSPORT_EXPLOSION_D_UN_VEHICULE", "pattern": [{"LEMMA": "explosion"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_D_UN_BATIMENT_EXPLOSION_D_UN_LOCAL_EXPLOSION_D_UN_BATIMENT_EXPLOSION_D_UN_LOCAL", "pattern": [{"LEMMA": "explosion"}, {"LEMMA": "bâtiment"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_D_UN_SILO_EXPLOSION_D_UN_LIEU_DE_STOCKAGE_EXPLOSION_D_UN_SILO_EXPLOSION_D_UN_LIEU_DE_STOCKAGE", "pattern": [{"LEMMA": "explosion"}, {"LEMMA": "silo"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_D_UN_SILO_EXPLOSION_D_UN_LIEU_DE_STOCKAGE_EXPLOSION_D_UN_SILO_EXPLOSION_D_UN_LIEU_DE_STOCKAGE", "pattern": [{"LEMMA": "explosion"}, {"LEMMA": "lieu"}, {"LEMMA": "stockage"}]}
+{"label": "CISU_NAT_EXPLOSION_EXPLOSION_D_UN_SUBSTANCE_EXPLOSION_D_UN_ENGIN_EXPLOSIF_EXPLOSION_D_UN_SUBSTANCE_EXPLOSION_D_UN_ENGIN_EXPLOSIF", "pattern": [{"LEMMA": "explosion"}, {"LEMMA": "substance"}, {"LEMMA": "explosive"}]}
+{"label": "CISU_NAT_EXPLOSION_AUTRE_TYPE_D_EXPLOSION_AUTRE_TYPE_D_EXPLOSION", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "explosion"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "naturel"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_INONDATION_INONDATION", "pattern": [{"LEMMA": "inondation"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_INONDATION_INONDATION_D_UN_BATIMENT_INONDATION_D_UN_LOCAL", "pattern": [{"LEMMA": "inondation"}, {"LEMMA": "bâtiment"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_INONDATION_INONDATION_D_UN_BATIMENT_INONDATION_D_UN_LOCAL", "pattern": [{"LEMMA": "inondation"}, {"LEMMA": "local"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_INONDATION_MONTEE_DES_EAUX_INQUIETANTE", "pattern": [{"LEMMA": "montée"}, {"LEMMA": "eaux"}, {"LEMMA": "inquiétante"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AVALANCHE_AVALANCHE", "pattern": [{"LEMMA": "avalanche"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_TREMBLEMENT_DE_TERRE_TREMBLEMENT_DE_TERRE", "pattern": [{"LEMMA": "tremblement"}, {"LEMMA": "terre"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FOUDRE_FOUDRE", "pattern": [{"LEMMA": "foudre"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_VENT_TEMPETE_VENT_TEMPETE", "pattern": [{"LEMMA": "vent"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_VENT_TEMPETE_VENT_TEMPETE", "pattern": [{"LEMMA": "tempête"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_VENT_TEMPETE_CHUTE_D_ARBRE", "pattern": [{"LEMMA": "chute"}, {"LEMMA": "arbre"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_VENT_TEMPETE_CHUTE_D_ARBRE", "pattern": [{"LEMMA": "chute"}, {"LEMMA": "branches"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_VENT_TEMPETE_DOMMAGES_SUR_TOITURES", "pattern": [{"LEMMA": "dommages"}, {"LEMMA": "toitures"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_EBOULEMENT_EFFONDREMENT_EBOULEMENT_EFFONDREMENT", "pattern": [{"LEMMA": "eboulement"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_EBOULEMENT_EFFONDREMENT_EBOULEMENT_EFFONDREMENT", "pattern": [{"LEMMA": "effondrement"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_EBOULEMENT_EFFONDREMENT_BATIMENT", "pattern": [{"LEMMA": "effondrement"}, {"LEMMA": "bâtiment"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_EBOULEMENT_EFFONDREMENT_CARRIERE", "pattern": [{"LEMMA": "eboulement"}, {"LEMMA": "carrière"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_EBOULEMENT_EFFONDREMENT_AUTRES_EBOULEMENTS", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "eboulements"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AFFAISSEMENT_DE_LA_CHAUSSEE_AFFAISSEMENT_DE_LA_CHAUSSEE", "pattern": [{"LEMMA": "affaissement"}, {"LEMMA": "chaussée"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_INTEMPERIE_IMPORTANTE_INTEMPERIE_IMPORTANTE", "pattern": [{"LEMMA": "intempérie"}, {"LEMMA": "importante"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AUTRE_ALEAS_NATUREL_AUTRE_ALEAS_ENVIRONNEMENTAL_AUTRE_ALEAS_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "naturel"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AUTRE_ALEAS_NATUREL_AUTRE_ALEAS_ENVIRONNEMENTAL_AUTRE_ALEAS_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "environnemental"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AUTRE_ALEAS_NATUREL_AUTRE_ALEAS_ENVIRONNEMENTAL_AUTRE_ALEAS_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "météorologique"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_AUTRE_ALEAS_NATUREL_AUTRE_ALEAS_ENVIRONNEMENTAL_AUTRE_ALEAS_METEOROLOGIQUE_CATASTROPHE_NATURELLE", "pattern": [{"LEMMA": "catastrophe"}, {"LEMMA": "naturelle"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "technologique"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "technique"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE", "pattern": [{"LEMMA": "aléa"}, {"LEMMA": "technologique"}, {"LEMMA": "électricité"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_COURT_CIRCUIT", "pattern": [{"LEMMA": "court"}, {"LEMMA": "circuit"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_PANNE_ELECTRIQUE", "pattern": [{"LEMMA": "panne"}, {"LEMMA": "électrique"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_FIL_ELECTRIQUE_TOMBE", "pattern": [{"LEMMA": "fil"}, {"LEMMA": "électrique"}, {"LEMMA": "tombé"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_RUPTURE_DE_CABLE_ARRACHEMENT_DE_CABLE_ARRACHEMENT_DE_SUPPORT_DE_CABLE", "pattern": [{"LEMMA": "rupture"}, {"LEMMA": "cable"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_ELECTRICITE_RUPTURE_DE_CABLE_ARRACHEMENT_DE_CABLE_ARRACHEMENT_DE_SUPPORT_DE_CABLE", "pattern": [{"LEMMA": "arrachement"}, {"LEMMA": "câble"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_D_EAU_FUITE_D_EAU", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "eau"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_DE_GAZ_FUITE_DE_GAZ", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "gaz"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_DE_GAZ_FUITE_DE_GAZ_SUR_BOUTEILLE", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "gaz"}, {"LEMMA": "bouteille"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_DE_GAZ_FUITE_SUR_RESEAU_DE_GAZ_ENFLAMMEE", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "gaz"}, {"LEMMA": "réseau"}, {"LEMMA": "enflammée"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_DE_GAZ_FUITE_SUR_RESEAU_DE_GAZ_NON_ENFLAMMEE", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "gaz"}, {"LEMMA": "réseau"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_DE_GAZ_FUITE_SUR_RESEAU_DE_GAZ_IMPORTANTE", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "gaz"}, {"LEMMA": "réseau"}, {"LEMMA": "importante"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_D_AUTRES_FLUIDES_FUITE_D_AUTRES_FLUIDES", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "fuite"}, {"LEMMA": "fluides"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_D_AUTRES_FLUIDES_FUITE_DE_FLUIDES_LIQUIDES", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "fluides"}, {"LEMMA": "liquides"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_FUITE_D_AUTRES_FLUIDES_FUITE_DE_FLUIDES_GAZEUX", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "fluides"}, {"LEMMA": "gazeux"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_PANNE_D_ASCENSEUR_PANNE_D_ASCENSEUR", "pattern": [{"LEMMA": "panne"}, {"LEMMA": "ascenseur"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_PANNE_D_ASCENSEUR_AVEC_PRESENCE_DE_PERSONNE_VULNERABLE", "pattern": [{"LEMMA": "panne"}, {"LEMMA": "ascenseur"}, {"LEMMA": "sans"}, {"LEMMA": "occupant"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_PANNE_D_ASCENSEUR_VIDE_D_OCCUPANT", "pattern": [{"LEMMA": "panne"}, {"LEMMA": "ascenseur"}, {"LEMMA": "sans"}, {"LEMMA": "occupant"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_CHAUDIERE_SURCHAUFFEE_CHAUDIERE_SURCHAUFFEE", "pattern": [{"LEMMA": "chaudière"}, {"LEMMA": "surchauffée"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_POLLUTION", "pattern": [{"LEMMA": "pollution"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_POLLUTION_TERRESTRE", "pattern": [{"LEMMA": "pollution"}, {"LEMMA": "terrestre"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_FUT_SUSPECT_BIDON_SUSPECT", "pattern": [{"LEMMA": "fût"}, {"LEMMA": "suspect"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_FUT_SUSPECT_BIDON_SUSPECT", "pattern": [{"LEMMA": "bidon"}, {"LEMMA": "suspect"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_POLLUTION_AQUATIQUE", "pattern": [{"LEMMA": "pollution"}, {"LEMMA": "aquatique"}]}
+{"label": "CISU_NAT_ALEA_NATUREL_ALEA_ENVIRONNEMENTAL_ALEA_METEOROLOGIQUE_POLLUTION_POLLUTION_AERIENNE", "pattern": [{"LEMMA": "pollution"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_AUTRE_ALEAS_TECHNOLOGIQUE_AUTRE_ALEAS_TECHNOLOGIQUE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "aléa"}, {"LEMMA": "technologique"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS", "pattern": [{"LEMMA": "dégâts"}, {"LEMMA": "bâtiments"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS", "pattern": [{"LEMMA": "dégâts"}, {"LEMMA": "installations"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS_IMMEUBLE_EN_PERIL", "pattern": [{"LEMMA": "immeuble"}, {"LEMMA": "péril"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS_MENACE_DE_CHUTE_DE_MATERIAUX_CHUTE_DE_MATERIAUX", "pattern": [{"LEMMA": "menace"}, {"LEMMA": "chute"}, {"LEMMA": "matériaux"}]}
+{"label": "CISU_NAT_ALEA_TECHNOLOGIQUE_ALEA_TECHNIQUE_DEGATS_BATIMENTS_DEGATS_D_INSTALLATIONS_MENACE_DE_CHUTE_DE_MATERIAUX_CHUTE_DE_MATERIAUX", "pattern": [{"LEMMA": "chute"}, {"LEMMA": "matériaux"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX", "pattern": [{"LEMMA": "atteinte"}, {"LEMMA": "biens"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX", "pattern": [{"LEMMA": "atteintes"}, {"LEMMA": "animaux"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "dégradations"}, {"LEMMA": "volontaires"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "dégradation"}, {"LEMMA": "bâtiment"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "dégradation"}, {"LEMMA": "local"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "dégradation"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "dégradation"}, {"LEMMA": "autres"}, {"LEMMA": "biens"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "jets"}, {"LEMMA": "projectiles"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "caillassage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "profanation"}, {"LEMMA": "cimetière"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DEGRADATIONS_VOLONTAIRES", "pattern": [{"LEMMA": "profanation"}, {"LEMMA": "lieu"}, {"LEMMA": "culte"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL", "pattern": [{"LEMMA": "vol"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_A_L_ARRACHE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "arraché"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_A_LA_PORTIERE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "portière"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_A_L_ETALAGE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "étalage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_A_LA_ROULOTTE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "roulotte"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_VEHICULE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_CARBURANT", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "carburant"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_DAB_VOL_DANS_LE_DAB", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "dab"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_DAB_VOL_DANS_LE_DAB", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "dab"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_FRET", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "fret"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_DE_METAUX", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "métaux"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_PAR_RUSE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "ruse"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_D_ARMES", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "armes"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_A_MAIN_ARMEE", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "main"}, {"LEMMA": "armée"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_VOL_AVEC_VIOLENCE_EXTORSION_RACKET", "pattern": [{"LEMMA": "vol"}, {"LEMMA": "violence"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_CAR_JACKING", "pattern": [{"LEMMA": "car"}, {"LEMMA": "jacking"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_VOL_AUTRES_TYPES_DE_VOL", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "types"}, {"LEMMA": "vol"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_CAMBRIOLAGE_CAMBRIOLAGE", "pattern": [{"LEMMA": "cambriolage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_CAMBRIOLAGE_HOME_JACKING", "pattern": [{"LEMMA": "home"}, {"LEMMA": "jacking"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_CAMBRIOLAGE_AUTRE_TYPE_DE_CAMBRIOLAGE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "type"}, {"LEMMA": "cambriolage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_INTRUSION_INTRUSION", "pattern": [{"LEMMA": "intrusion"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_INTRUSION_VIOLATION_DE_DOMICILE", "pattern": [{"LEMMA": "violation"}, {"LEMMA": "domicile"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_INTRUSION_DECLENCHEMENT_D_ALARME_INTRUSION", "pattern": [{"LEMMA": "déclenchement"}, {"LEMMA": "alarme"}, {"LEMMA": "intrusion"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ESCROQUERIE_FILOUTERIE_GRIVELERIE_ESCROQUERIE_FILOUTERIE_GRIVELERIE", "pattern": [{"LEMMA": "escroquerie"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ESCROQUERIE_FILOUTERIE_GRIVELERIE_ESCROQUERIE_FILOUTERIE_GRIVELERIE", "pattern": [{"LEMMA": "filouterie"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ESCROQUERIE_FILOUTERIE_GRIVELERIE_ESCROQUERIE_FILOUTERIE_GRIVELERIE", "pattern": [{"LEMMA": "grivèlerie"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_AUTRE_ATTEINTE_AUX_BIENS_AUTRE_ATTEINTE_AUX_BIENS", "pattern": [{"LEMMA": "atteinte"}, {"LEMMA": "biens"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DISPARITION_D_ANIMAL_DISPARITION_D_ANIMAL", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "animal"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DECOUVERTE_D_ANIMAL_DIVAGATION_D_ANIMAL_DECOUVERTE_D_ANIMAL_DIVAGATION_D_ANIMAL", "pattern": [{"LEMMA": "divagation"}, {"LEMMA": "animal"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_DECOUVERTE_D_ANIMAL_MORT_DECOUVERTE_CARCASSE_D_ANIMAL_DECOUVERTE_D_ANIMAL_MORT_DECOUVERTE_CARCASSE_D_ANIMAL", "pattern": [{"LEMMA": "animal"}, {"LEMMA": "mort"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_HYMENOPTERES_HYMENOPTERES", "pattern": [{"LEMMA": "guèpe"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_HYMENOPTERES_HYMENOPTERES", "pattern": [{"LEMMA": "frelon"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_HYMENOPTERES_HYMENOPTERES", "pattern": [{"LEMMA": "abeille"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ANIMAL_EN_DIFFICULTE_ANIMAL_BLESSE_ANIMAL_EN_DIFFICULTE_ANIMAL_BLESSE", "pattern": [{"LEMMA": "animal"}, {"LEMMA": "difficulté"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ANIMAL_EN_DIFFICULTE_ANIMAL_BLESSE_ANIMAL_EN_DIFFICULTE_ANIMAL_BLESSE", "pattern": [{"LEMMA": "animal"}, {"LEMMA": "blessé"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_ANIMAL_DANGEREUX_ANIMAL_SAUVAGE_ANIMAL_DANGEREUX_ANIMAL_SAUVAGE", "pattern": [{"LEMMA": "animal"}, {"LEMMA": "dangereux"}, {"LEMMA": "ou"}, {"LEMMA": "sauvage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_EPIZOOTIE_EPIZOOTIE", "pattern": [{"LEMMA": "epizootie"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_BRACONNAGE_BRACONNAGE", "pattern": [{"LEMMA": "braconnage"}]}
+{"label": "CISU_NAT_ATTEINTE_AUX_BIENS_ATTEINTES_AUX_ANIMAUX_AUTRE_FAIT_D_ANIMAL_AUTRE_FAIT_D_ANIMAL", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "animal"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_ORDRE_PUBLIC_ORDRE_PUBLIC", "pattern": [{"LEMMA": "ordre"}, {"LEMMA": "public"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_ALERTE_A_LA_BOMBE_ALERTE_A_LA_BOMBE", "pattern": [{"LEMMA": "alerte"}, {"LEMMA": "bombe"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_VIOLENCE_URBAINE_VIOLENCE_URBAINE", "pattern": [{"LEMMA": "violences"}, {"LEMMA": "urbaines"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS", "pattern": [{"LEMMA": "différends"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS", "pattern": [{"LEMMA": "litiges"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_DIFFEREND_FAMILIAL", "pattern": [{"LEMMA": "différend"}, {"LEMMA": "familial"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_NON_PRESENTATION_D_ENFANT", "pattern": [{"LEMMA": "différend"}, {"LEMMA": "familial"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_NON_PRESENTATION_D_ENFANT", "pattern": [{"LEMMA": "non"}, {"LEMMA": "présentation"}, {"LEMMA": "enfant"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_DIFFEREND_DE_VOISINAGE", "pattern": [{"LEMMA": "différends"}, {"LEMMA": "voisinage"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_AUTRES_DIFFERENDS", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "différends"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DIFFERENDS_INTER_PERSONNELS_LITIGES_INTER_PERSONNELS_LITIGES", "pattern": [{"LEMMA": "litiges"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_RASSEMBLEMENT", "pattern": [{"LEMMA": "rassemblement"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_GREVE", "pattern": [{"LEMMA": "grève"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_MANIFESTATION", "pattern": [{"LEMMA": "manifestation"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_FREE_PARTY_RAVE_PARTY_TEKNIVAL", "pattern": [{"LEMMA": "free"}, {"LEMMA": "party"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_FREE_PARTY_RAVE_PARTY_TEKNIVAL", "pattern": [{"LEMMA": "rave"}, {"LEMMA": "party"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_FREE_PARTY_RAVE_PARTY_TEKNIVAL", "pattern": [{"LEMMA": "teknival"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_RASSEMBLEMENT_AUTRE_RASSEMBLEMENT", "pattern": [{"LEMMA": "rassemblement"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_IVRESSE_PUBLIQUE_IVRESSE_MANIFESTE_IVRESSE_PUBLIQUE_IVRESSE_MANIFESTE", "pattern": [{"LEMMA": "ivresse"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_OVNI_PHENOMENE_AEROSPATIAL_NON_IDENTIFIE_OVNI_PHENOMENE_AEROSPATIAL_NON_IDENTIFIE", "pattern": [{"LEMMA": "ovni"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_OVNI_PHENOMENE_AEROSPATIAL_NON_IDENTIFIE_OVNI_PHENOMENE_AEROSPATIAL_NON_IDENTIFIE", "pattern": [{"LEMMA": "phénomènes"}, {"LEMMA": "spatiaux"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES_NUISANCES_PARTICULIERES", "pattern": [{"LEMMA": "nuisances"}, {"LEMMA": "particulières"}, {"LEMMA": "ordre"}, {"LEMMA": "public"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES_OBSTACLE", "pattern": [{"LEMMA": "obstacles"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES_NUISANCE_AERONAUTIQUE", "pattern": [{"LEMMA": "nuisance"}, {"LEMMA": "aéronautique"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES_TAPAGE", "pattern": [{"LEMMA": "tapage"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES_OUVERTURE_INTEMPESTIVES_DE_BOUCHES_INCENDIES", "pattern": [{"LEMMA": "ouverture"}, {"LEMMA": "intempestive"}, {"LEMMA": "bouche"}, {"LEMMA": "incendie"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES", "pattern": [{"LEMMA": "perturbateurs"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_NUISANCES_PARTICULIERES", "pattern": [{"LEMMA": "personnes"}, {"LEMMA": "indésirables"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DETOURNEMENT_DETOURNEMENT", "pattern": [{"LEMMA": "détournement"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DETOURNEMENT_DETOURNEMENT_D_AERONEF", "pattern": [{"LEMMA": "détournement"}, {"LEMMA": "avion"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DETOURNEMENT_DETOURNEMENT_DE_NAVIRE", "pattern": [{"LEMMA": "détournement"}, {"LEMMA": "navire"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_DETOURNEMENT_DETOURNEMENT_DE_VEHICULE", "pattern": [{"LEMMA": "détournement"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "comportement"}, {"LEMMA": "suspect"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "comportement"}, {"LEMMA": "dangereux"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX_FORCENE", "pattern": [{"LEMMA": "forcené"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX_PERSONNE_DANGEREUSE", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "dangereuse"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "suspecte"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "rôdeur"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "piéton"}, {"LEMMA": "autoroute"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COMPORTEMENT_SUSPECT_COMPORTEMENT_DANGEREUX", "pattern": [{"LEMMA": "piéton"}, {"LEMMA": "voie"}, {"LEMMA": "rapide"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_VEHICULE_SUSPECT_VEHICULE_SUSPECT", "pattern": [{"LEMMA": "véhicule"}, {"LEMMA": "suspect"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COLIS_SUSPECTS_BAGAGES_SUSPECTS_ENVELOPPES_SUSPECTES_COLIS_SUSPECTS_BAGAGES_SUSPECTS_ENVELOPPES_SUSPECTES", "pattern": [{"LEMMA": "colis"}, {"LEMMA": "suspect"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_COUPS_DE_FEU_COUPS_DE_FEU", "pattern": [{"LEMMA": "coups"}, {"LEMMA": "feu"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "trouble"}, {"LEMMA": "ordre"}, {"LEMMA": "public"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_MUTINERIE_INCIDENT_EN_CENTRE_DE_DETENTION", "pattern": [{"LEMMA": "mutinerie"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_RODEO_AUTOMOBILE", "pattern": [{"LEMMA": "rodéo"}, {"LEMMA": "automobile"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_ATTROUPEMENT", "pattern": [{"LEMMA": "attroupement"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_BLOCAGE_DE_SITE", "pattern": [{"LEMMA": "blocage"}, {"LEMMA": "site"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_SURVOL_ILLICITE", "pattern": [{"LEMMA": "survol"}, {"LEMMA": "illicite"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_INCIDENT", "pattern": [{"LEMMA": "incident"}]}
+{"label": "CISU_NAT_ORDRE_PUBLIC_AUTRES_TROUBLES_A_L_ORDRE_PUBLIC_AUTRE_TROUBLE_A_L_ORDRE_PUBLIC", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "trouble"}, {"LEMMA": "ordre"}, {"LEMMA": "public"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_SUSPICION_D_INFRACTION_SUSPICION_D_INFRACTION", "pattern": [{"LEMMA": "suspicion"}, {"LEMMA": "infraction"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_PROSTITUTION_RACOLAGE_PROSTITUTION_RACOLAGE", "pattern": [{"LEMMA": "prostitution"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_PROSTITUTION_RACOLAGE_PROSTITUTION_RACOLAGE", "pattern": [{"LEMMA": "racolage"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_DETENTION_D_ARME_DETENTION_D_ARME", "pattern": [{"LEMMA": "détention"}, {"LEMMA": "arme"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_INFRACTION_AU_CODE_DE_LA_ROUTE", "pattern": [{"LEMMA": "infraction"}, {"LEMMA": "code"}, {"LEMMA": "route"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_STATIONNEMENT_DANGEREUX", "pattern": [{"LEMMA": "stationnement"}, {"LEMMA": "dangereux"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE", "pattern": [{"LEMMA": "conduite"}, {"LEMMA": "délictueuse"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE", "pattern": [{"LEMMA": "conduite"}, {"LEMMA": "dangereuse"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_CONDUITE_EN_ETAT_ALCOOLIQUE", "pattern": [{"LEMMA": "conduite"}, {"LEMMA": "état"}, {"LEMMA": "alcoolique"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_STATIONNEMENT_IRREGULIER_SENSIBLE", "pattern": [{"LEMMA": "stationnement"}, {"LEMMA": "irrégulier"}, {"LEMMA": "sensible"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_DELIT_DE_FUITE", "pattern": [{"LEMMA": "délit"}, {"LEMMA": "fuite"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_AU_CODE_DE_LA_ROUTE_CONDUITE_A_CONTRE_SENS", "pattern": [{"LEMMA": "conduite"}, {"LEMMA": "contre"}, {"LEMMA": "sens"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_A_LA_LEGISLATION_SUR_LE_TRAVAIL_INFRACTION_A_LA_LEGISLATION_SUR_LE_TRAVAIL", "pattern": [{"LEMMA": "infraction"}, {"LEMMA": "législation"}, {"LEMMA": "travail"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_A_LA_LEGISLATION_SUR_LE_TRAVAIL_INFRACTIONS_A_LA_LEGISLATION_SUR_LES_PROFESSIONS_REGLEMENTEES", "pattern": [{"LEMMA": "infractions"}, {"LEMMA": "législation"}, {"LEMMA": "professions"}, {"LEMMA": "réglementées"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_INFRACTION_A_LA_LEGISLATION_SUR_LE_TRAVAIL_VENTE_A_LA_SAUVETTE", "pattern": [{"LEMMA": "vente"}, {"LEMMA": "sauvette"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_TRAFIC_DE_STUPEFIANTS_TRAFIC_DE_STUPEFIANTS", "pattern": [{"LEMMA": "trafic"}, {"LEMMA": "stupéfiants"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AFFAIRE_LIEE_A_LA_LEGISLATION_SUR_LES_SEJOURS_EN_FRANCE_AFFAIRE_LIEE_A_LA_LEGISLATION_SUR_LES_SEJOURS_EN_FRANCE", "pattern": [{"LEMMA": "affaire"}, {"LEMMA": "liée"}, {"LEMMA": "législation"}, {"LEMMA": "séjours"}, {"LEMMA": "france"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AFFAIRE_LIEE_A_LA_LEGISLATION_SUR_LES_SEJOURS_EN_FRANCE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "étranger"}, {"LEMMA": "situation"}, {"LEMMA": "irrégulière"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_OCCUPATION_ILLEGALE_D_UN_LIEU_OCCUPATION_ILLEGALE_D_UN_LIEU", "pattern": [{"LEMMA": "occupation"}, {"LEMMA": "illégale"}, {"LEMMA": "lieu"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_OCCUPATION_ILLEGALE_D_UN_LIEU_SQUAT_RAVE_PARTY", "pattern": [{"LEMMA": "squat"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_OCCUPATION_ILLEGALE_D_UN_LIEU_LIEU_DE_CULTE_CLANDESTIN", "pattern": [{"LEMMA": "lieu"}, {"LEMMA": "culte"}, {"LEMMA": "clandestin"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_AUTRES_INFRACTIONS", "pattern": [{"LEMMA": "autres"}, {"LEMMA": "infractions"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_INFRACTION_AERIENNE", "pattern": [{"LEMMA": "infraction"}, {"LEMMA": "aérienne"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_INFRACTION_COMPORTEMENT_VOYAGEUR", "pattern": [{"LEMMA": "infraction"}, {"LEMMA": "comportement"}, {"LEMMA": "voyageur"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_FAUSSE_MONNAIE", "pattern": [{"LEMMA": "fausse"}, {"LEMMA": "monnaie"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_ORPAILLAGE", "pattern": [{"LEMMA": "orpaillage"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_JEUX_ILLEGAUX", "pattern": [{"LEMMA": "jeux"}, {"LEMMA": "illégaux"}]}
+{"label": "CISU_NAT_SUSPICION_D_INFRACTION_AUTRES_INFRACTIONS_NON_RESPECT_DECISION_DE_JUSTICE", "pattern": [{"LEMMA": "non"}, {"LEMMA": "respect"}, {"LEMMA": "décision"}, {"LEMMA": "justice"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITIONS_DECOUVERTES_DISPARITIONS_DECOUVERTES", "pattern": [{"LEMMA": "disparition"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITIONS_DECOUVERTES_DISPARITIONS_DECOUVERTES", "pattern": [{"LEMMA": "découverte"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "personne"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "personne"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_FUITE_DE_MALFAITEUR_EVASION", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "malfaiteur"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_FUITE_DE_MALFAITEUR_EVASION", "pattern": [{"LEMMA": "évasion"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "personnes"}, {"LEMMA": "troubles"}, {"LEMMA": "psychiatriques"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU", "pattern": [{"LEMMA": "fuite"}, {"LEMMA": "personnes"}, {"LEMMA": "troubles"}, {"LEMMA": "neurologiques"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_DISPARITION_DE_PERSONNE_VULNERABLE", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "personne"}, {"LEMMA": "vulnérable"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_ABSENCE_DE_REPONSE_AUX_APPELS", "pattern": [{"LEMMA": "personne"}, {"LEMMA": "ne"}, {"LEMMA": "répondant"}, {"LEMMA": "pas"}, {"LEMMA": "appels"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_AUTRE_DISPARITION_INQUIETANTE", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "inquiétante"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_FUGUE", "pattern": [{"LEMMA": "fugue"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_RECHERCHE_DE_PERSONNE_SECOURS_A_PERSONNE_INVESTIGATION", "pattern": [{"LEMMA": "recherche"}, {"LEMMA": "personne"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_INDIVIDU_DECOUVERTE_D_INDIVIDU_DECOUVERTE_DE_PERSONNE_EGAREE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "personne"}, {"LEMMA": "égarée"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_DE_CADAVRE_DECOUVERTE_DE_CADAVRE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "cadavre"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_DE_CADAVRE_MORT_A_PRIORI_SUSPECTE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "cadavre"}, {"LEMMA": "mort"}, {"LEMMA": "suspecte"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_DE_CADAVRE_MORT_A_PRIORI_NATURELLE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "cadavre"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_OBJET_DECOUVERTE_D_OBJET_DISPARITION_D_OBJET_DECOUVERTE_D_OBJET", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "ou"}, {"LEMMA": "découverte"}, {"LEMMA": "objet"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_OBJET_DECOUVERTE_D_OBJET_DISPARITION_D_OBJET", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "objet"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_OBJET_DECOUVERTE_D_OBJET_DECOUVERTE_D_OBJET", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "objet"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "engin"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "engin"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF_DISPARITION_D_OBJET", "pattern": [{"LEMMA": "disparition"}, {"LEMMA": "engin"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DISPARITION_D_ENGIN_EXPLOSIF_DECOUVERTE_D_ENGIN_EXPLOSIF_DECOUVERTE_D_OBJET", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "engin"}, {"LEMMA": "explosif"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_DE_STUPEFIANTS_DECOUVERTE_DE_STUPEFIANTS", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "stupéfiants"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_D_ARMES_DECOUVERTE_D_ARMES", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "armes"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_DECOUVERTE_DE_VEHICULE_VOLE_DECOUVERTE_DE_VEHICULE_VOLE", "pattern": [{"LEMMA": "découverte"}, {"LEMMA": "véhicule"}, {"LEMMA": "volé"}]}
+{"label": "CISU_NAT_DISPARITIONS_DECOUVERTES_AUTRE_DECOUVERTE_AUTRE_DECOUVERTE", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "découverte"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_AUTRE_NATURE_DE_FAIT_AUTRE_NATURE_DE_FAIT", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "nature"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME_ALARME", "pattern": [{"LEMMA": "alarme"}, {"LEMMA": "déclenchée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME_ALARME_INCENDIE", "pattern": [{"LEMMA": "alarme"}, {"LEMMA": "incendie"}, {"LEMMA": "déclenchée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME_ALARME_VOL_ALARME_INTRUSION", "pattern": [{"LEMMA": "alarme"}, {"LEMMA": "intrusion"}, {"LEMMA": "déclenchée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME", "pattern": [{"LEMMA": "secours"}, {"LEMMA": "personne"}, {"LEMMA": "téléalarme"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME", "pattern": [{"LEMMA": "téléalarme"}, {"LEMMA": "applications"}, {"LEMMA": "mobiles"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ALARME_DISPOSITIF_TRAVAILLEUR_ISOLE", "pattern": [{"LEMMA": "dispositif"}, {"LEMMA": "travailleur"}, {"LEMMA": "isolé"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_DE_SECURISATION_DEMANDE_DE_SECURISATION", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "sécurisation"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_DE_SECURISATION_PROTECTION_DE_DROP_ZONE", "pattern": [{"LEMMA": "protection"}, {"LEMMA": "zone"}, {"LEMMA": "poser"}, {"LEMMA": "hélicoptère"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_DE_SECURISATION", "pattern": [{"LEMMA": "visite"}, {"LEMMA": "sensible"}, {"LEMMA": "autorité"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_DE_SECURISATION", "pattern": [{"LEMMA": "convoi"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_DE_SECURISATION", "pattern": [{"LEMMA": "escorte"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "information"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "orientation"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION_DEMANDE_DE_RENSEIGNEMENT", "pattern": [{"LEMMA": "demande"}, {"LEMMA": "renseignement"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION_CONSEIL_ORIENTATION", "pattern": [{"LEMMA": "conseil"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_DEMANDE_D_INFORMATION_DEMANDE_D_ORIENTATION_CONSEIL_ORIENTATION", "pattern": [{"LEMMA": "orientation"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_APPELS_MALVEILLANTS_APPELS_ANONYMES_INTEMPESTIFS_APPELS_MALVEILLANTS_APPELS_ANONYMES_INTEMPESTIFS", "pattern": [{"LEMMA": "appels"}, {"LEMMA": "malveillants"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_APPELS_MALVEILLANTS_APPELS_ANONYMES_INTEMPESTIFS_APPELS_MALVEILLANTS_APPELS_ANONYMES_INTEMPESTIFS", "pattern": [{"LEMMA": "appels"}, {"LEMMA": "intempestifs"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_INCIDENT_TECHNIQUE", "pattern": [{"LEMMA": "incident"}, {"LEMMA": "technique"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_ECHOUEMENT_NAUFRAGE", "pattern": [{"LEMMA": "echouement"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_ECHOUEMENT_NAUFRAGE", "pattern": [{"LEMMA": "naufrage"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_DEPANNAGE_VEHICULE", "pattern": [{"LEMMA": "dépannage"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_PORTE_VERROUILLEE", "pattern": [{"LEMMA": "porte"}, {"LEMMA": "verrouillée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_PROBLEME_TECHNIQUE_SUR_UN_VEHICULE", "pattern": [{"LEMMA": "problème"}, {"LEMMA": "technique"}, {"LEMMA": "véhicule"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_OBSTRUCTION_DE_CHAUSSEE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "chaussée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_OBSTRUCTION_DE_VOIE_FERREE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "voie"}, {"LEMMA": "ferrée"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_INCIDENT_TECHNIQUE_OBSTRUCTION_DE_VOIE_NAVIGABLE", "pattern": [{"LEMMA": "obstruction"}, {"LEMMA": "voie"}, {"LEMMA": "navigable"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_REQUISITION_JUDICIAIRE_REQUISITION_JUDICIAIRE", "pattern": [{"LEMMA": "réquisition"}, {"LEMMA": "judiciaire"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_ODEUR_SUSPECTE_ODEUR_SUSPECTE", "pattern": [{"LEMMA": "odeur"}, {"LEMMA": "suspecte"}]}
+{"label": "CISU_NAT_AUTRE_NATURE_DE_FAIT_AUTRE_NATURE_DE_FAIT_AUTRE_NATURE_DE_FAIT", "pattern": [{"LEMMA": "autre"}, {"LEMMA": "nature"}]}

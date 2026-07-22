@@ -1,0 +1,520 @@
+﻿Travail sur « evaluate_wer_metier_complet.py »
+travail sur l’évaluation de Whisper cela représente une troisième étape de modification et d’amélioration
+
+# nom du fichier : python evaluate_wer_metier_complet.py
+# commande type : python evaluate_wer_metier_complet.py --eaf "Appel_3540_annotation_finale.eaf" --json "transcription_whisper_3540_brute.json"
+# ex précis de commande : python evaluate_wer_metier_complet.py --eaf "audio_elan_3540.eaf" --json "audio-3540.json"
+
+# recherche des manquement de whisperX par rapport annotation elan
+# pas de séparation des locuteurs
+# travail en cours pour amélioration
+Ce que fait ce script :
+    1. Extraction des mots métier : Utilise mon ontologie SDIS pour identifier tous les mots/phrases métier dans la référence ELAN (tous locuteurs confondus)
+    2. Analyse précise des erreurs :
+        ◦ Correct : Le mot métier est présent dans WhisperX
+        ◦ Substitution : Le mot a été remplacé par un autre (avec score de similarité)
+        ◦ Délétion : Le mot a complètement disparu
+        ◦ Insertion : WhisperX a halluciné des mots métier inexistants
+    3. Métriques détaillées :
+        ◦ WER Métier (taux d'erreur spécifique aux mots métier)
+        ◦ Précision par catégorie (CONSCIENCE_NEURO, TRAUMATISME, etc.)
+        ◦ Contexte des erreurs pour analyse qualitative
+    4. Rapport JSON : Sauvegarde des erreurs détaillées pour analyse ultérieure
+Le script ignore complètement la distinction des locuteurs et traite les transcriptions dans leur intégralité.
+
+Résultat (copie écran du terminal)
+
+audio 3540
+
+Chargement du modèle d'Intelligence Artificielle (spaCy)... patientez.
+[INFO] 586 communes chargées depuis le fichier.
+
+[CHARGEMENT] Analyse de audio_elan_3540.eaf et audio-3540.json...
+   ✓ Référence ELAN: 89 segments, 645 mots
+   ✓ WhisperX: 555 mots
+
+  Extraction des mots métier depuis la référence ELAN...
+   - Ontologie SDIS (Regex)
+   - Détection automatique spaCy (NER)
+   → Total: 18 mots/phrases métier
+     - Regex SDIS: 15
+     - spaCy NER: 3
+   
+
+
+===============================================
+ RAPPORT D'ANALYSE COMPLET AVEC SPACY NER
+===============================================
+
+  STATISTIQUES GLOBALES:
+   Total concepts métier trouvés: 18
+   ├─ Ontologie SDIS (Regex): 15
+   └─ Détection automatique (spaCy): 3
+
+    Corrects issu de Whisper : 9 (50.0%)
+    Substitutions: 2
+    Délétions: 7
+    Insertions: 12
+
+    WER Métier: 50.0%
+
+
+  CONCEPTS CORRECTEMENT PERÇUS par Whisper (9):
+--------------------------------------------------------------------------------
+   [CONSCIENCE_NEURO] 'tombé' → 'tombé'
+   └─ Détecté par: Ontologie SDIS
+   [ACCIDENT_ROUTE] 'accident' → 'accident'
+   └─ Détecté par: Ontologie SDIS
+   [ACCIDENT_ROUTE] 'tonneaux' → 'tonneaux'
+   └─ Détecté par: Ontologie SDIS
+   [ACCIDENT_ROUTE] 'voitures' → 'voitures'
+   └─ Détecté par: Ontologie SDIS
+   [ACCIDENT_ROUTE] 'voiture' → 'voiture'
+   └─ Détecté par: Ontologie SDIS
+   [ACCIDENT_ROUTE] 'camion' → 'camion'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'dans un fossé' → 'dans un fossé'
+   └─ Détecté par: Ontologie SDIS
+   [LIEU_AUTO_LOC] 'méditerranée' → 'Méditerranée'
+   └─ Détecté par: spaCy NER (LOC)
+   [LIEU_AUTO_LOC] 'qu’' → 'qu’'
+   └─ Détecté par: spaCy NER (LOC)
+
+
+  SUBSTITUTIONS de Whisper (2):
+--------------------------------------------------------------------------------
+   [COMMUNES_31] 'lagrace-dieu'
+   → Remplacé par: 'Grasse-Dieu' (sim=78%)
+   └─ Détecté par: Ontologie SDIS
+   [MESURES] '25 mètres'
+   → Remplacé par: 'metres' (sim=80%)
+   └─ Détecté par: Ontologie SDIS
+
+
+  CONCEPTS MANQUANTS ratés par whisper(7):
+--------------------------------------------------------------------------------
+   [LOCALISATION_SPECIFIQUE] 'd six cent vingt deux'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'a  25'
+   └─ Détecté par: Ontologie SDIS
+   [COMMUNES_31] 'saint sulpice sur leze'
+   └─ Détecté par: Ontologie SDIS
+   [AGE_VICTIME] 'soixante ans'
+   └─ Détecté par: Ontologie SDIS
+   [MESURES] 'quarante ou cinquante mètres'
+   └─ Détecté par: Ontologie SDIS
+   [MESURES] 'quarante mètres'
+   └─ Détecté par: Ontologie SDIS
+   [PERSONNE_AUTO_PER] 'saint sulpice'
+   └─ Détecté par: spaCy NER (PER)
+
+
+  HALLUCINATIONS DÉTECTÉES ou insertions de Whisper(12):
+--------------------------------------------------------------------------------
+
+    Entités nommées hallucinées (spaCy):
+   - 'vehicule' (type: LOC)
+
+
+=================================================
+ SYNTHÈSE PAR TYPE DE CONCEPT
+=================================================
+
+ACCIDENT_ROUTE            [████████████████████] 100% (5/5)
+   └─ Sources: {'Ontologie SDIS': 5}
+
+AGE_VICTIME               [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+COMMUNES_31               [░░░░░░░░░░░░░░░░░░░░] 0% (0/2)
+
+CONSCIENCE_NEURO          [████████████████████] 100% (1/1)
+   └─ Sources: {'Ontologie SDIS': 1}
+
+DIVERS                    [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+LIEU                      [████████████████████] 100% (2/2)
+   └─ Sources: {'spaCy NER (LOC)': 2}
+
+LOCALISATION_SPECIFIQUE   [██████░░░░░░░░░░░░░░] 33% (1/3)
+   └─ Sources: {'Ontologie SDIS': 1}
+
+MESURES                   [░░░░░░░░░░░░░░░░░░░░] 0% (0/3)
+
+
+  Rapport JSON sauvegardé dans rapport_complet_spacy.json
+
+
+===========================================================
+ LISTE COMPLÈTE DES MOTS MÉTIER IDENTIFIÉS
+===========================================================
+  1. [CONSCIENCE_NEURO        ] tombé                               ✅ PERÇU
+ 2. [ACCIDENT_ROUTE           ] accident                            ✅ PERÇU
+ 3. [ACCIDENT_ROUTE           ] tonneaux                            ✅ PERÇU
+ 4. [ACCIDENT_ROUTE           ] voitures                            ✅ PERÇU
+ 5. [ACCIDENT_ROUTE           ] voiture                             ✅ PERÇU
+ 6. [ACCIDENT_ROUTE           ] camion                              ✅ PERÇU
+ 7. [LOCALISATION_SPECIFIQUE  ] d six cent vingt deux               ❌ NON PERÇU
+ 8. [LOCALISATION_SPECIFIQUE  ] a 25                                ❌ NON PERÇU
+ 9. [LOCALISATION_SPECIFIQUE  ] dans un fossé                       ✅ PERÇU
+10. [COMMUNES_31              ] saint sulpice sur leze              ❌ NON PERÇU
+11. [COMMUNES_31              ] lagrace-dieu                        ❌ NON PERÇU
+12. [AGE_VICTIME              ] soixante ans                        ❌ NON PERÇU
+13. [MESURES                  ] 25 mètres                           ❌ NON PERÇU
+14. [MESURES                  ] quarante ou cinquante mètres        ❌ NON PERÇU
+15. [MESURES                  ] quarante mètres                     ❌ NON PERÇU
+16. [LIEU_AUTO_LOC            ] méditerranée                        ✅ PERÇU
+17. [LIEU_AUTO_LOC            ] qu’                                 ✅ PERÇU
+18. [DIVERS_AUTO_MISC         ] saint sulpice                       ❌ NON PERÇU
+
+
+
+===========================================
+ FIN DE L'ANALYSE
+===========================================
+
+
+Ce que ce script apporte  :
+1. Double détection des concepts métier :
+    • Regex SDIS : Votre ontologie métier spécialisée
+    • spaCy NER : Détection automatique des entités (lieux, personnes, dates, etc.)
+2. Statistiques par source :
+    • Combien de concepts viennent des regex vs spaCy
+    • Performance différenciée par type de détection
+3. Analyse des insertions enrichie :
+    • spaCy valide si les hallucinations sont des entités nommées pertinentes
+    • Distingue les vraies hallucinations des erreurs de transcription
+4. Rapport détaillé par type :
+    • Concepts métier SDIS (votre vocabulaire spécifique)
+    • Entités automatiques (lieux, personnes, dates trouvés par l'IA)
+Avantages de cette approche :
+    1. Complémentarité : Les regex capturent le vocabulaire métier, spaCy capture le contexte général
+    2. Robustesse : Si un lieu n'est pas dans votre gazetteer, spaCy peut quand même le détecter
+    3. Analyse plus fine : Comprendre quels types d'entités posent problème à Whisper
+
+Appel 1826
+
+Chargement du modèle d'Intelligence Artificielle (spaCy)... patientez.
+[INFO] 586 communes chargées depuis le fichier.
+
+[CHARGEMENT] Analyse de audio_elan_1826.eaf et audio-1826.json...
+   ✓ Référence ELAN: 143 segments, 795 mots
+   ✓ WhisperX: 1105 mots
+
+  Extraction des mots métier depuis la référence ELAN...
+   - Ontologie SDIS (Regex)
+   - Détection automatique spaCy (NER)
+   → Total: 29 mots/phrases métier
+     - Regex SDIS: 12
+     - spaCy NER: 17
+
+
+==================================================
+ RAPPORT D'ANALYSE COMPLET AVEC SPACY NER
+==================================================
+
+  STATISTIQUES GLOBALES:
+   Total concepts métier trouvés: 29
+   ├─ Ontologie SDIS (Regex): 12
+   └─ Détection automatique (spaCy): 17
+
+    Corrects issu de Whisper : 22 (75.9%)
+    Substitutions: 4
+    Délétions: 3
+    Insertions: 44
+
+    WER Métier: 24.1%
+
+
+  CONCEPTS CORRECTEMENT PERÇUS par Whisper (22):
+--------------------------------------------------------------------------------
+   [CONSCIENCE_NEURO] 'ne bouge plus' → 'ne bouge plus'
+   └─ Détecté par: Ontologie SDIS
+   [CONSCIENCE_NEURO] 'tremble' → 'tremble'
+   └─ Détecté par: Ontologie SDIS
+   [CONSCIENCE_NEURO] 'tremblements' → 'tremblements'
+   └─ Détecté par: Ontologie SDIS
+   [DETRESSE_VITALE] 'alzheimer' → 'Alzheimer'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'rue grosse alors' → 'rue grosse alors'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'rue vous m' → 'rue vous m'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'maison' → 'maison'
+   └─ Détecté par: Ontologie SDIS
+   [DEMANDE_MOYENS] 'docteur' → 'docteur'
+   └─ Détecté par: Ontologie SDIS
+   [PERSONNE_AUTO_PER] 'Lewis' → 'Lewis'
+   └─ Détecté par: spaCy NER (PER)
+   [LIEU_AUTO_LOC] 'Lagardelle' → 'Lagardelle'
+   └─ Détecté par: spaCy NER (LOC)
+   [LIEU_AUTO_LOC] 'rue Grosse' → 'rue Grosse'
+   └─ Détecté par: spaCy NER (LOC)
+   [LIEU_AUTO_ORG] 'G R O S S E' → 'G R O S S E'
+   └─ Détecté par: spaCy NER (ORG)
+   [LIEU_AUTO_ORG] 'SAMU' → 'SAMU'
+   └─ Détecté par: spaCy NER (ORG)
+   [PERSONNE_AUTO_PER] 'Benoît François' → 'Benoît François'
+   └─ Détecté par: spaCy NER (PER)
+   [PERSONNE_AUTO_PER] 'Benoît' → 'Benoît'
+   └─ Détecté par: spaCy NER (PER)
+
+SUBSTITUTIONS de Whisper (4):
+---------------------------------------------------------------
+ [CONSCIENCE_NEURO] 'allité'
+   → Remplacé par: 'allez' (sim=73%)
+   └─ Détecté par: Ontologie SDIS
+   [COMMUNES_31] 'lagardelle sur léze'
+   → Remplacé par: 'Lagardelle-sur-Lez' (sim=81%)
+   └─ Détecté par: Ontologie SDIS
+   [IMPLIQUES] 'père'
+   → Remplacé par: 'peur' (sim=75%)
+   └─ Détecté par: Ontologie SDIS
+   [LIEU_AUTO_LOC] 'Léze'
+   → Remplacé par: 'lez' (sim=86%)
+   └─ Détecté par: spaCy NER (LOC)
+
+  CONCEPTS MANQUANTS ratés par whisper(3):
+--------------------------------------------------------------------------------
+   [AGE_VICTIME] 'soixante dix ans'
+   └─ Détecté par: Ontologie SDIS
+   [PERSONNE_AUTO_PER] 'Lewy'
+   └─ Détecté par: spaCy NER (PER)
+   [DIVERS_AUTO_MISC] 'Y je ne sais plus c'est des corps c'est corps'
+   └─ Détecté par: spaCy NER (MISC)
+
+
+  HALLUCINATIONS DÉTECTÉES ou insertions de Whisper(44):
+--------------------------------------------------------------------------------
+
+    Entités nommées hallucinées (spaCy):
+   - 'regardes' (type: PER)
+
+
+==========================================
+ SYNTHÈSE PAR TYPE DE CONCEPT
+==========================================
+
+AGE_VICTIME               [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+COMMUNES_31               [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+CONSCIENCE_NEURO          [███████████████░░░░░] 75% (3/4)
+   └─ Sources: {'Ontologie SDIS': 3}
+
+DEMANDE_MOYENS            [████████████████████] 100% (1/1)
+   └─ Sources: {'Ontologie SDIS': 1}
+
+DETRESSE_VITALE           [████████████████████] 100% (1/1)
+   └─ Sources: {'Ontologie SDIS': 1}
+
+DIVERS                    [████████████████░░░░] 80% (4/5)
+   └─ Sources: {'spaCy NER (MISC)': 4}
+
+IMPLIQUES                 [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+LIEU                      [████████████████░░░░] 80% (4/5)
+   └─ Sources: {'spaCy NER (LOC)': 2, 'spaCy NER (ORG)': 2}
+
+LOCALISATION_SPECIFIQUE   [████████████████████] 100% (3/3)
+   └─ Sources: {'Ontologie SDIS': 3}
+
+PERSONNE                  [█████████████████░░░] 86% (6/7)
+   └─ Sources: {'spaCy NER (PER)': 6}
+
+
+  Rapport JSON sauvegardé dans rapport_complet_spacy.json
+
+
+=====================================================
+ LISTE COMPLÈTE DES MOTS MÉTIER IDENTIFIÉS
+=====================================================
+  1. [CONSCIENCE_NEURO        ] ne bouge plus                      ✅ PERÇU
+ 2. [CONSCIENCE_NEURO         ] allité                             ❌ NON PERÇU
+ 3. [CONSCIENCE_NEURO         ] tremble                            ✅ PERÇU
+ 4. [CONSCIENCE_NEURO         ] tremblements                       ✅ PERÇU
+ 5. [DETRESSE_VITALE          ] alzheimer                          ✅ PERÇU
+ 6. [LOCALISATION_SPECIFIQUE  ] rue grosse alors                   ✅ PERÇU
+ 7. [LOCALISATION_SPECIFIQUE  ] rue vous m                         ✅ PERÇU
+ 8. [LOCALISATION_SPECIFIQUE  ] maison                             ✅ PERÇU
+ 9. [COMMUNES_31              ] lagardelle sur léze                ❌ NON PERÇU
+10. [IMPLIQUES                ] père                               ❌ NON PERÇU
+11. [AGE_VICTIME              ] soixante dix ans                   ❌ NON PERÇU
+12. [DEMANDE_MOYENS           ] docteur                            ✅ PERÇU
+13. [PERSONNE_AUTO_PER        ] Lewis                              ✅ PERÇU
+14. [LIEU_AUTO_LOC            ] Lagardelle                         ✅ PERÇU
+15. [LIEU_AUTO_LOC            ] Léze                               ❌ NON PERÇU
+16. [LIEU_AUTO_LOC            ] rue Grosse                         ✅ PERÇU
+17. [LIEU_AUTO_ORG            ] G R O S S E                        ✅ PERÇU
+18. [LIEU_AUTO_ORG            ] SAMU                               ✅ PERÇU
+19. [PERSONNE_AUTO_PER        ] Benoît François                    ✅ PERÇU
+20. [PERSONNE_AUTO_PER        ] Benoît                             ✅ PERÇU
+21. [PERSONNE_AUTO_PER        ] Benoît Benoît                      ✅ PERÇU
+22. [PERSONNE_AUTO_PER        ] François                           ✅ PERÇU
+23. [PERSONNE_AUTO_PER        ] François Benoît                    ✅ PERÇU
+24. [DIVERS_AUTO_MISC         ] L E W I S                          ✅ PERÇU
+25. [PERSONNE_AUTO_PER        ] Lewy                               ❌    NON PERÇU
+26. [DIVERS_AUTO_MISC         ] L E W Y                            ✅ PERÇU
+27. [DIVERS_AUTO_MISC         ] I L E W Y I                        ✅ PERÇU
+28. [DIVERS_AUTO_MISC         ]  L E W L E W I                     ✅ PERÇU
+29. [DIVERS_AUTO_MISC         ] Y je ne sais plus c'est des corps c'est corps ❌ NON PERÇU
+
+=======================================
+ FIN DE L'ANALYSE
+
+
+Appel 1968
+
+Chargement du modèle d'Intelligence Artificielle (spaCy)... patientez.
+[INFO] 586 communes chargées depuis le fichier.
+
+[CHARGEMENT] Analyse de audio-1968.eaf et audio-1968.json...
+   ✓ Référence ELAN: 52 segments, 316 mots
+   ✓ WhisperX: 307 mots
+
+  Extraction des mots métier depuis la référence ELAN...
+   - Ontologie SDIS (Regex)
+   - Détection automatique spaCy (NER)
+   → Total: 21 mots/phrases métier
+     - Regex SDIS: 16
+     - spaCy NER: 5
+
+
+================================================
+ RAPPORT D'ANALYSE COMPLET AVEC SPACY NER
+================================================
+
+  STATISTIQUES GLOBALES:
+   Total concepts métier trouvés: 21
+   ├─ Ontologie SDIS (Regex): 16
+   └─ Détection automatique (spaCy): 5
+
+    Corrects issu de Whisper : 13 (61.9%)
+    Substitutions: 2
+    Délétions: 6
+    Insertions: 8
+
+    WER Métier: 38.1%
+
+
+  CONCEPTS CORRECTEMENT PERÇUS par Whisper (13):
+--------------------------------------------------------------------------------
+   [CONSCIENCE_NEURO] 'ne répond pas' → 'ne répond pas'
+   └─ Détecté par: Ontologie SDIS
+   [CONSCIENCE_NEURO] 'malaise' → 'malaise'
+   └─ Détecté par: Ontologie SDIS
+   [DETRESSE_VITALE] 'sang' → 'sang'
+   └─ Détecté par: Ontologie SDIS
+   [DETRESSE_VITALE] 'métroragies' → 'métroragies'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'chemin de la plane exactement' → 'chemin de la plane exactement'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'batiment b okay batiment b d' → 'batiment b okay batiment b d'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'place tant qu' → 'place tant qu'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'place allez on arrive' → 'place allez on arrive'
+   └─ Détecté par: Ontologie SDIS
+   [LOCALISATION_SPECIFIQUE] 'batiment' → 'batiment'
+   └─ Détecté par: Ontologie SDIS
+   [IMPLIQUES] 'patiente' → 'patiente'
+   └─ Détecté par: Ontologie SDIS
+   [DEMANDE_MOYENS] 'médecin' → 'médecin'
+   └─ Détecté par: Ontologie SDIS
+   [DEMANDE_MOYENS] 'infirmière' → 'infirmière'
+   └─ Détecté par: Ontologie SDIS
+   [PERSONNE_AUTO_PER] 'monsieur' → 'monsieur'
+   └─ Détecté par: spaCy NER (PER)
+
+
+  SUBSTITUTIONS de Whisper (2):
+--------------------------------------------------------------------------------
+   [DETRESSE_VITALE] 'anémié'
+   → Remplacé par: 'anenie' (sim=83%)
+   └─ Détecté par: Ontologie SDIS
+   [COMMUNES_31] 'cornebarrieu'
+   → Remplacé par: 'Corneu-Barieux' (sim=85%)
+   └─ Détecté par: Ontologie SDIS
+
+
+  CONCEPTS MANQUANTS ratés par whisper(6):
+--------------------------------------------------------------------------------
+   [LOCALISATION_SPECIFIQUE] 'résidence eris c'
+   └─ Détecté par: Ontologie SDIS
+   [AGE_VICTIME] 'deux ans'
+   └─ Détecté par: Ontologie SDIS
+   [PERSONNE_AUTO_PER] 'madame Cornebarrieu'
+   └─ Détecté par: spaCy NER (PER)
+   [PERSONNE_AUTO_PER] 'Eris c’'
+   └─ Détecté par: spaCy NER (PER)
+   [DIVERS_AUTO_MISC] 'P E T E A U X'
+   └─ Détecté par: spaCy NER (MISC)
+   [LIEU_AUTO_LOC] 'P E T E A U X'
+   └─ Détecté par: spaCy NER (LOC)
+
+
+  HALLUCINATIONS DÉTECTÉES ou insertions de Whisper(8):
+--------------------------------------------------------------------------------
+
+    Entités nommées hallucinées (spaCy):
+   - 'barieux' (type: LOC)
+   - 'corneu' (type: PER)
+   - 'teto' (type: LOC)
+
+
+=============================================
+ SYNTHÈSE PAR TYPE DE CONCEPT
+=============================================
+AGE_VICTIME               [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+COMMUNES_31               [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+CONSCIENCE_NEURO          [████████████████████] 100% (2/2)
+   └─ Sources: {'Ontologie SDIS': 2}
+
+DEMANDE_MOYENS            [████████████████████] 100% (2/2)
+   └─ Sources: {'Ontologie SDIS': 2}
+
+DETRESSE_VITALE           [█████████████░░░░░░░] 67% (2/3)
+   └─ Sources: {'Ontologie SDIS': 2}
+
+DIVERS                    [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+IMPLIQUES                 [████████████████████] 100% (1/1)
+   └─ Sources: {'Ontologie SDIS': 1}
+
+LIEU                      [░░░░░░░░░░░░░░░░░░░░] 0% (0/1)
+
+LOCALISATION_SPECIFIQUE   [████████████████░░░░] 83% (5/6)
+   └─ Sources: {'Ontologie SDIS': 5}
+
+PERSONNE                  [██████░░░░░░░░░░░░░░] 33% (1/3)
+   └─ Sources: {'spaCy NER (PER)': 1}
+
+
+  Rapport JSON sauvegardé dans rapport_complet_spacy.json
+==================================================
+ LISTE COMPLÈTE DES MOTS MÉTIER IDENTIFIÉS
+===================================================
+1. [CONSCIENCE_NEURO                ] ne répond pas                          ✅ PERÇU
+ 2. [CONSCIENCE_NEURO               ] malaise                                ✅ PERÇU
+ 3. [DETRESSE_VITALE                ] sang                                   ✅ PERÇU
+ 4. [DETRESSE_VITALE                ] anémié                                 ❌ NON PERÇU
+ 5. [DETRESSE_VITALE                ] métroragies                            ✅ PERÇU
+ 6. [LOCALISATION_SPECIFIQUE        ] résidence eris c                       ❌ NON PERÇU
+ 7. [LOCALISATION_SPECIFIQUE        ] chemin de la plane exactement          ✅ PERÇU
+ 8. [LOCALISATION_SPECIFIQUE        ] batiment b okay batiment b d           ✅ PERÇU
+ 9. [LOCALISATION_SPECIFIQUE        ] place tant qu                          ✅ PERÇU
+10. [LOCALISATION_SPECIFIQUE        ] place allez on arrive                  ✅ PERÇU
+11. [LOCALISATION_SPECIFIQUE        ] batiment                               ✅ PERÇU
+12. [COMMUNES_31                    ] cornebarrieu                           ❌ NON PERÇU
+13. [IMPLIQUES                      ] patiente                               ✅ PERÇU
+14. [AGE_VICTIME                    ] deux ans                               ❌ NON PERÇU
+15. [DEMANDE_MOYENS                 ] médecin                                ✅ PERÇU
+16. [DEMANDE_MOYENS                 ]  infirmière                            ✅ PERÇU
+17. [PERSONNE_AUTO_PER              ] madame Cornebarrieu                    ❌ NON PERÇU
+18. [PERSONNE_AUTO_PER              ] Eris c’                                ❌ NON PERÇU
+19. [PERSONNE_AUTO_PER              ] monsieur                               ✅ PERÇU
+20. [DIVERS_AUTO_MISC               ] P E T E A U X                          ❌ NON PERÇU
+21. [LIEU_AUTO_LOC                  ] P E T E A U X                          ❌ NON PERÇU
+
+

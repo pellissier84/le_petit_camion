@@ -1,0 +1,136 @@
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "ne"}, {"LOWER": "va"}, {"LOWER": "pas"}, {"LOWER": "bien"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "ne"}, {"LOWER": "se"}, {"LOWER": "sent"}, {"LOWER": "pas"}, {"LOWER": "bien"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "ne"}, {"LOWER": {"REGEX": "^r[eé]agit$"}}, {"LOWER": "pas"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "ne"}, {"LOWER": "bouge"}, {"LOWER": {"IN": ["plus", "pas"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "ne"}, {"LOWER": "me", "OP": "?"}, {"LOWER": {"REGEX": "^r[eé]pond(s|ent|ait)?$"}}, {"LOWER": "pas"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^allong[eé]es?$"}}, {"LOWER": "au"}, {"LOWER": "sol"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^tomb[eé]es?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "inerte"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "perte"}, {"LOWER": "de"}, {"LOWER": {"IN": ["connaissance", "conscience"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^trembles?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^tremblements?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "crise"}, {"LOWER": "de"}, {"LOWER": {"IN": ["tremblements", "tremblement", "spasmophilie", "tétanie"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "crise"}, {"LOWER": {"REGEX": "^d['’]?$"}}, {"LOWER": "épilepsie"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "malaise"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^paralys([eé]es?|ie)$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "yeux"}, {"LOWER": "fixes"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^troubles?$"}}, {"LOWER": {"IN": ["sensoriels", "sensoriel", "élocution"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "troubles"}, {"LOWER": "de"}, {"LOWER": "la"}, {"LOWER": "vision"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^convulsions?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "pupilles"}, {"LOWER": {"REGEX": "^dilat[eé]es?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "vision"}, {"LOWER": {"REGEX": "^troubl[eé]es?$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "perte"}, {"LOWER": {"REGEX": "^d['’]?$"}}, {"LOWER": "équilibre"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^(vomissements?|vertiges?|évanouissements?)$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"IN": ["mal", "maux"]}}, {"LOWER": "de"}, {"LOWER": "tête"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "sous"}, {"LOWER": "emprise"}, {"LOWER": "de"}, {"LOWER": {"IN": ["drogue", "drogues", "alcool", "stupéfiants", "stupéfiant", "médicaments", "médicament"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": "sous"}, {"LOWER": {"IN": ["traitement", "médicaments", "médicament"]}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^(électrocut[eé]es?|électrocution)$"}}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"IN": ["ingestion", "inhalation", "injection"]}}, {"LOWER": "de"}, {"LOWER": "produits"}, {"LOWER": "toxiques"}]}
+{"label": "CONSCIENCE_NEURO", "pattern": [{"LOWER": {"REGEX": "^(sueurs?|pâleur|paleur|blancheur|blanc|blanche|livide|évanouie?)$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^flaques?$"}}, {"LOWER": "de"}, {"LOWER": "sang"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "baigne"}, {"LOWER": "dans"}, {"LOWER": "son"}, {"LOWER": "sang"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "se"}, {"LOWER": "vide"}, {"LOWER": "de"}, {"LOWER": "son"}, {"LOWER": "sang"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^saignements?$"}}, {"LOWER": {"IN": ["des", "par", "abondant", "en", "sous"]}, "OP": "?"}, {"LOWER": {"IN": ["oreilles", "la", "jet", "saccade", "saccades", "pression"]}, "OP": "?"}, {"LOWER": "bouche", "OP": "?"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"IN": ["sang", "coupure", "entaille", "taillader", "asphyxie", "toux", "hémorragie", "métroragies", "métroragie"]}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "objet"}, {"LOWER": "dans"}, {"LOWER": "la"}, {"LOWER": "plaie"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^difficult[eé]s?$"}}, {"LOWER": {"IN": ["à", "a"]}}, {"LOWER": "respirer"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "ne"}, {"LOWER": "respire"}, {"LOWER": "pas"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "son"}, {"LOWER": "cœur"}, {"LOWER": "ne"}, {"LOWER": "bat"}, {"LOWER": "pas"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^anémi[eé]s?$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^(œdème|oedeme)$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "malade"}, {"LOWER": {"IN": ["du", "cardiaque"]}}, {"LOWER": {"REGEX": "^(cœur|coeur)$"}, "OP": "?"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^diabét(ique|e)$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "maladie"}, {"LOWER": {"REGEX": "^(de|d['’])$"}}, {"LOWER": {"IN": ["alzheimer", "lewy", "parkinson", "charcot"]}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"IN": ["alzheimer", "parkinson"]}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "corps"}, {"LOWER": "de"}, {"LOWER": "lewy"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^douleurs?$"}}, {"LOWER": "dans"}, {"LOWER": "la"}, {"LOWER": "poitrine"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "respire"}, {"LOWER": "avec"}, {"LOWER": {"IN": ["difficulté", "bruit"]}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "respire"}, {"LOWER": "rapidement"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^s['’]?$"}}, {"LOWER": "étouffe"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": {"REGEX": "^(brûlures?|brulures?)$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "plaie"}, {"LOWER": "profonde"}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "j'"}, {"LOWER": "ai"}, {"LOWER": "entrepris"}, {"LOWER": "une"}, {"LOWER": {"REGEX": "^r[eé]animation$"}}]}
+{"label": "DETRESSE_VITALE", "pattern": [{"LOWER": "j'"}, {"LOWER": "ai"}, {"LOWER": "posé"}, {"LOWER": "un"}, {"LOWER": "dae"}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": "chute"}, {"LOWER": {"IN": ["de", "des", "d'", "d’", "sur"]}, "OP": "?"}, {"LOWER": {"IN": ["sa", "la", "une"]}, "OP": "?"}, {"LOWER": {"IN": ["hauteur", "escaliers", "échelle", "tête"]}, "OP": "?"}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": "déformation"}, {"LOWER": {"IN": ["du", "de"]}, "OP": "?"}, {"LOWER": {"IN": ["visage", "la"]}, "OP": "?"}, {"LOWER": "bouche", "OP": "?"}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": "douleur"}, {"LOWER": "au", "OP": "?"}, {"LOWER": "dos", "OP": "?"}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": {"IN": ["cassé", "déplacé", "amputé", "coupé", "amputation", "luxation"]}}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": {"REGEX": "^fortes?$"}}, {"LOWER": {"REGEX": "^douleurs?$"}}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": {"REGEX": "^douleurs?$"}}, {"LOWER": {"REGEX": "^vives?$"}}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": {"IN": ["incapable", "incapacité"]}}, {"LOWER": {"IN": ["de", "à", "a"]}}, {"LOWER": "bouger"}]}
+{"label": "TRAUMATISME", "pattern": [{"LOWER": {"REGEX": "^déboît(er|ement|e)$"}}, {"LOWER": {"REGEX": "^l['’]?$"}}, {"LOWER": "articulation"}]}
+{"label": "INCENDIE_GAZ", "pattern": [{"LOWER": "fumée"}, {"LOWER": {"IN": ["opaque", "noire", "grise", "blanche", "irrespirable"]}, "OP": "?"}]}
+{"label": "INCENDIE_GAZ", "pattern": [{"LOWER": "fumée"}, {"LOWER": "qui"}, {"LOWER": "pique"}, {"LOWER": "les"}, {"LOWER": "yeux"}]}
+{"label": "INCENDIE_GAZ", "pattern": [{"LOWER": "odeur"}, {"LOWER": "de"}, {"LOWER": {"IN": ["gaz", "brûlé", "nauséabonde"]}}]}
+{"label": "INCENDIE_GAZ", "pattern": [{"LOWER": {"IN": ["intoxication", "feu", "flamme", "flammes", "explosion"]}}]}
+{"label": "INCENDIE_GAZ", "pattern": [{"LOWER": "gaz"}, {"LOWER": {"IN": ["toxique", "irritant"]}, "OP": "?"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "accident"}, {"LOWER": {"IN": ["routier", "grave", "simple", "léger"]}, "OP": "?"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": {"IN": ["carambolage", "tonneaux", "éjecté", "coincé"]}}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "personne"}, {"LOWER": {"IN": ["éjectée", "coincée", "sortie"]}}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": {"IN": ["grande", "petite"]}}, {"LOWER": "vitesse"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "cinétique"}, {"LOWER": "importante"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "poids"}, {"LOWER": "lourd"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "trottinette"}, {"LOWER": "électrique", "OP": "?"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": {"REGEX": "^voitures?$"}}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": "camion"}, {"LOWER": {"IN": ["petit", "gros"]}, "OP": "?"}]}
+{"label": "ACCIDENT_ROUTE", "pattern": [{"LOWER": {"IN": ["bus", "tracteur", "scooter", "vélo", "cycliste", "piéton"]}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "en"}, {"LOWER": "ville"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "au"}, {"LOWER": "rond"}, {"LOWER": "-", "OP": "?"}, {"LOWER": "point"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "au"}, {"LOWER": "croisement"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "autoroute"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "voie"}, {"LOWER": "rapide", "OP": "?"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["pont", "péage"]}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "rez"}, {"LOWER": "-", "OP": "?"}, {"LOWER": "de"}, {"LOWER": "-", "OP": "?"}, {"LOWER": {"REGEX": "^chauss[eé]es?$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "rdc"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "niveau"}, {"LOWER": {"IN": ["zero", "0"]}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["à", "a"]}}, {"LOWER": {"REGEX": "^l['’]?$"}}, {"LOWER": "étage"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"REGEX": "^(\\d{1,2}(er|ème|eme|e)?|premier|deuxième|troisième|quatrième|cinquième|sixième|septième|huitième|neuvième|dixième|onzième|douzième|un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze)$"}}, {"LOWER": "étage"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "étage"}, {"LOWER": {"REGEX": "^(\\d{1,2}|un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix)$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"REGEX": "^appart(ement)?$"}}, {"LOWER": {"REGEX": "^(numéro|n[°o])$"}, "OP": "?"}, {"LOWER": {"REGEX": "^(\\d{1,4}|[a-z])$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "d"}, {"LOWER": "622"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "d622"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "d"}, {"LOWER": "six"}, {"LOWER": "cent"}, {"LOWER": "vingt"}, {"LOWER": "deux"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["autoroute", "départementale", "nationale", "rn", "rd"]}}, {"LOWER": {"REGEX": "^(un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|vingt|trente|quarante|cinquante|soixante|cent|mille|\\d+)$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"REGEX": "^(a|d|n)$"}}, {"LOWER": {"REGEX": "^\\d{1,4}$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["résidence", "chemin", "rue", "avenue", "impasse", "place", "batiment", "boulevard", "allée"]}}, {"LOWER": {"IN": ["de", "du", "la", "des"]}, "OP": "?"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "dénivelé"}, {"LOWER": {"REGEX": "^important[e]?$"}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "en"}, {"LOWER": "contre"}, {"LOWER": "-", "OP": "?"}, {"LOWER": "bas"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "dans"}, {"LOWER": "un"}, {"LOWER": "fossé"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "fossé"}, {"LOWER": "profond"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"REGEX": "^cours?$"}}, {"LOWER": {"REGEX": "^d['’]?$"}}, {"LOWER": "eau"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["torrent", "rivière", "lac", "fleuve", "trou", "puits"]}}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "rue"}, {"LOWER": "étroite"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": "chemin"}, {"LOWER": "de"}, {"LOWER": "terre"}]}
+{"label": "LOCALISATION_SPECIFIQUE", "pattern": [{"LOWER": {"IN": ["impasse", "tunnel", "batiment", "maison"]}}]}
+{"label": "ARMES_VIOLENCE", "pattern": [{"LOWER": "arme"}, {"LOWER": "à"}, {"LOWER": "feu"}]}
+{"label": "ARMES_VIOLENCE", "pattern": [{"LOWER": {"IN": ["fusil", "pistolet", "kalashnikov"]}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"IN": ["enfant", "bébé", "adulte", "père", "mère", "fils", "fille", "voisin", "personne"]}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^patients?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^nourrissons?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": "grand"}, {"LOWER": "-", "OP": "?"}, {"LOWER": "père"}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": "grand"}, {"LOWER": "-", "OP": "?"}, {"LOWER": "mère"}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^personnes?$"}}, {"LOWER": {"REGEX": "^âgées?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": "personne"}, {"LOWER": "handicapée"}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": "avec"}, {"LOWER": "un"}, {"LOWER": "handicap"}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": "en"}, {"LOWER": "fauteuil"}, {"LOWER": "roulant"}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^malades?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^pi[eé]tons?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^marcheurs?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^randonneurs?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^cyclistes?$"}}]}
+{"label": "IMPLIQUES", "pattern": [{"LOWER": {"REGEX": "^motards?$"}}]}
+{"label": "AGE_VICTIME", "pattern": [{"TEXT": {"REGEX": "^\\d{1,3}$"}}, {"LOWER": {"REGEX": "^(ans?|mois|semaines?|jours?)$"}}]}
+{"label": "AGE_VICTIME", "pattern": [{"LOWER": {"REGEX": "^(un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze|vingt|trente|quarante|cinquante|soixante|cents?|et)$"}, "OP": "+"}, {"LOWER": {"REGEX": "^(ans?|mois)$"}}]}
+{"label": "MESURES", "pattern": [{"TEXT": {"REGEX": "^\\d+(?:[.,]\\d+)?$"}}, {"LOWER": {"REGEX": "^(mètres?|metres?|centimètres?|centimetres?|kilomètres?|kilometres?|km|cm|m)$"}}]}
+{"label": "MESURES", "pattern": [{"LOWER": {"REGEX": "^(un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|vingt|trente|quarante|cinquante|soixante|cent|mille|dizaine|centaine)$"}, "OP": "+"}, {"LOWER": {"REGEX": "^(mètres?|metres?|centimètres?|centimetres?|kilomètres?|kilometres?|km|cm|m)$"}}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "demande"}, {"LOWER": {"REGEX": "^d['’]?$"}}, {"LOWER": "ambulance"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": {"IN": ["médecin", "docteur"]}}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": {"REGEX": "^infirmi[eèé]res?$"}}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "demande"}, {"LOWER": "de"}, {"LOWER": "secours"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "camion"}, {"LOWER": "de"}, {"LOWER": "feu"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "camion"}, {"LOWER": "pour"}, {"LOWER": "combattre"}, {"LOWER": {"REGEX": "^l['’]?$"}}, {"LOWER": "incendie"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "lutter"}, {"LOWER": "contre"}, {"LOWER": {"REGEX": "^l['’]?$"}}, {"LOWER": "incendie"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": {"IN": ["gros", "petit"]}}, {"LOWER": "camion"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "grande"}, {"LOWER": "échelle"}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "voiture"}, {"LOWER": "de"}, {"LOWER": {"REGEX": "^pompiers?$"}}]}
+{"label": "DEMANDE_MOYENS", "pattern": [{"LOWER": "véhicule"}, {"LOWER": "de"}, {"LOWER": "secours"}]}

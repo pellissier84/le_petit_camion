@@ -1,0 +1,115 @@
+readme_Search_with_Kiwano
+
+nom du script : search_with_kiwano.py et 
+				search_with_kiwano1.py (integration de la recherche des fichiers pkl)
+
+## Description
+
+Ce script permet de **rechercher un locuteur spécifique** dans un corpus d'embeddings pré‑extraits. Il est conçu pour fonctionner avec les fichiers produits par l'écosystème **Kiwano** (format `.pkl`) ainsi qu'avec des fichiers `.pt` standards (PyTorch).
+
+	L'outil propose quatre méthodes de comparaison :
+		1. **Cosinus simple** – similarité directe entre embeddings.
+		2. **S‑Norm** – normalisation symétrique des scores.
+		3. **AS‑Norm** – normalisation adaptative (sélection des *K* meilleurs imposteurs).
+		4. **AD‑Norm** – normalisation au niveau des embeddings.
+
+Méthode	Description	Source
+		Cosinus simple		Similarité cosinus brute entre l'embedding de référence           	compute_cosine.py
+							et chaque embedding du corpus.	
+		S-Norm	             	Normalisation symétrique : normalise le score en utilisant       	compute_snorm.py
+							la moyenne et l'écart-type des scores contre un ensemble 
+							d'impostors.	
+		AS-Norm	            	Adaptive S-Norm : sélectionne les *k* meilleurs impostors          	compute_asnorm.py
+							pour le calcul de la moyenne et de l'écart-type.	
+		AD-Norm	            	Adaptive Domain Normalization : soustrait la moyenne 
+							des *k* meilleurs impostors au niveau des embeddings avant        compute_adnorm.py
+							de calculer la similarité.
+
+Element de compréhension
+
+	Le paramétre K :
+		K trop petit (ex: 10-20)        	La normalisation est basée sur très peu de locuteurs. 
+										Elle devient instable : un seul imposteur atypique peut fausser les statistiques. 
+										Les scores normalisés peuvent être très bruités.
+		K = 50‑150 (typique)			Bon compromis : la cohorte adaptative est suffisamment grande pour être statistiquement stable, 
+										mais suffisamment sélective pour ne garder que les imposteurs vraiment pertinents. 
+										C’est la plage recommandée (souvent 100).
+		K trop grand (ex: 300-400)		On se rapproche d’une cohorte fixe (tous les imposteurs). 
+										L’effet "adaptatif" s’estompe : la normalisation devient moins discriminante 
+										pour les locuteurs difficiles. Les scores normalisés se rapprochent de ceux 
+										d’une S‑Norm classique.
+		On peut tester  K = 50 et K = 200 pour voir si les scores des vrais positifs (vos OP‑SDIS1) augmentent ou diminuent.
+
+	Les seuils
+
+		Cosinus  par defaut 0.7  plus juste  0.35
+		S Norm   par defaut 0.5  plus juste  1.7
+		AS Norm  cohorte defaut 100  seuil 0.5  plus juste 0.35
+		AD Norm  cohorte defaut 100  seuil 0.5  plus juste 0.34 
+
+Les méthodes S‑Norm, AS‑Norm ou AD‑Norm (intégrées dans le dernier script) normalisent les scores et peuvent faire 
+ressortir les vrais positifs même si les scores bruts sont bas.
+Essayez par exemple AS‑Norm avec K=100 (valeur par défaut) – cela peut améliorer la séparation.
+
+
+Kiwano propose des techniques de normalisation des scores (S-Norm, AS-Norm, AD-Norm) qui améliorent 
+considérablement la robustesse de la décision
+
+## Fonctionnalités
+
+	- ✅ Interface interactive guidée
+	- ✅ Support des formats `.pt` et `.pkl` (Kiwano)
+	- ✅ Choix flexible de la méthode de scoring
+	- ✅ Paramétrage du seuil et de la taille de cohorte *K*
+	- ✅ Affichage limité aux *N* meilleurs résultats
+	- ✅ Sauvegarde complète dans un fichier texte
+
+## Prérequis
+
+	- Python 3.8 ou supérieur
+	- [PyTorch](https://pytorch.org/)
+
+## Installation
+
+	1. **Cloner ou télécharger** ce dépôt.
+	2. **Placer le fichier `base.py`** de Kiwano dans le même dossier que le script (si vous devez lire des fichiers `.pkl`).
+	   - Ce fichier est disponible dans le dépôt Kiwano : `kiwano/embedding/base.py`.
+	3. **Vérifier** que le script `search_with_kiwano.py` se trouve dans le même répertoire.
+
+## Structure des fichiers
+
+	mon_dossier/
+		├── search_with_kiwano1.py # Script principal
+		├── base.py # Module Kiwano (optionnel pour .pkl)
+		├── embeddings_reference.pt # Fichier d'embeddings de référence
+		└── embeddings_corpus.pt # Fichier d'embeddings du corpus
+
+Le script vous guide pas à pas :
+	1. Choix du fichier de référence
+	2. Choix de la référence
+	3. Choix du corpus
+	4. Choix de la méthode de scoring
+	5. Paramétrage avancé
+	6. Résultats
+
+Comprendre les résultats
+
+    SCORE : valeur numérique de similarité.
+
+        Plus le score est élevé, plus le segment est proche du locuteur de référence.
+
+    JUGEMENT :
+
+        MÊME LOCUTEUR : le score dépasse le seuil.
+
+        LOCUTEUR DIFFÉRENT : le score est inférieur au seuil.
+
+Fichier de sortie
+
+	Le fichier de sortie contient :
+
+		Les paramètres de la session (fichiers utilisés, méthode, seuil, K)
+
+		La liste complète de tous les segments comparés, triés par score décroissant
+
+		Un résumé final (nombre de "MÊME LOCUTEUR" / "LOCUTEUR DIFFÉRENT")

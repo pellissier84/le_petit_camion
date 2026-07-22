@@ -1,0 +1,203 @@
+﻿Travail sur les fichier json de whisperx et pyannote
+
+
+sur github : travail_segmentation_pyannote
+sur les transcriptions elan : travail_source
+comparaison visuelle et métrique des diarisation elan pyannote
+sur les transcriptions Whisper/pyannote : travail_audio_whisper_pyannote
+recherche des mots métiers
+
+
+adresse : https://github.com/pellissier84/le_petit_camion.git
+
+1) petit script pour lister les fichiers wav issu de pyannote
+lister_fichiers.py
+
+[INFO] Lecture du fichier segmentation_audios_Nexsis.json...
+
+==================================================
+ 116 fichiers trouvés dans la base Pyannote
+==================================================
+
+   1. audio-1773355127.18968.wav
+   2. audio-1773383994.22325.wav
+   3. audio-1773397443.26404.wav
+   4. audio-1773397929.26766.wav
+   5. audio-1773397971.26783.wav
+   6. audio-1773398136.26807.wav
+   7. audio-1773398227.26811.wav
+   8. audio-1773398245.26823.wav
+   9. audio-1773398331.26839.wav
+  10. audio-1773398359.26843.wav
+  11. audio-1773398880.26995.wav
+  12. audio-1773398901.26999.wav
+  13. audio-1773399390.27077.wav
+  14. audio-1773399574.20709.wav
+  15. audio-1773399673.20768.wav
+  16. audio-1773399763.27210.wav
+  17. audio-1773399892.20903.wav
+  18. audio-1773400012.20915.wav
+  19. audio-1773400084.20925.wav
+  20. audio-1773400104.27333.wav
+  21. audio-1773400315.27371.wav
+  22. audio-1773400658.27514.wav
+  23. audio-1773400919.27578.wav
+  24. audio-1773401015.27699.wav
+  25. audio-1773401109.27876.wav
+  26. audio-1773401440.28104.wav
+  27. audio-1773401499.21513.wav
+  28. audio-1773401555.28137.wav
+  29. audio-1773401927.28348.wav
+  30. audio-1773401930.28352.wav
+  31. audio-1773401941.28356.wav
+  32. audio-1773402221.28374.wav
+  33. audio-1773402260.28378.wav
+  34. audio-1773402304.28382.wav
+  35. audio-1773402323.28388.wav
+  36. audio-1773402731.28558.wav
+  37. audio-1773402913.28607.wav
+  38. audio-1773403074.28717.wav
+  39. audio-1773403298.28728.wav
+  40. audio-1773403334.28735.wav
+  41. audio-1773403414.28767.wav
+  42. audio-1773403450.28778.wav
+  43. audio-1773403591.28782.wav
+  44. audio-1773403721.28842.wav
+  45. audio-1773403821.28852.wav
+  46. audio-1773404163.28913.wav
+  47. audio-1773404182.28921.wav
+  48. audio-1773404349.29066.wav
+  49. audio-1773404466.29187.wav
+  50. audio-1773404504.29223.wav
+  51. audio-1773404507.29230.wav
+  52. audio-1773404565.29242.wav
+  53. audio-1773404602.29250.wav
+  54. audio-1773405031.29314.wav
+  55. audio-1773405378.29369.wav
+  56. audio-1773405457.29373.wav
+  57. audio-1773405698.29538.wav
+  58. audio-1773405730.29546.wav
+  59. audio-1773405810.29550.wav
+  60. audio-1773406024.29566.wav
+  61. audio-1773406044.29570.wav
+  62. audio-1773406234.29636.wav
+  63. audio-1773406501.29799.wav
+  64. audio-1773406527.29803.wav
+  65. audio-1773407004.29901.wav
+  66. audio-1773407028.22763.wav
+  67. audio-1773407172.29929.wav
+  68. audio-1773407328.29939.wav
+  69. audio-1775025893.40608.wav
+  70. audio-1775026276.40906.wav
+  71. audio-1775026399.40938.wav
+  72. audio-1775026611.40944.wav
+  73. audio-1775026649.40948.wav
+  74. audio-1775026708.40952.wav
+  75. audio-1775027149.41110.wav
+  76. audio-1775027313.41117.wav
+  77. audio-1775027582.41237.wav
+  78. audio-1775027909.41272.wav
+  79. audio-1775028067.41276.wav
+  80. audio-1775028716.41313.wav
+  81. audio-1775028942.41407.wav
+  82. audio-1775029255.41541.wav
+  83. audio-1775030096.41607.wav
+  84. audio-1775030105.41611.wav
+  85. audio-1775030117.41615.wav
+  86. audio-1775030418.41623.wav
+  87. audio-1775030447.41627.wav
+  88. audio-1775030662.31651.wav
+  89. audio-1775030741.31663.wav
+  90. audio-1775030856.31673.wav
+  91. audio-1775031215.41707.wav
+  92. audio-1775031396.41725.wav
+  93. audio-1775031458.41751.wav
+  94. audio-1775031713.41765.wav
+  95. audio-1775031826.41778.wav
+  96. audio-1775031829.41782.wav
+  97. audio-1775031859.31742.wav
+  98. audio-1775031885.41800.wav
+  99. audio-1775031908.31811.wav
+ 100. audio-1775031933.41835.wav
+ 101. audio-1775031968.41843.wav
+ 102. audio-1775031996.31819.wav
+ 103. audio-1775032164.41898.wav
+ 104. audio-1775032174.31930.wav
+ 105. audio-1775032192.32020.wav
+ 106. audio-1775032532.42069.wav
+ 107. audio-1775032606.32130.wav
+ 108. audio-1775032636.32134.wav
+ 109. audio-1775032737.32140.wav
+ 110. audio-1775032813.32144.wav
+ 111. audio-1775032917.42139.wav
+ 112. audio-1775033030.42175.wav
+ 113. audio-1775033098.32209.wav
+ 114. audio-1775033408.42185.wav
+ 115. audio-1775033540.32214.wav
+ 116. audio-1775033905.42249.wav
+
+[SUCCÈS] La liste brute a été sauvegardée dans 'liste_fichiers_nexsis.txt' pour tes copier/coller ! 
+
+
+2) extraction des mots metiers sur les 3 audios disponibles
+depuis les transcription whisper et pyannote
+
+
+Script : extract_mots_metiers.py
+
+extraction des mots metiers depuis le wav original, le json pyannote pour le locuteur, et le whisperX pour le texte
+attribuer chaque concept métier à son locuteur
+Chargement unique : Le gros fichier segmention_audios_Nexsis.json est chargé une seule fois au lancement du programme pour éviter de perdre du temps à chaque requête.
+    • Invite de commande interactive : Le programme tourne en boucle et te demande le nom du fichier WhisperX que tu veux analyser.
+    • Flexibilité de saisie : Tu peux taper le nom complet (audio-1775033540.32214.json) ou juste la base (audio-1775033540.32214), le script ajoutera l'extension tout seul. Il convertira aussi ce nom en .wav pour chercher la bonne donnée dans Pyannote.
+
+
+Remarque : 
+
+le fichier  "segmention_audios_Nexsis.json" issu de pyannote et 
+les fichiers du type " audio-1775033540.32214.json" issu  de whisperX  ne sont pas fournis pour des raisons de confidentialité
+
+==================================================
+[TRAITEMENT] Analyse du fichier : audio-1775033540.32214.json
+==================================================
+
+  Liste des 33 mots métiers extraits :
+  ---------------------------------------------------------------------------
+  | MOT TROUVÉ                | SOURCE DE DÉTECTION       | LOCUTEUR        |
+  ---------------------------------------------------------------------------
+  | route de la méditerranée  | Ontologie SDIS            | 1               |
+  | Méditerranée              | spaCy (LOC)               | 1               |
+  | accident                  | Ontologie SDIS            | 1               |
+  | route                     | Ontologie SDIS            | 1               |
+  | tombé                     | Ontologie SDIS            | 1               |
+  | dans un fossé             | Ontologie SDIS            | 1               |
+  | camion                    | Ontologie SDIS            | 1               |
+  | d622                      | Ontologie SDIS            | 1               |
+  | d622                      | Ontologie SDIS            | 1               |
+  | voitures                  | Ontologie SDIS            | 1               |
+  | voiture                   | Ontologie SDIS            | operateur       |
+  | 50 mètres                 | Ontologie SDIS            | 1               |
+  | voiture                   | Ontologie SDIS            | 1               |
+  | camion                    | Ontologie SDIS            | 1               |
+  | 60 ans                    | Ontologie SDIS            | INCONNU         |
+  | d622                      | Ontologie SDIS            | operateur       |
+  | Piste-sur-Lez             | spaCy (LOC)               | 1               |
+  | route                     | Ontologie SDIS            | 1               |
+  | Grasse-Dieu               | spaCy (LOC)               | 1               |
+  | Grasse-Dieu               | spaCy (LOC)               | operateur       |
+  | bâtiment                  | Ontologie SDIS            | operateur       |
+  | voiture                   | Ontologie SDIS            | 1               |
+  | tonneaux                  | Ontologie SDIS            | INCONNU         |
+  | Ouais                     | spaCy (LOC)               | INCONNU         |
+  | voiture                   | Ontologie SDIS            | operateur       |
+  | pompiers                  | Dictionnaire CISU         | operateur       |
+  | route                     | Ontologie SDIS            | operateur       |
+  | Ouais                     | spaCy (LOC)               | 1               |
+  | Ouais                     | spaCy (LOC)               | 1               |
+  | Allez                     | spaCy (PER)               | operateur       |
+  | route                     | Ontologie SDIS            | operateur       |
+  | Ouais                     | spaCy (LOC)               | 1               |
+  | Allez                     | spaCy (LOC)               | 1               |
+  ---------------------------------------------------------------------------
+
+  ✓ Export JSON réussi : mots_metiers_extraits_3540.json

@@ -1,0 +1,49 @@
+#  Générateur d'Embeddings Vocaux (SpeechBrain)
+
+Ce script automatise l'extraction de signatures vocales (embeddings) à partir de fichiers audio bruts (`.wav`) 
+en s'appuyant sur un fichier de segmentation préalable (diarisation). Il utilise le modèle d'état de l'art **ECAPA-TDNN** 
+fourni par SpeechBrain.
+
+##  Fonctionnalités
+		- **Découpage intelligent :** Lit un fichier JSON (issu de Pyannote/WhisperX) pour isoler les temps de parole exacts.
+		- **Filtrage du bruit :** Ignore automatiquement les micro-segments (ex: < 1 seconde) qui génèrent des signatures biométriques instables.
+		- **Haute performance :** Charge chaque fichier audio une seule fois en mémoire (RAM) et effectue les découpages de tenseurs à la volée.
+		- **Export structuré :** Sauvegarde chaque segment sous forme de tenseur PyTorch (`.pt`) dans des sous-dossiers chronologiques, 
+			prêts pour l'analyse de similitude cosinus.
+
+##  Prérequis et Installation
+		Assurez-vous d'avoir installé les bibliothèques suivantes dans votre environnement virtuel Python :
+
+		pip install torch torchaudio speechbrain
+
+##  Structure des Données Attendue
+
+Avant de lancer le script, assurez-vous que votre arborescence ressemble à ceci :
+
+		projet/
+		│
+		├── extract_embeddings.py           # Ce script
+		├── segmentation_audios_Nexsis.json # Le fichier contenant les horodatages
+		│
+		└── data/
+		    └── mes_audios_wav/             # Vos fichiers audio bruts
+			├── audio-1775031826.41778.wav
+			└── ...
+			
+##  Utilisation
+
+	    Ouvrez le script et vérifiez la section Configuration en haut du fichier pour vous assurer que les chemins (DOSSIER_AUDIOS, FICHIER_SEGMENTATION) sont corrects.
+
+	    Lancez le script depuis votre terminal : python extract_embeddings.py
+    
+##  Format de Sortie
+
+Le script va créer un dossier data/embeddings_corpus/ structuré de la façon suivante
+
+		data/embeddings_corpus/
+		└── audio-1775031826.41778/
+		    ├── seg_000_operateur.pt
+		    ├── seg_001_1.pt
+		    ├── seg_002_operateur.pt
+		    └── ...
+    Ces fichiers .pt contiennent les vecteurs mathématiques (tenseurs 1D) représentant la voix.

@@ -1,0 +1,195 @@
+README — Extraction des mots métier + Attribution du locuteur (WhisperX + Pyannote + spaCy)
+
+Objectif du script
+
+		Ce script réalise une analyse complète des mots métier présents dans les transcriptions WhisperX, en les enrichissant avec :
+
+			Détection avancée des concepts métier
+
+				Regex SDIS (ontologie métier)
+				EntityRuler CISU (patterns JSONL)
+				spaCy NER (LOC, PER, ORG, DATE, etc.)
+				Gazetteer des communes (Haute‑Garonne)
+
+			Alignement temporel précis  
+			Chaque mot métier est associé à un intervalle temporel (start/end) basé sur les offsets WhisperX.
+
+			Attribution du locuteur  
+			Grâce à la diarisation Pyannote (JSON Nexsis), le script détermine quel locuteur prononce chaque mot métier.
+
+			Export JSON final  
+			Pour chaque fichier audio, un fichier mots_metiers_extraits_XXXX.json est généré.
+
+		Ce script est un maillon essentiel pour ton pipeline ANR LePetitCamion :
+		il relie transcription, détection métier, diarisation, et analyse conversationnelle.
+
+##  Prérequis
+
+Assurez-vous d'avoir Python 3.x installé sur votre environnement, ainsi que la bibliothèque de traitement 
+du langage naturel **spaCy** et son modèle francophone.
+
+**Installation des dépendances :**
+
+```bash
+pip install spacy
+python -m spacy download fr_core_news_sm
+
+```
+##  Architecture des fichiers
+
+Pour que le script s'exécute correctement, votre répertoire de travail doit respecter cette arborescence :
+
+* `extract_mots_metiers.py` : Le script d'extraction principal.
+* `mes_audio/` : Dossier obligatoire contenant vos fichiers de transcription WhisperX au format `.json`.
+* `segmentation_audios_Nexsis.json` : Fichier global contenant les données de diarisation Pyannote.
+* `patterns_sdis_cisu.jsonl` *(Optionnel mais recommandé)* : Fichier de règles spécifiques métier pour spaCy (EntityRuler).
+* `communes-haute-garonne.geojson.json` *(Optionnel)* : Base de données géographique pour l'identification des communes.
+
+##  Utilisation
+
+1. Ouvrez un terminal dans le répertoire contenant le script.
+2. Lancez le programme :
+```bash
+python extract_mots_metiers.py
+
+```
+		
+Fonctionnement général
+1. Chargement des ressources NLP
+
+    Le pipeline d'analyse utilise une approche hybride à trois niveaux pour maximiser la précision de la détection :
+
+	* **Ontologie Métier (Regex) :** Détection stricte basée sur un dictionnaire de concepts d'urgence (Détresse vitale, Incendie, Traumatismes, Accident de la route, Armes, etc.).
+	* **EntityRuler (CISU) :** Reconnaissance de schémas spécifiques aux services de secours via le fichier `.jsonl`.
+	* **spaCy NER & Gazetteer :** Détection automatique par Intelligence Artificielle des entités génériques (Lieux, Personnes, Dates) et ciblage des communes de la Haute-Garonne.
+
+
+2. Extraction des mots métier (SDIS / CISU)
+
+		Le script applique trois couches de détection :
+			Regex SDIS
+
+		Ton ontologie métier (CONSCIENCE_NEURO, DETRESSE_VITALE, etc.)
+			EntityRuler CISU
+
+		Détection de concepts normalisés issus de ton fichier JSONL.
+			spaCy NER
+
+		Détection automatique des entités :
+
+			LOC
+			PER
+			ORG
+			DATE
+			TIME
+			CARDINAL
+			MISC
+
+		Chaque entité est stockée avec :
+
+			catégorie
+			texte exact
+			offsets caractères
+			source de détection
+
+3. Reconstruction temporelle WhisperX
+
+		Le script reconstruit le texte WhisperX mot par mot, en conservant :
+
+			char_start
+			char_end
+			start (sec)
+			end (sec)
+
+		Cela permet un alignement parfait entre texte et temps.
+		
+4. Attribution du locuteur (Pyannote)
+
+		Pour chaque mot métier :
+
+			On récupère son intervalle temporel (start/end)
+			On cherche le segment Pyannote qui chevauche le plus
+			Le locuteur dominant est attribué
+
+5. Résultat final
+
+		Pour chaque mot métier, le script produit :
+
+				{
+					"mot": "accident",
+					"categorie": "ACCIDENT_ROUTE",
+					"locuteur": "SPEAKER_01",
+					"debut_sec": 12.45,
+					"fin_sec": 13.02,
+					"source_detection": "Ontologie SDIS"
+				}
+		Et exporte le tout dans :
+		
+		mots_metiers_extraits_3540.json
+
+Exemple d’utilisation
+
+	Lancer le script :
+	python extrac_mots_metier.py
+	
+	Le programme demande :
+	Entrez le nom du fichier WhisperX (ex: audio-1775033540.32214)
+	>
+	
+	       ============================================================
+		 Fichiers disponibles dans 'mes_audio' :
+		============================================================
+		 [1] audio-1775031826.41778.json
+		 [2] audio-1775031968.41843.json
+		 [3] audio-1775033540.32214.json
+		 [0] Quitter le programme
+		============================================================
+
+		Entrez le numéro du fichier à analyser :
+	
+	Le script génère :
+
+		un tableau lisible dans le terminal
+		un fichier JSON exporté
+    
+Structure du projet
+ .
+		├── extraction_metier_diarisation.py
+		├── patterns_sdis_cisu.jsonl
+		├── communes-haute-garonne.geojson.json
+		├── segmentation_audios_Nexsis.json
+		├── audio-XXXX.json        # WhisperX
+		├── audio-XXXX.wav
+		└── mots_metiers_extraits_XXXX.json
+  
+
+
+
+##  Format de Sortie
+
+Après chaque analyse, un fichier nommé `mots_metiers_extraits_<IDENTIFIANT>.json` est généré à la racine du script.
+
+**Exemple de structure de sortie :**
+
+```json
+[
+    {
+        "mot": "ne respire pas",
+        "categorie": "DETRESSE_VITALE",
+        "locuteur": "SPEAKER_01",
+        "debut_sec": 12.45,
+        "fin_sec": 13.80,
+        "source_detection": "Ontologie SDIS"
+    },
+    {
+        "mot": "toulouse",
+        "categorie": "COMMUNES_31",
+        "locuteur": "SPEAKER_02",
+        "debut_sec": 15.10,
+        "fin_sec": 15.65,
+        "source_detection": "Ontologie SDIS"
+    }
+]
+
+```
+

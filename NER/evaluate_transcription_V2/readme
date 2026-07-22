@@ -1,0 +1,196 @@
+
+---
+
+#  README — Évaluation Hybride des Transcriptions (Regex + NER + WhisperX + ELAN)
+
+##  **Objectif du Script**
+Ce projet permet d’évaluer automatiquement la qualité d’une transcription audio produite par WhisperX en la comparant aux annotations humaines issues d’un fichier **ELAN (.eaf)**.  
+L’évaluation combine :
+
+- **Analyse métier via Regex** (Ontologie SDIS 31)
+- **Reconnaissance d’entités nommées (NER)** via spaCy (modèle français)
+- **Alignement temporel WhisperX ↔ ELAN**
+- **Calcul du WER (Word Error Rate)**
+- **Extraction d’informations critiques (communes, symptômes, lieux, mesures, etc.)**
+
+Ce moteur hybride permet de mesurer **la perte d’information métier** dans les transcriptions automatiques.
+
+---
+
+## 🧩 **Fonctionnalités principales**
+- **Chargement automatique du modèle spaCy français**  
+- **Gazetteer enrichi** (communes Haute‑Garonne + versions sans accents)  
+- **Construction dynamique d’une Regex géographique**  
+- **Ontologie métier SDIS 31** (urgences, traumatismes, incendies, routes, mesures, etc.)  
+- **Détection hybride :**
+  - Regex métier
+  - NER (LOC / ORG) avec filtres anti‑bruit
+- **Alignement temporel WhisperX ↔ ELAN**
+- **Calcul du WER par segment**
+- **Analyse des informations :**
+  - Informations détectées par l’humain
+  - Informations retrouvées par la machine
+  - Informations perdues
+- **Synthèse finale claire et exploitable**
+
+---
+
+## 📦 **Installation & Pré‑requis**
+
+### 1. Créer et activer un environnement Python
+```bash
+conda create -n audio_env python=3.10
+conda activate audio_env
+```
+
+### 2. Installer les dépendances
+```bash
+pip install jiwer
+pip install pympi-ling
+pip install spacy
+python -m spacy download fr_core_news_sm
+```
+
+### 3. Fichiers nécessaires
+- Un fichier **ELAN (.eaf)** contenant les tiers :
+  - `OP-SDIS1`
+  - `Requerant1`
+- Un fichier **WhisperX (.json)** contenant les segments + mots alignés
+- Un fichier **Gazetteer** :  
+  `communes-haute-garonne.geojson.json`
+
+---
+
+## 🚀 **Exécution du Script**
+
+Commande générale :
+
+```bash
+python evaluate_transcription_NER_REGEX_V2.py \
+    --eaf "Appel_3540_annotation_finale.eaf" \
+    --json "transcription_whisper_3540_brute.json"
+```
+
+Arguments :
+
+| Argument | Description |
+|---------|-------------|
+| `--eaf` | Chemin vers le fichier ELAN |
+| `--json` | Chemin vers le fichier WhisperX |
+
+---
+
+## 🧠 **Architecture du Script**
+
+### 1. Chargement du modèle NER (spaCy)
+Le script charge automatiquement le modèle français `fr_core_news_sm`.
+
+### 2. Gazetteer géographique
+- Lecture du fichier GeoJSON
+- Extraction des noms de communes
+- Génération des versions **sans accents**
+- Construction d’une **Regex géante** pour détecter les communes
+
+### 3. Ontologie métier SDIS 31
+Définition de catégories métier :
+
+- **CONSCIENCE_NEURO**
+- **DETRESSE_VITALE**
+- **TRAUMATISME**
+- **INCENDIE_GAZ**
+- **ACCIDENT_ROUTE**
+- **LOCALISATION_SPECIFIQUE**
+- **COMMUNES_31**
+- **ARMES_VIOLENCE**
+- **IMPLIQUES**
+- **MESURES**
+- **DEMANDE_MOYENS**
+
+Chaque catégorie contient des Regex robustes.
+
+### 4. Alignement WhisperX ↔ ELAN
+Le script récupère les mots WhisperX dans une fenêtre temporelle autour de chaque annotation ELAN.
+
+### 5. Moteur Hybride
+Pour chaque segment ELAN :
+
+1. **Détection Regex**  
+2. **Détection NER** (avec filtres anti‑mesures, anti‑bruit, anti‑tokens courts)  
+3. Vérification si WhisperX a capté l’information  
+4. Comptage :
+   - Informations attendues
+   - Informations retrouvées
+   - Informations perdues
+
+### 6. Calcul du WER
+Comparaison texte humain ↔ texte WhisperX.
+
+---
+
+## 📊 **Sorties du Script**
+
+### 1. Scores par locuteur
+- WER Opérateur
+- WER Requérant
+- Score Hybride (pourcentage d’informations métier retrouvées)
+
+### 2. Synthèse métier
+- 🟢 Informations retrouvées  
+- 🔴 Informations perdues  
+- Catégorie + mot exact détecté
+
+Exemple :
+
+```
+🟢 INFORMATIONS SÉCURISÉES PAR L'IA (12) :
+   - TRAUMATISME                 : 'chute'
+   - COMMUNES_31                 : 'saint sulpice sur leze'
+
+🔴 INFORMATIONS MANQUANTES (5) :
+   - DETRESSE_VITALE             : 'difficulté à respirer'
+   - IMPLIQUES                   : 'enfant'
+```
+
+---
+
+## 🧪 **Qualité & Robustesse**
+Le script inclut :
+
+- Normalisation avancée du texte  
+- Filtrage des disfluences orales  
+- Gestion des accents  
+- Filtrage NER anti‑faux‑positifs  
+- Alignement temporel tolérant (±3 secondes)  
+
+---
+
+## 📁 **Arborescence recommandée**
+
+```
+project/
+│
+├── evaluate_transcription_NER_REGEX_V2.py
+├── communes-haute-garonne.geojson.json
+├── Appel_3540_annotation_finale.eaf
+├── transcription_whisper_3540_brute.json
+└── README.md
+```
+
+---
+
+## 🔧 **Points d’amélioration possibles**
+- Ajout d’un export CSV/JSON des résultats  
+- Visualisation graphique des pertes d’information  
+- Intégration d’un modèle spaCy plus performant (`fr_core_news_md`)  
+- Détection automatique des tiers ELAN  
+
+---
+
+## 📌 **Liens utiles**
+- spaCy
+- WhisperX
+- ELAN
+- Regex Python
+
+---
+
