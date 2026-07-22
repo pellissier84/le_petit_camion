@@ -202,6 +202,9 @@ def calculer_inter_discussion(emb_ref, emb_cible, durees_segments, k=3):
 # ==========================================
 # 3. Visualisations et Exportations
 # ==========================================
+# ==========================================
+# 3. Visualisations et Exportations
+# ==========================================
 def generer_rapports(scores_intra, moyenne_intra, noms_evalues, resultats_inter, nom_ref, top_k_noms, durees_segments, dossier_sortie="resultats_analyse"):
     """
     Génère :
@@ -210,7 +213,10 @@ def generer_rapports(scores_intra, moyenne_intra, noms_evalues, resultats_inter,
     - CSV complet
     """
     Path(dossier_sortie).mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    
+    # Le timestamp n'est plus utile ici
+    # timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    
     sns.set_theme(style="whitegrid")
     
     label_y = f"Moyenne\n{len(top_k_noms)} Plus Longs"
@@ -239,7 +245,8 @@ def generer_rapports(scores_intra, moyenne_intra, noms_evalues, resultats_inter,
         plt.xticks(rotation=45, ha='right', fontsize=8) 
         
         plt.tight_layout()
-        plt.savefig(f"{dossier_sortie}/01_vecteur_intra_{timestamp}.png", dpi=300)
+        # MODIFICATION : Utilisation de nom_ref
+        plt.savefig(f"{dossier_sortie}/01_vecteur_intra_{nom_ref}.png", dpi=300)
         plt.close()
 
     # --- B. Le Bâton Gradué Horizontal inter-discussion ---
@@ -264,11 +271,13 @@ def generer_rapports(scores_intra, moyenne_intra, noms_evalues, resultats_inter,
     plt.xlim(-1.0, 1.15) 
     plt.legend(loc="lower right") 
     plt.tight_layout()
-    plt.savefig(f"{dossier_sortie}/02_moyennes_horizontales_{timestamp}.png", dpi=300)
+    # MODIFICATION : Utilisation de nom_ref
+    plt.savefig(f"{dossier_sortie}/02_moyennes_horizontales_{nom_ref}.png", dpi=300)
     plt.close()
 
     # --- C. Export CSV Enrichi ---
-    fichier_csv = f"{dossier_sortie}/rapport_similitudes_{timestamp}.csv"
+    # MODIFICATION : Utilisation de nom_ref
+    fichier_csv = f"{dossier_sortie}/rapport_similitudes_{nom_ref}.csv"
     
     # Calcul de la durée du profil de référence
     duree_ref = sum([durees_segments[nom] for nom in top_k_noms])

@@ -172,7 +172,7 @@ def calculer_inter_discussion(emb_ref, emb_cible):
 # ==========================================
 # 3. Visualisations et Exportations
 # ==========================================
-# MODIFICATION ICI : Ajout de nom_locuteur
+# MODIFICATION : Ajout de nom_locuteur
 def generer_rapports(matrice_intra, scores_intra, moyenne_intra, resultats_inter, nom_ref, noms_ref, nom_locuteur, dossier_sortie="resultats_analyse"):
     """
     Génère :
@@ -182,7 +182,10 @@ def generer_rapports(matrice_intra, scores_intra, moyenne_intra, resultats_inter
     """
 
     Path(dossier_sortie).mkdir(parents=True, exist_ok=True)
+    
+    # On conserve le timestamp pour les données du CSV
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    
     sns.set_theme(style="whitegrid")
     
     # --- A. La Matrice Analytique intra-discussion  ---
@@ -203,7 +206,8 @@ def generer_rapports(matrice_intra, scores_intra, moyenne_intra, resultats_inter
     plt.xticks(rotation=45, ha='right', fontsize=8) 
     
     plt.tight_layout()
-    plt.savefig(f"{dossier_sortie}/01_matrice_intra_{timestamp}.png", dpi=300)
+    # MODIFICATION : Utilisation de nom_ref
+    plt.savefig(f"{dossier_sortie}/01_matrice_intra_{nom_ref}.png", dpi=300)
     plt.close()
 
     # --- B. Le Bâton Gradué Horizontal inter-discussion  ---
@@ -228,11 +232,13 @@ def generer_rapports(matrice_intra, scores_intra, moyenne_intra, resultats_inter
     plt.xlim(-1.0, 1.15) 
     plt.legend(loc="lower right") 
     plt.tight_layout()
-    plt.savefig(f"{dossier_sortie}/02_moyennes_horizontales_{timestamp}.png", dpi=300)
+    # MODIFICATION : Utilisation de nom_ref
+    plt.savefig(f"{dossier_sortie}/02_moyennes_horizontales_{nom_ref}.png", dpi=300)
     plt.close()
 
     # --- C. Export CSV Avancé ---
-    fichier_csv = f"{dossier_sortie}/rapport_similitudes_{timestamp}.csv"
+    # MODIFICATION : Utilisation de nom_ref
+    fichier_csv = f"{dossier_sortie}/rapport_similitudes_{nom_ref}.csv"
     with open(fichier_csv, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=';')
         
