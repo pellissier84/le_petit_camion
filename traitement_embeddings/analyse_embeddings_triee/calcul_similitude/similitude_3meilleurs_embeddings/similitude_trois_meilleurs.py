@@ -364,5 +364,16 @@ if __name__ == "__main__":
                 print(f" -> Comparaison {id_cible} ({len(emb_cible)} segs) : {moyenne_inter:.4f}")
         
         # --- Génération des rapports (AVEC LOCUTEUR CIBLE) ---
-        generer_rapports(scores_intra, moyenne_intra, noms_evalues, resultats_inter, DISCUSSION_REFERENCE, top_k_noms, LOCUTEUR_CIBLE)
-        print("\n🎉 Terminé ! Consultez le dossier 'resultats_analyse'.")
+        dossier_dynamique = f"resultats_analyse/res-{DISCUSSION_REFERENCE}"
+        
+        generer_rapports(
+            scores_intra, 
+            moyenne_intra, 
+            noms_evalues, 
+            resultats_inter, 
+            DISCUSSION_REFERENCE, 
+            top_k_noms, 
+            LOCUTEUR_CIBLE,
+            dossier_sortie=dossier_dynamique # Passage du nouveau chemin
+        )
+        print(f"\n🎉 Terminé ! Consultez le dossier '{dossier_dynamique}'.")
