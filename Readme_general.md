@@ -56,7 +56,14 @@ Le deuxieme sous dossier fonctionne pour extraire des mots metiers des transcrip
 	travail sur la reconnaissance de locuteurs
 		l'analyse se fait d'un facon generale, puis sur des moyens pour ameliorer les resultats sur plusieurs options dont 2 ont été retenus
 		Dans le dossier "calcul_similitude" sont regroupés traitement simple et brut, les 3 meilleurs embeddings, la duree des segments les plus longs,
-		mais aussi une direction non retenu centroide, agregation et ponderation.	
+		mais aussi une direction non retenu centroide, agregation et ponderation.
+		
+	Autre analyse des resultats plus precise pour trouver des regroupements entre les discussions afin de determiner un locuteur parmi d'autres.
+			deux options : 
+				1) analyse sur les 10 audio les plus proches du resultat moyen du cosinus de l'intra discussion
+					Ce sera le script present dans le dossier "traitement_embeddings/analyse_embeddings_triee/analyse_graphe".
+				2) analyse des audios depassant le resultat de l'intra discussion et recherche des correspondances.
+					Ce sera le script present dans le dossier "traitement_embeddings/analyse_embeddings_triee/analyse_croisee".
 	
 7) "amelioration_qualite_wav" : script optionnel de recherche 
 	Script pour ameliorer les wav originaux (travail complementaire a l'extraction des embeddings)
@@ -425,7 +432,7 @@ le Readme du script principal et analyse des embeddings (sortie ecran du traitem
 		
 	readme et fichier necessaire (embeddings.csv Kiwano, segmentation_audios_Nexsis.json Pyannote)
 	
-#### deuxieme dossier : "calcul_similitude" (Travail Principal)
+#### deuxieme dossier : "calcul_similitude_divers_methodes" (Travail Principal)
 
  dans ce dossier, etude et amelioration des resultats des moyennes et similitudes
  
@@ -472,7 +479,50 @@ le Readme du script principal et analyse des embeddings (sortie ecran du traitem
 				Ce script transforme plusieurs segments en un seul vecteur représentatif.
 					- centroide : moyenne simple
 					- ponderation : moyenne pondérée par la durée.
-	
+					
+#### troisieme dossier : analyse_graphe
+
+		Ce projet construit une carte topologique de similitude entre des discussions audio, en se basant sur des embeddings 
+		vectoriels et une segmentation pyannote.
+		Il identifie pour chaque audio les 10 discussions les plus similaires, puis génère :
+			un CSV listant les liens de similitude,
+			un graphe dirigé (NetworkX + Matplotlib),
+			une visualisation mettant en évidence les liens réciproques (noyau dur).
+			
+			Construction du graphe
+
+				Noeuds = discussions
+				Arêtes = liens Top 10
+				Arêtes rouges = liens réciproques (noyau dur)
+				Taille des noeuds = nombre de fois où l’audio est ciblé	
+			
+#### quatrieme dossier : analyse_croisee
+	Deux etapes a realiser :
+	1) lancement du script : similitude_trois_meilleurs_cluster.py
+		calcul pour les similitudes grace a un centriode et prise des 3 meilleurs segments superieurs a la valeur de ce centroide.
+		comparaison inter discussion
+		Ce script réalise une analyse automatique de similitude entre discussions audio, en utilisant 
+			des embeddings et une segmentation pyannote.
+		Il fonctionne en boucle, en prenant chaque discussion comme référence, puis en comparant cette référence à toutes les autres.
+		Création d'un JSON du cluster creant une liste des discussions dont la moyenne inter > moyenne intra.(utilisable par le deuxieme script).
+		
+	2) lancement du script : analyse_croisee_json_cluster.py et analyse_croisee_json_cluster_triade.py
+			Objectifs du script "triade":
+				- Lire tous les fichiers cluster_locuteur_*.json
+				- Construire une matrice de co-occurrence (référence → membres)
+				- Détecter :
+					1. Réciprocités simples (A ↔ B)
+					2. Asymétries / dominances (A → B sans retour)
+					3. Triades renforcées (A ↔ B et A → C → B)
+				- Générer une heatmap multi-niveaux
+				- Exporter un CSV + une image + une synthèse console
+				
+			Objectifs du script simple :
+				- Lire tous les fichiers cluster_locuteur_*.json
+				- Construire une matrice de co-occurrence (référence → membres)
+				- Détecter les relations asymétriques (A inclut B mais B n’inclut pas A)
+				- Générer une heatmap zébrée pour visualiser les relations
+				- Exporter un CSV + une image + une synthèse console
 
 ## dossier "extraction_embeddings_speechbrain" (recherche additionnelle)
 
